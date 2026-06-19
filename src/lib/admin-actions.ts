@@ -6,6 +6,36 @@ import { prisma } from "./prisma";
 import { getAdmin } from "./auth";
 import { scoreRound } from "./scoring";
 import { importGameData, updateGameData } from "./importGame";
+import { STARTING_CREDITS } from "./game";
+
+function round1(n: number) {
+  return Math.round(n * 10) / 10;
+}
+
+// Reaplica o orçamento inicial a TODOS os usuários: créditos = orçamento - valor
+// do time já montado. Útil ao mudar o STARTING_CREDITS depois do lançamento.
+export async function resetBudgets() {
+  const admin = await getAdmin();
+  if (!admin) redirect("/login");
+  const users = await prisma.user.findMany({
+    include: {
+      players: { include: { player: true } },
+      coach: { include: { coach: true } },
+    },
+  });
+  for (const u of users) {
+    const owned =
+      u.players.reduce((s, up) => s + up.player.preco, 0) +
+      (u.coach ? u.coach.coach.preco : 0);
+    await prisma.user.update({
+      where: { id: u.id },
+      data: { credits: Math.max(0, round1(STARTING_CREDITS - owned)) },
+    });
+  }
+  revalidatePath("/admin");
+  revalidatePath("/time");
+  redirect("/admin?orcamento=1");
+}
 
 export async function runImport() {
   const admin = await getAdmin();

@@ -1,6 +1,6 @@
 // Regras puras do jogo (sem dependências) — usado pelo app e pelo seed.
 
-export const STARTING_CREDITS = 100;
+export const STARTING_CREDITS = 140;
 
 export const POSICOES = ["GOL", "ZAG", "LAT", "MEI", "ATA"] as const;
 export type Posicao = (typeof POSICOES)[number];
