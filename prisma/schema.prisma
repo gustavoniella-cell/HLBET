@@ -1,0 +1,172 @@
+// Copa Fantasy — modelo de dados (Fase 1)
+
+generator client {
+  provider = "prisma-client"
+  output   = "../src/generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+model User {
+  id           String           @id @default(cuid())
+  name         String
+  email        String           @unique
+  passwordHash String
+  credits      Float            @default(120)
+  formation    String           @default("4-3-3")
+  isAdmin      Boolean          @default(false)
+  createdAt    DateTime         @default(now())
+  players      UserPlayer[]
+  coach        UserCoach?
+  roundScores  UserRoundScore[]
+}
+
+model Selecao {
+  id           Int             @id @default(autoincrement())
+  nome         String          @unique
+  grupo        String?
+  confederacao String?
+  ranking      Int?
+  escudo       String?
+  coachName    String?
+  players      Player[]
+  coaches      Coach[]
+  teamStats    TeamRoundStat[]
+}
+
+model Player {
+  id        Int          @id @default(autoincrement())
+  nome      String
+  posicao   String // GOL, ZAG, LAT, MEI, ATA
+  numero    Int?
+  clube     String?
+  idade     Int?
+  nota      Float
+  preco     Float
+  confianca String?
+  selecaoId Int
+  selecao   Selecao           @relation(fields: [selecaoId], references: [id])
+  owners    UserPlayer[]
+  roundStats PlayerRoundStat[]
+}
+
+model Coach {
+  id        Int              @id @default(autoincrement())
+  nome      String
+  nota      Float
+  preco     Float
+  selecaoId Int
+  selecao   Selecao          @relation(fields: [selecaoId], references: [id])
+  owners    UserCoach[]
+  roundStats CoachRoundStat[]
+}
+
+model UserPlayer {
+  id       String @id @default(cuid())
+  userId   String
+  playerId Int
+  user     User   @relation(fields: [userId], references: [id], onDelete: Cascade)
+  player   Player @relation(fields: [playerId], references: [id])
+
+  @@unique([userId, playerId])
+}
+
+model UserCoach {
+  id      String @id @default(cuid())
+  userId  String @unique
+  coachId Int
+  user    User   @relation(fields: [userId], references: [id], onDelete: Cascade)
+  coach   Coach  @relation(fields: [coachId], references: [id])
+}
+
+model Formation {
+  nome String @id
+  gol  Int
+  zag  Int
+  lat  Int
+  mei  Int
+  ata  Int
+  tec  Int
+}
+
+model ScoringRule {
+  id        Int     @id @default(autoincrement())
+  codigo    String?
+  categoria String
+  acao      String
+  posicao   String
+  pontos    Float
+  fonte     String
+  obs       String?
+}
+
+model Round {
+  id          Int               @id @default(autoincrement())
+  numero      Int               @unique
+  nome        String
+  lockAt      DateTime
+  isOpen      Boolean           @default(true)
+  isScored    Boolean           @default(false)
+  teamStats   TeamRoundStat[]
+  playerStats PlayerRoundStat[]
+  coachStats  CoachRoundStat[]
+  userScores  UserRoundScore[]
+}
+
+model TeamRoundStat {
+  id           Int     @id @default(autoincrement())
+  roundId      Int
+  selecaoId    Int
+  golsPro      Int     @default(0)
+  golsSofridos Int     @default(0)
+  classificou  Boolean @default(false)
+  round        Round   @relation(fields: [roundId], references: [id], onDelete: Cascade)
+  selecao      Selecao @relation(fields: [selecaoId], references: [id])
+
+  @@unique([roundId, selecaoId])
+}
+
+model PlayerRoundStat {
+  id        Int     @id @default(autoincrement())
+  roundId   Int
+  playerId  Int
+  jogou     Boolean @default(false)
+  gols      Int     @default(0)
+  assist    Int     @default(0)
+  amarelo   Boolean @default(false)
+  vermelho  Boolean @default(false)
+  golContra Int     @default(0)
+  penPerd   Int     @default(0)
+  penDef    Int     @default(0)
+  defesas   Int     @default(0)
+  motm      Boolean @default(false)
+  pontos    Float   @default(0)
+  round     Round   @relation(fields: [roundId], references: [id], onDelete: Cascade)
+  player    Player  @relation(fields: [playerId], references: [id])
+
+  @@unique([roundId, playerId])
+}
+
+model CoachRoundStat {
+  id      Int   @id @default(autoincrement())
+  roundId Int
+  coachId Int
+  pontos  Float @default(0)
+  round   Round @relation(fields: [roundId], references: [id], onDelete: Cascade)
+  coach   Coach @relation(fields: [coachId], references: [id])
+
+  @@unique([roundId, coachId])
+}
+
+model UserRoundScore {
+  id      String @id @default(cuid())
+  userId  String
+  roundId Int
+  pontos  Float  @default(0)
+  user    User   @relation(fields: [userId], references: [id], onDelete: Cascade)
+  round   Round  @relation(fields: [roundId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, roundId])
+}
