@@ -66,7 +66,7 @@ npm run db:reset
 - Motor de pontuação (`src/lib/scoring.ts`) que lê os valores da tabela de regras
   (mudar um número em `ScoringRule` muda a apuração), soma por usuário (só times
   completos pontuam) e abre a próxima rodada.
-- Conversão de pontos em créditos por um **percentual fixo** (padrão 15%; não é
+- Conversão de pontos em créditos por um **percentual fixo** (padrão 20%; não é
   1 ponto = 1 crédito). Editável na categoria `Conversão` de `ScoringRule`
   (`conv_percentual`, ex.: 0.10, 0.15, 0.20). Pontos negativos não tiram crédito.
 - Ranking com pontos reais e tela `/rodada` com o detalhe da rodada do usuário.

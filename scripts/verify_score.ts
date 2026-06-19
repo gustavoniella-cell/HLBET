@@ -90,7 +90,7 @@ async function main() {
   console.log(`GK=${gk.nome}  ATA=${ata.nome}  ZAG=${zag.nome}`);
   console.log(
     `USER pontos da rodada: ${score?.pontos} | créditos agora: ${u2?.credits}` +
-      ` | esperado: 42 pts / 126.3 créditos (120 + 15% de 42 = 6.3)`
+      ` | esperado: 42 pts / 128.4 créditos (120 + 20% de 42 = 8.4)`
   );
   process.exit(0);
 }

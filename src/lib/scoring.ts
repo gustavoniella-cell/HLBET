@@ -126,7 +126,7 @@ export async function scoreRound(roundId: number) {
   for (const c of await prisma.coachRoundStat.findMany({ where: { roundId } }))
     coachPts.set(c.coachId, c.pontos);
 
-  const percentual = pts.conv_percentual ?? 0.15;
+  const percentual = pts.conv_percentual ?? 0.2;
   const users = await prisma.user.findMany({
     include: { players: { include: { player: true } }, coach: true },
   });
