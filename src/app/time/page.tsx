@@ -66,7 +66,7 @@ export default async function TimePage() {
             </div>
             <Link
               href="/mercado"
-              className="rounded-md bg-emerald-700 px-3 py-1.5 text-sm font-medium text-white hover:bg-emerald-800"
+              className="rounded-md bg-[#80b838] px-3 py-1.5 text-sm font-medium text-[#0d1523] hover:bg-[#72a531]"
             >
               Ir ao mercado
             </Link>

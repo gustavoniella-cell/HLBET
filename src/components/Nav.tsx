@@ -20,11 +20,14 @@ export default function Nav({
   isAdmin?: boolean;
 }) {
   return (
-    <header className="bg-emerald-800 text-white">
+    <header className="bg-[#0d1523] text-white">
       <div className="mx-auto flex h-14 max-w-3xl items-center justify-between gap-2 px-3">
-        <span className="shrink-0 whitespace-nowrap font-semibold tracking-tight">
-          HL BET
-        </span>
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
+          src="/logo.png"
+          alt="HL BET"
+          className="h-9 w-auto shrink-0"
+        />
         <nav className="flex gap-1 text-sm">
           {tabs.map((t) => (
             <Link
@@ -32,8 +35,8 @@ export default function Nav({
               href={t.href}
               className={`rounded-md px-3 py-1.5 transition-colors ${
                 active === t.key
-                  ? "bg-white text-emerald-800"
-                  : "text-emerald-50 hover:bg-emerald-700"
+                  ? "bg-white text-[#0d1523]"
+                  : "text-slate-200 hover:bg-white/10"
               }`}
             >
               {t.label}
@@ -44,7 +47,7 @@ export default function Nav({
               href="/admin"
               className={`rounded-md px-3 py-1.5 transition-colors ${
                 active === "admin"
-                  ? "bg-white text-emerald-800"
+                  ? "bg-white text-[#0d1523]"
                   : "bg-amber-400/90 text-amber-950 hover:bg-amber-300"
               }`}
             >
@@ -53,12 +56,12 @@ export default function Nav({
           )}
         </nav>
         <div className="flex items-center gap-2 text-sm">
-          <span className="hidden text-emerald-100 sm:inline">{userName}</span>
-          <span className="rounded-md bg-emerald-900/50 px-2 py-1 font-medium tabular-nums">
+          <span className="hidden text-slate-300 sm:inline">{userName}</span>
+          <span className="rounded-md bg-white/10 px-2 py-1 font-medium tabular-nums text-[#9fdb6a]">
             {brl(credits)}
           </span>
           <form action={logout}>
-            <button className="rounded-md px-2 py-1 text-emerald-100 hover:bg-emerald-700">
+            <button className="rounded-md px-2 py-1 text-slate-200 hover:bg-white/10">
               Sair
             </button>
           </form>

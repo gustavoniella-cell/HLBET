@@ -125,7 +125,7 @@ export default async function MercadoPage({
             href={buildHref({ hoje: !hoje })}
             className={`rounded-md px-3 py-1.5 text-sm font-medium ${
               hoje
-                ? "bg-emerald-700 text-white"
+                ? "bg-[#80b838] text-[#0d1523]"
                 : "border border-emerald-300 bg-emerald-50 text-emerald-800 hover:bg-emerald-100"
             }`}
           >
@@ -145,7 +145,7 @@ export default async function MercadoPage({
               href={buildHref({ pos: f })}
               className={`rounded-md px-3 py-1.5 text-sm font-medium ${
                 pos === f
-                  ? "bg-emerald-700 text-white"
+                  ? "bg-[#80b838] text-[#0d1523]"
                   : "border border-slate-200 bg-white text-slate-600 hover:bg-slate-50"
               }`}
             >
@@ -240,7 +240,7 @@ export default async function MercadoPage({
                         <input type="hidden" name="playerId" value={p.id} />
                         <button
                           disabled={locked || full || poor}
-                          className="rounded-md bg-emerald-700 px-2.5 py-1 text-xs font-medium text-white hover:bg-emerald-800 disabled:bg-slate-200 disabled:text-slate-400"
+                          className="rounded-md bg-[#80b838] px-2.5 py-1 text-xs font-medium text-[#0d1523] hover:bg-[#72a531] disabled:bg-slate-200 disabled:text-slate-400"
                         >
                           {label}
                         </button>
@@ -297,7 +297,7 @@ export default async function MercadoPage({
                         <input type="hidden" name="coachId" value={c.id} />
                         <button
                           disabled={locked || full || poor}
-                          className="rounded-md bg-emerald-700 px-2.5 py-1 text-xs font-medium text-white hover:bg-emerald-800 disabled:bg-slate-200 disabled:text-slate-400"
+                          className="rounded-md bg-[#80b838] px-2.5 py-1 text-xs font-medium text-[#0d1523] hover:bg-[#72a531] disabled:bg-slate-200 disabled:text-slate-400"
                         >
                           {label}
                         </button>

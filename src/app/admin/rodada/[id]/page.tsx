@@ -219,7 +219,7 @@ export default async function AdminRodadaPage({
 
             {!locked && (
               <div className="sticky bottom-0 -mx-3 border-t border-slate-200 bg-white/90 px-3 py-3 backdrop-blur">
-                <button className="w-full rounded-md bg-emerald-700 px-4 py-2.5 text-sm font-medium text-white hover:bg-emerald-800">
+                <button className="w-full rounded-md bg-[#80b838] px-4 py-2.5 text-sm font-medium text-[#0d1523] hover:bg-[#72a531]">
                   Salvar eventos de {selecao.nome}
                 </button>
               </div>

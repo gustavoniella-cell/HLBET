@@ -140,7 +140,7 @@ export default async function AdminPage({
                 1.246 jogadores e 48 técnicos da Copa.
               </div>
             </div>
-            <button className="rounded-md bg-emerald-700 px-4 py-2 text-sm font-medium text-white hover:bg-emerald-800">
+            <button className="rounded-md bg-[#80b838] px-4 py-2 text-sm font-medium text-[#0d1523] hover:bg-[#72a531]">
               Importar dados
             </button>
           </form>
@@ -180,7 +180,7 @@ export default async function AdminPage({
                   </option>
                 ))}
               </select>
-              <button className="rounded-md bg-emerald-700 px-4 py-2 text-sm font-medium text-white hover:bg-emerald-800">
+              <button className="rounded-md bg-[#80b838] px-4 py-2 text-sm font-medium text-[#0d1523] hover:bg-[#72a531]">
                 Abrir
               </button>
             </form>
@@ -212,7 +212,7 @@ export default async function AdminPage({
                   </option>
                 ))}
               </select>
-              <button className="rounded-md bg-emerald-700 px-3 py-1.5 text-sm font-medium text-white hover:bg-emerald-800">
+              <button className="rounded-md bg-[#80b838] px-3 py-1.5 text-sm font-medium text-[#0d1523] hover:bg-[#72a531]">
                 Carregar
               </button>
             </form>
@@ -282,7 +282,7 @@ export default async function AdminPage({
                 placeholder="horário (opcional)"
                 className="w-32 rounded-md border border-slate-300 px-2 py-1.5 text-sm"
               />
-              <button className="rounded-md bg-emerald-700 px-3 py-1.5 text-sm font-medium text-white hover:bg-emerald-800">
+              <button className="rounded-md bg-[#80b838] px-3 py-1.5 text-sm font-medium text-[#0d1523] hover:bg-[#72a531]">
                 Adicionar jogo
               </button>
             </form>

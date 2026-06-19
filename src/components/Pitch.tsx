@@ -69,7 +69,7 @@ export default function Pitch({
                     className="mx-auto mb-0.5 h-12 w-full rounded object-cover object-top"
                   />
                 ) : (
-                  <div className="mx-auto mb-1 flex h-7 w-7 items-center justify-center rounded-full bg-emerald-600 text-[10px] font-semibold text-white">
+                  <div className="mx-auto mb-1 flex h-7 w-7 items-center justify-center rounded-full bg-[#0d1523] text-[10px] font-semibold text-white">
                     {player.numero ?? ini}
                   </div>
                 )}
@@ -89,8 +89,8 @@ export default function Pitch({
                   )}
                   <span>{slot.pos}</span>
                 </div>
-                <div className="text-[10px] font-medium text-emerald-700">
-                  {player.preco.toFixed(1).replace(".", ",")} HL
+                <div className="text-[10px] font-medium text-[#5f8f2a]">
+                  {player.preco.toFixed(1).replace(".", ",")} HLC
                 </div>
               </div>
             ) : (

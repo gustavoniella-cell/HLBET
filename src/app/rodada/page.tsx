@@ -80,9 +80,9 @@ export default async function RodadaPage() {
     <div className="flex flex-1 flex-col">
       {nav}
       <main className="mx-auto w-full max-w-3xl flex-1 px-3 py-4">
-        <div className="mb-3 flex items-center justify-between rounded-xl bg-emerald-700 px-4 py-3 text-white">
+        <div className="mb-3 flex items-center justify-between rounded-xl bg-[#0d1523] px-4 py-3 text-white">
           <div>
-            <div className="text-sm text-emerald-100">{round.nome}</div>
+            <div className="text-sm text-slate-300">{round.nome}</div>
             <div className="text-lg font-semibold">Sua pontuação</div>
           </div>
           <div className="text-3xl font-semibold tabular-nums">

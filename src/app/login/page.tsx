@@ -15,9 +15,12 @@ export default async function LoginPage({
     <main className="flex flex-1 items-center justify-center px-4 py-12">
       <div className="w-full max-w-sm">
         <div className="mb-6 text-center">
-          <h1 className="text-2xl font-semibold text-emerald-800">
-            HL BET
-          </h1>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src="/logo.png"
+            alt="HL BET"
+            className="mx-auto h-20 w-auto rounded-lg"
+          />
           <p className="mt-1 text-sm text-slate-500">
             Monte seu time da Copa e dispute com os amigos.
           </p>
@@ -46,7 +49,7 @@ export default async function LoginPage({
             placeholder="Senha"
             className="w-full rounded-md border border-slate-300 px-3 py-2 text-sm outline-none focus:border-emerald-500"
           />
-          <button className="w-full rounded-md bg-emerald-700 px-4 py-2 text-sm font-medium text-white hover:bg-emerald-800">
+          <button className="w-full rounded-md bg-[#80b838] px-4 py-2 text-sm font-medium text-[#0d1523] hover:bg-[#72a531]">
             Entrar
           </button>
         </form>

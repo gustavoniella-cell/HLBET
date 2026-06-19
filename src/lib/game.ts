@@ -76,7 +76,7 @@ export function nextNoon(now: Date = new Date()): Date {
 }
 
 export function brl(v: number): string {
-  return v.toFixed(2).replace(".", ",") + " HLs";
+  return v.toFixed(2).replace(".", ",") + " HL Coin";
 }
 
 export type Slot = {
