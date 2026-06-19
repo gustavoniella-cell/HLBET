@@ -5,24 +5,44 @@ orçamento, monta o time dentro do esquema tático escolhido, e a montagem fecha
 às 12h. Esta é a Fase 1: cadastro, montagem de time e mercado de compra/venda.
 O motor de pontuação por rodada entra na Fase 2.
 
+## Publicar na internet
+
+Veja o guia passo a passo em **[DEPLOY.md](DEPLOY.md)** (GitHub + Supabase + Vercel,
+tudo grátis).
+
 ## Como rodar (na sua máquina)
+
+O banco agora é Postgres. Você precisa de uma conexão no `.env`:
 
 ```bash
 cd /Users/gustavoniella/copa-fantasy/web
+cp .env.example .env       # e preencha DATABASE_URL, SESSION_SECRET, ADMIN_EMAIL
+```
+
+Para o `DATABASE_URL` você tem duas opções:
+
+- **Usar o banco do Supabase** (mesmo do deploy): cole a string da Session pooler.
+- **Rodar um Postgres local** (sem instalar nada): num terminal à parte, deixe
+  `npm run pg:local` rodando e use
+  `DATABASE_URL="postgresql://postgres:postgres@localhost:5433/postgres"`.
+
+Depois:
+
+```bash
 npm install        # só na primeira vez
+npm run db:deploy  # cria as tabelas e importa os dados da Copa
 npm run dev        # sobe o site
 ```
 
-Abra http://localhost:3000 (ou a porta que aparecer no terminal).
-
-> Conta de teste já criada: **gustavo@teste.com** / senha **1234**.
-> Ou clique em "Criar conta" para começar do zero.
+Abra http://localhost:3000 (ou a porta que aparecer). Cadastre-se com o e-mail
+do `ADMIN_EMAIL` para ter acesso ao painel de admin.
 
 ## Estrutura
 
-- `prisma/schema.prisma` — modelo do banco (SQLite, arquivo `prisma/dev.db`).
-- `prisma/seed.ts` — importa os dados da Copa de `prisma/seed-data/copa_data.json`
-  (gerado a partir da planilha) + regras de pontuação + formações.
+- `prisma/schema.prisma` — modelo do banco (Postgres, via adapter `@prisma/adapter-pg`).
+- `src/lib/importGame.ts` — importa os dados da Copa (de `src/data/copa_data.json`),
+  regras de pontuação e formações. Usado pelo `npm run seed` e pelo botão
+  "Importar dados" do admin.
 - `src/lib/game.ts` — regras puras (formações, preços, trava das 12h, campo).
 - `src/lib/actions.ts` — comprar/vender/escalar/login (Server Actions).
 - `src/app/time` — montagem do time (campo). `src/app/mercado` — mercado.

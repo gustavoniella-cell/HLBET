@@ -8,6 +8,7 @@
     "start": "next start",
     "lint": "eslint",
     "postinstall": "prisma generate",
+    "pg:local": "tsx scripts/pg-local.ts",
     "seed": "tsx prisma/seed.ts",
     "db:deploy": "prisma migrate deploy && tsx prisma/seed.ts",
     "db:reset": "prisma migrate reset --force && tsx prisma/seed.ts"
