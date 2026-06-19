@@ -6,6 +6,7 @@ import { getActiveRound, isLocked } from "@/lib/round";
 import { prisma } from "@/lib/prisma";
 import { brl } from "@/lib/game";
 import Nav from "@/components/Nav";
+import Flag from "@/components/Flag";
 import Pitch from "@/components/Pitch";
 import Countdown from "@/components/Countdown";
 import FormationSelect from "@/components/FormationSelect";
@@ -96,10 +97,11 @@ export default async function TimePage() {
                 {matches.map((m) => (
                   <span
                     key={m.id}
-                    className="rounded-md bg-slate-50 px-2.5 py-1 text-sm text-slate-700"
+                    className="flex items-center gap-1.5 rounded-md bg-slate-50 px-2.5 py-1 text-sm text-slate-700"
                   >
-                    {m.selecaoA.nome}{" "}
-                    <span className="text-slate-400">x</span> {m.selecaoB.nome}
+                    <Flag nome={m.selecaoA.nome} /> {m.selecaoA.nome}
+                    <span className="text-slate-400">x</span>
+                    <Flag nome={m.selecaoB.nome} /> {m.selecaoB.nome}
                     {m.horario ? (
                       <span className="text-slate-400"> · {m.horario}</span>
                     ) : null}

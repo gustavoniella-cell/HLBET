@@ -1,0 +1,506 @@
+[
+ {
+  "date": "2026-06-11",
+  "hora": "13:00",
+  "teamA": "México",
+  "teamB": "África do Sul",
+  "group": "A"
+ },
+ {
+  "date": "2026-06-11",
+  "hora": "20:00",
+  "teamA": "Coreia do Sul",
+  "teamB": "Tchéquia",
+  "group": "A"
+ },
+ {
+  "date": "2026-06-12",
+  "hora": "15:00",
+  "teamA": "Canadá",
+  "teamB": "Bósnia e Herzegovina",
+  "group": "B"
+ },
+ {
+  "date": "2026-06-12",
+  "hora": "18:00 PDT",
+  "teamA": "Estados Unidos",
+  "teamB": "Paraguai",
+  "group": "D"
+ },
+ {
+  "date": "2026-06-13",
+  "hora": "12:00",
+  "teamA": "Catar",
+  "teamB": "Suíça",
+  "group": "B"
+ },
+ {
+  "date": "2026-06-13",
+  "hora": "18:00 EDT",
+  "teamA": "Brasil",
+  "teamB": "Marrocos",
+  "group": "C"
+ },
+ {
+  "date": "2026-06-13",
+  "hora": "21:00 EDT",
+  "teamA": "Haiti",
+  "teamB": "Escócia",
+  "group": "C"
+ },
+ {
+  "date": "2026-06-13",
+  "hora": "21:00 PDT",
+  "teamA": "Austrália",
+  "teamB": "Turquia",
+  "group": "D"
+ },
+ {
+  "date": "2026-06-14",
+  "hora": "12:00",
+  "teamA": "Alemanha",
+  "teamB": "Curaçao",
+  "group": "E"
+ },
+ {
+  "date": "2026-06-14",
+  "hora": "15:00",
+  "teamA": "Países Baixos",
+  "teamB": "Japão",
+  "group": "F"
+ },
+ {
+  "date": "2026-06-14",
+  "hora": "19:00",
+  "teamA": "Costa do Marfim",
+  "teamB": "Equador",
+  "group": "E"
+ },
+ {
+  "date": "2026-06-14",
+  "hora": "20:00",
+  "teamA": "Suécia",
+  "teamB": "Tunísia",
+  "group": "F"
+ },
+ {
+  "date": "2026-06-15",
+  "hora": "12:00",
+  "teamA": "Espanha",
+  "teamB": "Cabo Verde",
+  "group": "H"
+ },
+ {
+  "date": "2026-06-15",
+  "hora": "12:00 PDT",
+  "teamA": "Bélgica",
+  "teamB": "Egito",
+  "group": "G"
+ },
+ {
+  "date": "2026-06-15",
+  "hora": "18:00",
+  "teamA": "Arábia Saudita",
+  "teamB": "Uruguai",
+  "group": "H"
+ },
+ {
+  "date": "2026-06-15",
+  "hora": "18:00 PDT",
+  "teamA": "Irã",
+  "teamB": "Nova Zelândia",
+  "group": "G"
+ },
+ {
+  "date": "2026-06-16",
+  "hora": "00:00 ET",
+  "teamA": "Áustria",
+  "teamB": "Jordânia",
+  "group": "J"
+ },
+ {
+  "date": "2026-06-16",
+  "hora": "15:00 EDT",
+  "teamA": "França",
+  "teamB": "Senegal",
+  "group": "I"
+ },
+ {
+  "date": "2026-06-16",
+  "hora": "18:00 EDT",
+  "teamA": "Iraque",
+  "teamB": "Noruega",
+  "group": "I"
+ },
+ {
+  "date": "2026-06-16",
+  "hora": "21:00 ET",
+  "teamA": "Argentina",
+  "teamB": "Argélia",
+  "group": "J"
+ },
+ {
+  "date": "2026-06-17",
+  "hora": "13:00",
+  "teamA": "Portugal",
+  "teamB": "República Democrática do Congo",
+  "group": "K"
+ },
+ {
+  "date": "2026-06-17",
+  "hora": "15:00",
+  "teamA": "Inglaterra",
+  "teamB": "Croácia",
+  "group": "L"
+ },
+ {
+  "date": "2026-06-17",
+  "hora": "19:00",
+  "teamA": "Gana",
+  "teamB": "Panamá",
+  "group": "L"
+ },
+ {
+  "date": "2026-06-17",
+  "hora": "22:00",
+  "teamA": "Uzbequistão",
+  "teamB": "Colômbia",
+  "group": "K"
+ },
+ {
+  "date": "2026-06-18",
+  "hora": "12:00",
+  "teamA": "Tchéquia",
+  "teamB": "África do Sul",
+  "group": "A"
+ },
+ {
+  "date": "2026-06-18",
+  "hora": "12:00",
+  "teamA": "Suíça",
+  "teamB": "Bósnia e Herzegovina",
+  "group": "B"
+ },
+ {
+  "date": "2026-06-18",
+  "hora": "15:00",
+  "teamA": "Canadá",
+  "teamB": "Catar",
+  "group": "B"
+ },
+ {
+  "date": "2026-06-18",
+  "hora": "19:00",
+  "teamA": "México",
+  "teamB": "Coreia do Sul",
+  "group": "A"
+ },
+ {
+  "date": "2026-06-19",
+  "hora": "12:00 PDT",
+  "teamA": "Estados Unidos",
+  "teamB": "Austrália",
+  "group": "D"
+ },
+ {
+  "date": "2026-06-19",
+  "hora": "18:00 EDT",
+  "teamA": "Escócia",
+  "teamB": "Marrocos",
+  "group": "C"
+ },
+ {
+  "date": "2026-06-19",
+  "hora": "20:00 PDT",
+  "teamA": "Turquia",
+  "teamB": "Paraguai",
+  "group": "D"
+ },
+ {
+  "date": "2026-06-19",
+  "hora": "20:30 EDT",
+  "teamA": "Brasil",
+  "teamB": "Haiti",
+  "group": "C"
+ },
+ {
+  "date": "2026-06-20",
+  "hora": "12:00",
+  "teamA": "Países Baixos",
+  "teamB": "Suécia",
+  "group": "F"
+ },
+ {
+  "date": "2026-06-20",
+  "hora": "16:00",
+  "teamA": "Alemanha",
+  "teamB": "Costa do Marfim",
+  "group": "E"
+ },
+ {
+  "date": "2026-06-20",
+  "hora": "19:00",
+  "teamA": "Equador",
+  "teamB": "Curaçao",
+  "group": "E"
+ },
+ {
+  "date": "2026-06-20",
+  "hora": "22:00",
+  "teamA": "Tunísia",
+  "teamB": "Japão",
+  "group": "F"
+ },
+ {
+  "date": "2026-06-21",
+  "hora": "12:00",
+  "teamA": "Espanha",
+  "teamB": "Arábia Saudita",
+  "group": "H"
+ },
+ {
+  "date": "2026-06-21",
+  "hora": "12:00 PDT",
+  "teamA": "Bélgica",
+  "teamB": "Irã",
+  "group": "G"
+ },
+ {
+  "date": "2026-06-21",
+  "hora": "18:00",
+  "teamA": "Uruguai",
+  "teamB": "Cabo Verde",
+  "group": "H"
+ },
+ {
+  "date": "2026-06-21",
+  "hora": "18:00 PDT",
+  "teamA": "Nova Zelândia",
+  "teamB": "Egito",
+  "group": "G"
+ },
+ {
+  "date": "2026-06-22",
+  "hora": "13:00 ET",
+  "teamA": "Argentina",
+  "teamB": "Áustria",
+  "group": "J"
+ },
+ {
+  "date": "2026-06-22",
+  "hora": "17:00 EDT",
+  "teamA": "França",
+  "teamB": "Iraque",
+  "group": "I"
+ },
+ {
+  "date": "2026-06-22",
+  "hora": "20:00 EDT",
+  "teamA": "Noruega",
+  "teamB": "Senegal",
+  "group": "I"
+ },
+ {
+  "date": "2026-06-22",
+  "hora": "23:00 ET",
+  "teamA": "Jordânia",
+  "teamB": "Argélia",
+  "group": "J"
+ },
+ {
+  "date": "2026-06-23",
+  "hora": "13:00",
+  "teamA": "Portugal",
+  "teamB": "Uzbequistão",
+  "group": "K"
+ },
+ {
+  "date": "2026-06-23",
+  "hora": "16:00",
+  "teamA": "Inglaterra",
+  "teamB": "Gana",
+  "group": "L"
+ },
+ {
+  "date": "2026-06-23",
+  "hora": "19:00",
+  "teamA": "Panamá",
+  "teamB": "Croácia",
+  "group": "L"
+ },
+ {
+  "date": "2026-06-23",
+  "hora": "22:00",
+  "teamA": "Colômbia",
+  "teamB": "República Democrática do Congo",
+  "group": "K"
+ },
+ {
+  "date": "2026-06-24",
+  "hora": "12:00",
+  "teamA": "Suíça",
+  "teamB": "Canadá",
+  "group": "B"
+ },
+ {
+  "date": "2026-06-24",
+  "hora": "12:00",
+  "teamA": "Bósnia e Herzegovina",
+  "teamB": "Catar",
+  "group": "B"
+ },
+ {
+  "date": "2026-06-24",
+  "hora": "18:00 EDT",
+  "teamA": "Escócia",
+  "teamB": "Brasil",
+  "group": "C"
+ },
+ {
+  "date": "2026-06-24",
+  "hora": "18:00 EDT",
+  "teamA": "Marrocos",
+  "teamB": "Haiti",
+  "group": "C"
+ },
+ {
+  "date": "2026-06-24",
+  "hora": "19:00",
+  "teamA": "Tchéquia",
+  "teamB": "México",
+  "group": "A"
+ },
+ {
+  "date": "2026-06-24",
+  "hora": "19:00",
+  "teamA": "África do Sul",
+  "teamB": "Coreia do Sul",
+  "group": "A"
+ },
+ {
+  "date": "2026-06-25",
+  "hora": "16:00",
+  "teamA": "Curaçao",
+  "teamB": "Costa do Marfim",
+  "group": "E"
+ },
+ {
+  "date": "2026-06-25",
+  "hora": "16:00",
+  "teamA": "Equador",
+  "teamB": "Alemanha",
+  "group": "E"
+ },
+ {
+  "date": "2026-06-25",
+  "hora": "18:00",
+  "teamA": "Japão",
+  "teamB": "Suécia",
+  "group": "F"
+ },
+ {
+  "date": "2026-06-25",
+  "hora": "18:00",
+  "teamA": "Tunísia",
+  "teamB": "Países Baixos",
+  "group": "F"
+ },
+ {
+  "date": "2026-06-25",
+  "hora": "19:00 PDT",
+  "teamA": "Turquia",
+  "teamB": "Estados Unidos",
+  "group": "D"
+ },
+ {
+  "date": "2026-06-25",
+  "hora": "19:00 PDT",
+  "teamA": "Paraguai",
+  "teamB": "Austrália",
+  "group": "D"
+ },
+ {
+  "date": "2026-06-26",
+  "hora": "15:00 EDT",
+  "teamA": "Noruega",
+  "teamB": "França",
+  "group": "I"
+ },
+ {
+  "date": "2026-06-26",
+  "hora": "15:00 EDT",
+  "teamA": "Senegal",
+  "teamB": "Iraque",
+  "group": "I"
+ },
+ {
+  "date": "2026-06-26",
+  "hora": "18:00",
+  "teamA": "Uruguai",
+  "teamB": "Espanha",
+  "group": "H"
+ },
+ {
+  "date": "2026-06-26",
+  "hora": "19:00",
+  "teamA": "Cabo Verde",
+  "teamB": "Arábia Saudita",
+  "group": "H"
+ },
+ {
+  "date": "2026-06-26",
+  "hora": "20:00 PDT",
+  "teamA": "Egito",
+  "teamB": "Irã",
+  "group": "G"
+ },
+ {
+  "date": "2026-06-26",
+  "hora": "20:00 PDT",
+  "teamA": "Nova Zelândia",
+  "teamB": "Bélgica",
+  "group": "G"
+ },
+ {
+  "date": "2026-06-27",
+  "hora": "17:00",
+  "teamA": "Panamá",
+  "teamB": "Inglaterra",
+  "group": "L"
+ },
+ {
+  "date": "2026-06-27",
+  "hora": "17:00",
+  "teamA": "Croácia",
+  "teamB": "Gana",
+  "group": "L"
+ },
+ {
+  "date": "2026-06-27",
+  "hora": "19:30",
+  "teamA": "Colômbia",
+  "teamB": "Portugal",
+  "group": "K"
+ },
+ {
+  "date": "2026-06-27",
+  "hora": "19:30",
+  "teamA": "República Democrática do Congo",
+  "teamB": "Uzbequistão",
+  "group": "K"
+ },
+ {
+  "date": "2026-06-27",
+  "hora": "22:00 ET",
+  "teamA": "Argélia",
+  "teamB": "Áustria",
+  "group": "J"
+ },
+ {
+  "date": "2026-06-27",
+  "hora": "22:00 ET",
+  "teamA": "Jordânia",
+  "teamB": "Argentina",
+  "group": "J"
+ }
+]

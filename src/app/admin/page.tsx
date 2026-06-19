@@ -10,9 +10,12 @@ import {
   resetBudgets,
   addMatch,
   removeMatch,
+  loadDayMatches,
 } from "@/lib/admin-actions";
 import { STARTING_CREDITS, brl } from "@/lib/game";
+import { datasComJogos, formatData, jogosDaData } from "@/lib/calendario";
 import Nav from "@/components/Nav";
+import Flag from "@/components/Flag";
 
 export default async function AdminPage({
   searchParams,
@@ -22,6 +25,7 @@ export default async function AdminPage({
     importado?: string;
     atualizado?: string;
     orcamento?: string;
+    jogos?: string;
   }>;
 }) {
   const admin = await getAdmin();
@@ -78,6 +82,11 @@ export default async function AdminPage({
         {sp.orcamento && (
           <div className="mb-3 rounded-md bg-emerald-50 px-3 py-2 text-sm text-emerald-800">
             Orçamento de {brl(STARTING_CREDITS)} aplicado a todos os times.
+          </div>
+        )}
+        {sp.jogos && (
+          <div className="mb-3 rounded-md bg-emerald-50 px-3 py-2 text-sm text-emerald-800">
+            Jogos do calendário carregados nesta rodada.
           </div>
         )}
 
@@ -181,6 +190,32 @@ export default async function AdminPage({
             <div className="mb-2 text-sm font-medium text-slate-700">
               Jogos desta rodada ({matches.length})
             </div>
+            <form
+              action={loadDayMatches}
+              className="mb-3 flex flex-wrap items-center gap-2 rounded bg-white p-2"
+            >
+              <input type="hidden" name="roundId" value={active.id} />
+              <span className="text-xs text-slate-500">
+                Carregar do calendário oficial:
+              </span>
+              <select
+                name="date"
+                defaultValue=""
+                className="rounded-md border border-slate-300 bg-white px-2 py-1.5 text-sm"
+              >
+                <option value="" disabled>
+                  Escolha a data...
+                </option>
+                {datasComJogos().map((d) => (
+                  <option key={d} value={d}>
+                    {formatData(d)} — {jogosDaData(d).length} jogos
+                  </option>
+                ))}
+              </select>
+              <button className="rounded-md bg-emerald-700 px-3 py-1.5 text-sm font-medium text-white hover:bg-emerald-800">
+                Carregar
+              </button>
+            </form>
             {matches.length > 0 ? (
               <ul className="mb-2 space-y-1">
                 {matches.map((m) => (
@@ -188,10 +223,10 @@ export default async function AdminPage({
                     key={m.id}
                     className="flex items-center justify-between rounded bg-white px-2 py-1.5 text-sm"
                   >
-                    <span className="text-slate-800">
-                      {m.selecaoA.nome}{" "}
-                      <span className="text-slate-400">x</span>{" "}
-                      {m.selecaoB.nome}
+                    <span className="flex items-center gap-1.5 text-slate-800">
+                      <Flag nome={m.selecaoA.nome} /> {m.selecaoA.nome}
+                      <span className="text-slate-400">x</span>
+                      <Flag nome={m.selecaoB.nome} /> {m.selecaoB.nome}
                       {m.horario ? (
                         <span className="text-slate-400"> · {m.horario}</span>
                       ) : null}

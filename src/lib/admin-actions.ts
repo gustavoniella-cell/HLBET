@@ -6,6 +6,7 @@ import { prisma } from "./prisma";
 import { getAdmin } from "./auth";
 import { scoreRound } from "./scoring";
 import { importGameData, updateGameData } from "./importGame";
+import { jogosDaData } from "./calendario";
 import { STARTING_CREDITS } from "./game";
 
 function round1(n: number) {
@@ -157,6 +158,36 @@ export async function removeMatch(formData: FormData) {
   revalidatePath("/admin");
   revalidatePath("/time");
   redirect("/admin");
+}
+
+// Carrega os jogos de uma data do calendário oficial para a rodada atual.
+export async function loadDayMatches(formData: FormData) {
+  const admin = await getAdmin();
+  if (!admin) redirect("/login");
+  const roundId = Number(formData.get("roundId"));
+  const date = String(formData.get("date") ?? "");
+  if (!roundId || !date) return;
+  const jogos = jogosDaData(date);
+  if (!jogos.length) return;
+
+  const selecoes = await prisma.selecao.findMany({
+    select: { id: true, nome: true },
+  });
+  const idByNome = new Map(selecoes.map((s) => [s.nome, s.id]));
+
+  await prisma.match.deleteMany({ where: { roundId } });
+  for (const j of jogos) {
+    const a = idByNome.get(j.teamA);
+    const b = idByNome.get(j.teamB);
+    if (a && b) {
+      await prisma.match.create({
+        data: { roundId, selecaoAId: a, selecaoBId: b, horario: j.hora },
+      });
+    }
+  }
+  revalidatePath("/admin");
+  revalidatePath("/time");
+  redirect("/admin?jogos=1");
 }
 
 export async function apurarRound(formData: FormData) {

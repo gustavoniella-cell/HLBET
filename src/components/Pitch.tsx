@@ -1,5 +1,6 @@
 import Link from "next/link";
-import { computeSlots, slotWidthPct, brl } from "@/lib/game";
+import { computeSlots, slotWidthPct } from "@/lib/game";
+import { flagUrl } from "@/lib/flags";
 import { sellPlayer } from "@/lib/actions";
 import type { SquadView } from "@/lib/squad";
 
@@ -25,6 +26,15 @@ export default function Pitch({
 
       {slots.map((slot, i) => {
         const player = squad.byPos[slot.pos][slot.idx];
+        const flag = player ? flagUrl(player.selecao.nome, 20) : null;
+        const ini = player
+          ? player.nome
+              .split(" ")
+              .slice(0, 2)
+              .map((w) => w[0] ?? "")
+              .join("")
+              .toUpperCase()
+          : "";
         return (
           <div
             key={i}
@@ -36,7 +46,7 @@ export default function Pitch({
             }}
           >
             {player ? (
-              <div className="relative rounded-md bg-white px-1 py-1 text-center shadow-sm">
+              <div className="relative rounded-md bg-white px-1 py-1.5 text-center shadow-sm">
                 {!locked && (
                   <form
                     action={sellPlayer}
@@ -51,14 +61,27 @@ export default function Pitch({
                     </button>
                   </form>
                 )}
+                <div className="mx-auto mb-1 flex h-7 w-7 items-center justify-center rounded-full bg-emerald-600 text-[10px] font-semibold text-white">
+                  {player.numero ?? ini}
+                </div>
                 <div className="truncate text-[11px] font-medium leading-tight text-slate-900">
                   {player.nome}
                 </div>
-                <div className="truncate text-[10px] text-slate-500">
-                  {player.selecao.nome} · {slot.pos}
+                <div className="flex items-center justify-center gap-1 text-[10px] text-slate-500">
+                  {flag && (
+                    /* eslint-disable-next-line @next/next/no-img-element */
+                    <img
+                      src={flag}
+                      alt=""
+                      width={14}
+                      height={10}
+                      className="rounded-[1px]"
+                    />
+                  )}
+                  <span>{slot.pos}</span>
                 </div>
                 <div className="text-[10px] font-medium text-emerald-700">
-                  {brl(player.preco)}
+                  {player.preco.toFixed(1).replace(".", ",")} HL
                 </div>
               </div>
             ) : (

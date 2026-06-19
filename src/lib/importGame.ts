@@ -94,6 +94,7 @@ export async function importGameData(opts: { force?: boolean } = {}) {
   await prisma.playerRoundStat.deleteMany();
   await prisma.teamRoundStat.deleteMany();
   await prisma.userRoundScore.deleteMany();
+  await prisma.match.deleteMany();
   await prisma.coach.deleteMany();
   await prisma.player.deleteMany();
   await prisma.selecao.deleteMany();
