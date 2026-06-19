@@ -393,7 +393,7 @@
    "numero": 1,
    "clube": "Guadalajara",
    "idade": 26,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -404,7 +404,7 @@
    "numero": 2,
    "clube": "PAOK",
    "idade": 28,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -415,7 +415,7 @@
    "numero": 3,
    "clube": "Lokomotiv Moscow",
    "idade": 29,
-   "nota": 3.5,
+   "nota": 3,
    "confianca": "alta",
    "obs": ""
   },
@@ -426,7 +426,7 @@
    "numero": 4,
    "clube": "Fenerbahçe",
    "idade": 28,
-   "nota": 4,
+   "nota": 3.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -437,7 +437,7 @@
    "numero": 5,
    "clube": "Genoa",
    "idade": 27,
-   "nota": 3.5,
+   "nota": 3,
    "confianca": "alta",
    "obs": ""
   },
@@ -448,7 +448,7 @@
    "numero": 6,
    "clube": "Cruz Azul",
    "idade": 26,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -470,7 +470,7 @@
    "numero": 8,
    "clube": "Real Betis",
    "idade": 29,
-   "nota": 3.5,
+   "nota": 3,
    "confianca": "alta",
    "obs": ""
   },
@@ -481,7 +481,7 @@
    "numero": 9,
    "clube": "Fulham",
    "idade": 35,
-   "nota": 3.5,
+   "nota": 3,
    "confianca": "alta",
    "obs": ""
   },
@@ -492,7 +492,7 @@
    "numero": 10,
    "clube": "Toluca",
    "idade": 28,
-   "nota": 3.5,
+   "nota": 3,
    "confianca": "alta",
    "obs": ""
   },
@@ -525,7 +525,7 @@
    "numero": 13,
    "clube": "AEL Limassol",
    "idade": 40,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -547,7 +547,7 @@
    "numero": 15,
    "clube": "América",
    "idade": 26,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -558,7 +558,7 @@
    "numero": 16,
    "clube": "Al-Qadsiah",
    "idade": 29,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -569,7 +569,7 @@
    "numero": 17,
    "clube": "AEK Athens",
    "idade": 30,
-   "nota": 3.5,
+   "nota": 3,
    "confianca": "alta",
    "obs": ""
   },
@@ -613,7 +613,7 @@
    "numero": 21,
    "clube": "Anderlecht",
    "idade": 25,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -624,7 +624,7 @@
    "numero": 22,
    "clube": "Pumas UNAM",
    "idade": 31,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -646,7 +646,7 @@
    "numero": 24,
    "clube": "Dynamo Moscow",
    "idade": 30,
-   "nota": 3.5,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -657,7 +657,7 @@
    "numero": 25,
    "clube": "Guadalajara",
    "idade": 27,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -679,7 +679,7 @@
    "numero": 1,
    "clube": "Mamelodi Sundowns",
    "idade": 34,
-   "nota": 3.5,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -690,7 +690,7 @@
    "numero": 2,
    "clube": "Polokwane City",
    "idade": 27,
-   "nota": 2.5,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -701,7 +701,7 @@
    "numero": 3,
    "clube": "Mamelodi Sundowns",
    "idade": 22,
-   "nota": 2.5,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -712,7 +712,7 @@
    "numero": 4,
    "clube": "Mamelodi Sundowns",
    "idade": 29,
-   "nota": 3.5,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -723,7 +723,7 @@
    "numero": 5,
    "clube": "Orlando Pirates",
    "idade": 26,
-   "nota": 2.5,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -734,7 +734,7 @@
    "numero": 6,
    "clube": "Mamelodi Sundowns",
    "idade": 30,
-   "nota": 3,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -745,7 +745,7 @@
    "numero": 7,
    "clube": "Orlando Pirates",
    "idade": 24,
-   "nota": 3,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -756,7 +756,7 @@
    "numero": 8,
    "clube": "Orlando Pirates",
    "idade": 25,
-   "nota": 2.5,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -767,7 +767,7 @@
    "numero": 9,
    "clube": "Burnley",
    "idade": 25,
-   "nota": 3.5,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -778,7 +778,7 @@
    "numero": 10,
    "clube": "Orlando Pirates",
    "idade": 21,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -789,7 +789,7 @@
    "numero": 11,
    "clube": "Mamelodi Sundowns",
    "idade": 36,
-   "nota": 3,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -800,7 +800,7 @@
    "numero": 12,
    "clube": "AEL Limassol",
    "idade": 22,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -811,7 +811,7 @@
    "numero": 13,
    "clube": "Tondela",
    "idade": 27,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -822,7 +822,7 @@
    "numero": 14,
    "clube": "Chicago Fire FC",
    "idade": 20,
-   "nota": 2.5,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -833,7 +833,7 @@
    "numero": 15,
    "clube": "Mamelodi Sundowns",
    "idade": 30,
-   "nota": 3,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -844,7 +844,7 @@
    "numero": 16,
    "clube": "Orlando Pirates",
    "idade": 29,
-   "nota": 2.5,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -855,7 +855,7 @@
    "numero": 17,
    "clube": "Orlando Pirates",
    "idade": 26,
-   "nota": 2.5,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -866,7 +866,7 @@
    "numero": 18,
    "clube": "Molde",
    "idade": 22,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -877,7 +877,7 @@
    "numero": 19,
    "clube": "Orlando Pirates",
    "idade": 30,
-   "nota": 2.5,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -888,7 +888,7 @@
    "numero": 20,
    "clube": "Mamelodi Sundowns",
    "idade": 31,
-   "nota": 3,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -899,7 +899,7 @@
    "numero": 21,
    "clube": "Hannover 96",
    "idade": 22,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -910,7 +910,7 @@
    "numero": 22,
    "clube": "Siwelele",
    "idade": 32,
-   "nota": 2,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -921,7 +921,7 @@
    "numero": 23,
    "clube": "Mamelodi Sundowns",
    "idade": 25,
-   "nota": 2.5,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -932,7 +932,7 @@
    "numero": 24,
    "clube": "Philadelphia Union",
    "idade": 22,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -943,7 +943,7 @@
    "numero": 25,
    "clube": "Orlando Pirates",
    "idade": 23,
-   "nota": 2.5,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -954,7 +954,7 @@
    "numero": 26,
    "clube": "Kaizer Chiefs",
    "idade": 25,
-   "nota": 2.5,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -965,7 +965,7 @@
    "numero": 1,
    "clube": "FC Tokyo",
    "idade": 35,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -987,7 +987,7 @@
    "numero": 3,
    "clube": "Gangwon FC",
    "idade": 25,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -1009,7 +1009,7 @@
    "numero": 5,
    "clube": "Kashima Antlers",
    "idade": 25,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -1042,7 +1042,7 @@
    "numero": 8,
    "clube": "Birmingham City",
    "idade": 29,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -1053,7 +1053,7 @@
    "numero": 9,
    "clube": "Midtjylland",
    "idade": 28,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -1064,7 +1064,7 @@
    "numero": 10,
    "clube": "Mainz 05",
    "idade": 33,
-   "nota": 3.5,
+   "nota": 3,
    "confianca": "alta",
    "obs": ""
   },
@@ -1075,7 +1075,7 @@
    "numero": 11,
    "clube": "Wolverhampton Wanderers",
    "idade": 30,
-   "nota": 3.5,
+   "nota": 3,
    "confianca": "alta",
    "obs": ""
   },
@@ -1086,7 +1086,7 @@
    "numero": 12,
    "clube": "Jeonbuk Hyundai Motors",
    "idade": 28,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -1097,7 +1097,7 @@
    "numero": 13,
    "clube": "Austria Wien",
    "idade": 23,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -1108,7 +1108,7 @@
    "numero": 14,
    "clube": "Jeonbuk Hyundai Motors",
    "idade": 24,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -1119,7 +1119,7 @@
    "numero": 15,
    "clube": "Daejeon Hana Citizen",
    "idade": 30,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -1130,7 +1130,7 @@
    "numero": 16,
    "clube": "Zhejiang Professional",
    "idade": 30,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -1152,7 +1152,7 @@
    "numero": 18,
    "clube": "Beşiktaş",
    "idade": 25,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -1174,7 +1174,7 @@
    "numero": 20,
    "clube": "Celtic",
    "idade": 24,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -1185,7 +1185,7 @@
    "numero": 21,
    "clube": "Ulsan HD",
    "idade": 34,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -1196,7 +1196,7 @@
    "numero": 22,
    "clube": "Red Star Belgrade",
    "idade": 27,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -1207,7 +1207,7 @@
    "numero": 23,
    "clube": "Borussia Mönchengladbach",
    "idade": 22,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -1218,7 +1218,7 @@
    "numero": 24,
    "clube": "Jeonbuk Hyundai Motors",
    "idade": 29,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -1229,7 +1229,7 @@
    "numero": 25,
    "clube": "Swansea City",
    "idade": 24,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -1262,7 +1262,7 @@
    "numero": 2,
    "clube": "Slavia Prague",
    "idade": 25,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -1273,7 +1273,7 @@
    "numero": 3,
    "clube": "Slavia Prague",
    "idade": 33,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -1284,7 +1284,7 @@
    "numero": 4,
    "clube": "TSG Hoffenheim",
    "idade": 26,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -1306,7 +1306,7 @@
    "numero": 6,
    "clube": "Slavia Prague",
    "idade": 23,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -1328,7 +1328,7 @@
    "numero": 8,
    "clube": "Hradec Králové",
    "idade": 35,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -1339,7 +1339,7 @@
    "numero": 9,
    "clube": "TSG Hoffenheim",
    "idade": 23,
-   "nota": 3.5,
+   "nota": 3,
    "confianca": "alta",
    "obs": ""
   },
@@ -1361,7 +1361,7 @@
    "numero": 11,
    "clube": "Sparta Prague",
    "idade": 29,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -1372,7 +1372,7 @@
    "numero": 12,
    "clube": "Viktoria Plzeň",
    "idade": 25,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -1383,7 +1383,7 @@
    "numero": 13,
    "clube": "Slavia Prague",
    "idade": 27,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -1394,7 +1394,7 @@
    "numero": 14,
    "clube": "Slavia Prague",
    "idade": 25,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -1405,7 +1405,7 @@
    "numero": 15,
    "clube": "Lyon",
    "idade": 25,
-   "nota": 3.5,
+   "nota": 3,
    "confianca": "alta",
    "obs": ""
   },
@@ -1416,7 +1416,7 @@
    "numero": 16,
    "clube": "Slavia Prague",
    "idade": 30,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -1438,7 +1438,7 @@
    "numero": 18,
    "clube": "Slavia Prague",
    "idade": 27,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -1449,7 +1449,7 @@
    "numero": 19,
    "clube": "Slavia Prague",
    "idade": 31,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -1460,7 +1460,7 @@
    "numero": 20,
    "clube": "Sparta Prague",
    "idade": 33,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -1471,7 +1471,7 @@
    "numero": 21,
    "clube": "Slavia Prague",
    "idade": 28,
-   "nota": 3,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -1482,7 +1482,7 @@
    "numero": 22,
    "clube": "West Ham United",
    "idade": 31,
-   "nota": 4,
+   "nota": 3.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -1493,7 +1493,7 @@
    "numero": 23,
    "clube": "Braga",
    "idade": 23,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -1504,7 +1504,7 @@
    "numero": 24,
    "clube": "Viktoria Plzeň",
    "idade": 23,
-   "nota": 2.5,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -1515,7 +1515,7 @@
    "numero": 25,
    "clube": "Sparta Prague",
    "idade": 18,
-   "nota": 2,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -1526,7 +1526,7 @@
    "numero": 26,
    "clube": "Viktoria Plzeň",
    "idade": 23,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -1537,7 +1537,7 @@
    "numero": 1,
    "clube": "Inter Miami CF",
    "idade": 29,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -1548,7 +1548,7 @@
    "numero": 2,
    "clube": "Celtic",
    "idade": 27,
-   "nota": 3.5,
+   "nota": 3,
    "confianca": "alta",
    "obs": ""
   },
@@ -1581,7 +1581,7 @@
    "numero": 5,
    "clube": "Chicago Fire FC",
    "idade": 30,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -1592,7 +1592,7 @@
    "numero": 6,
    "clube": "Los Angeles FC",
    "idade": 27,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -1603,7 +1603,7 @@
    "numero": 7,
    "clube": "Los Angeles FC",
    "idade": 29,
-   "nota": 3.5,
+   "nota": 3,
    "confianca": "alta",
    "obs": ""
   },
@@ -1625,7 +1625,7 @@
    "numero": 9,
    "clube": "Southampton",
    "idade": 31,
-   "nota": 3.5,
+   "nota": 3,
    "confianca": "alta",
    "obs": ""
   },
@@ -1636,7 +1636,7 @@
    "numero": 10,
    "clube": "Juventus",
    "idade": 26,
-   "nota": 4.5,
+   "nota": 4,
    "confianca": "alta",
    "obs": ""
   },
@@ -1669,7 +1669,7 @@
    "numero": 13,
    "clube": "Rangers",
    "idade": 28,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -1680,7 +1680,7 @@
    "numero": 14,
    "clube": "Los Angeles FC",
    "idade": 26,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -1691,7 +1691,7 @@
    "numero": 15,
    "clube": "Nice",
    "idade": 26,
-   "nota": 3.5,
+   "nota": 3,
    "confianca": "alta",
    "obs": ""
   },
@@ -1702,7 +1702,7 @@
    "numero": 16,
    "clube": "Orlando City SC",
    "idade": 32,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -1713,7 +1713,7 @@
    "numero": 17,
    "clube": "Villarreal",
    "idade": 27,
-   "nota": 3.5,
+   "nota": 3,
    "confianca": "alta",
    "obs": ""
   },
@@ -1735,7 +1735,7 @@
    "numero": 19,
    "clube": "Bayern Munich",
    "idade": 25,
-   "nota": 5,
+   "nota": 4,
    "confianca": "alta",
    "obs": ""
   },
@@ -1757,7 +1757,7 @@
    "numero": 21,
    "clube": "Toronto FC",
    "idade": 33,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -1790,7 +1790,7 @@
    "numero": 24,
    "clube": "Union Saint-Gilloise",
    "idade": 24,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -1823,7 +1823,7 @@
    "numero": 1,
    "clube": "FC St. Pauli",
    "idade": 30,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -1867,7 +1867,7 @@
    "numero": 5,
    "clube": "Atalanta",
    "idade": 32,
-   "nota": 3.5,
+   "nota": 3,
    "confianca": "alta",
    "obs": ""
   },
@@ -1889,7 +1889,7 @@
    "numero": 7,
    "clube": "Benfica",
    "idade": 23,
-   "nota": 3.5,
+   "nota": 3,
    "confianca": "alta",
    "obs": ""
   },
@@ -1922,7 +1922,7 @@
    "numero": 10,
    "clube": "VfB Stuttgart",
    "idade": 28,
-   "nota": 3.5,
+   "nota": 3,
    "confianca": "alta",
    "obs": ""
   },
@@ -1999,7 +1999,7 @@
    "numero": 17,
    "clube": "Karlsruher SC",
    "idade": 28,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -2065,7 +2065,7 @@
    "numero": 23,
    "clube": "Borussia Mönchengladbach",
    "idade": 31,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -2120,7 +2120,7 @@
    "numero": null,
    "clube": "Al-Sadd",
    "idade": null,
-   "nota": 3,
+   "nota": 2,
    "confianca": "média",
    "obs": ""
   },
@@ -2131,7 +2131,7 @@
    "numero": null,
    "clube": "Al-Duhail",
    "idade": null,
-   "nota": 2.5,
+   "nota": 1.5,
    "confianca": "média",
    "obs": ""
   },
@@ -2142,7 +2142,7 @@
    "numero": 2,
    "clube": "Al-Sadd",
    "idade": 35,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -2175,7 +2175,7 @@
    "numero": null,
    "clube": "Al-Sadd",
    "idade": null,
-   "nota": 3,
+   "nota": 2,
    "confianca": "média",
    "obs": ""
   },
@@ -2186,7 +2186,7 @@
    "numero": null,
    "clube": "Al-Duhail",
    "idade": null,
-   "nota": 2.5,
+   "nota": 1.5,
    "confianca": "média",
    "obs": ""
   },
@@ -2230,7 +2230,7 @@
    "numero": 5,
    "clube": "Al-Rayyan",
    "idade": 24,
-   "nota": 2.5,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -2241,7 +2241,7 @@
    "numero": 6,
    "clube": "Al-Rayyan",
    "idade": 36,
-   "nota": 2.5,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -2274,7 +2274,7 @@
    "numero": null,
    "clube": "Al-Duhail",
    "idade": null,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "média",
    "obs": ""
   },
@@ -2296,7 +2296,7 @@
    "numero": null,
    "clube": "Al-Sadd",
    "idade": null,
-   "nota": 3.5,
+   "nota": 2.5,
    "confianca": "média",
    "obs": ""
   },
@@ -2307,7 +2307,7 @@
    "numero": null,
    "clube": "Al-Duhail",
    "idade": null,
-   "nota": 3.5,
+   "nota": 2.5,
    "confianca": "média",
    "obs": ""
   },
@@ -2318,7 +2318,7 @@
    "numero": 10,
    "clube": "Al-Sadd",
    "idade": 35,
-   "nota": 3,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -2340,7 +2340,7 @@
    "numero": 9,
    "clube": "Al-Gharafa",
    "idade": 32,
-   "nota": 2.5,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -2351,7 +2351,7 @@
    "numero": 7,
    "clube": "Al-Rayyan",
    "idade": 33,
-   "nota": 2.5,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -2384,7 +2384,7 @@
    "numero": null,
    "clube": "Al-Wakrah",
    "idade": null,
-   "nota": 2.5,
+   "nota": 1.5,
    "confianca": "média",
    "obs": ""
   },
@@ -2428,7 +2428,7 @@
    "numero": null,
    "clube": "Inter Milan",
    "idade": null,
-   "nota": 4.5,
+   "nota": 4,
    "confianca": "média",
    "obs": ""
   },
@@ -2439,7 +2439,7 @@
    "numero": null,
    "clube": "Borussia Mönchengladbach",
    "idade": null,
-   "nota": 3.5,
+   "nota": 3,
    "confianca": "média",
    "obs": ""
   },
@@ -2450,7 +2450,7 @@
    "numero": null,
    "clube": "Real Betis",
    "idade": null,
-   "nota": 3.5,
+   "nota": 3,
    "confianca": "média",
    "obs": ""
   },
@@ -2516,7 +2516,7 @@
    "numero": null,
    "clube": "Sunderland",
    "idade": null,
-   "nota": 4.5,
+   "nota": 4,
    "confianca": "média",
    "obs": ""
   },
@@ -2527,7 +2527,7 @@
    "numero": null,
    "clube": "Monaco",
    "idade": null,
-   "nota": 4,
+   "nota": 3.5,
    "confianca": "média",
    "obs": ""
   },
@@ -2736,7 +2736,7 @@
    "numero": 6,
    "clube": "Flamengo",
    "idade": 35,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -2780,7 +2780,7 @@
    "numero": 10,
    "clube": "Santos",
    "idade": 34,
-   "nota": 4.5,
+   "nota": 4,
    "confianca": "alta",
    "obs": ""
   },
@@ -2791,7 +2791,7 @@
    "numero": 11,
    "clube": "Barcelona",
    "idade": 29,
-   "nota": 5,
+   "nota": 4.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -2835,7 +2835,7 @@
    "numero": 15,
    "clube": "Flamengo",
    "idade": 30,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -2857,7 +2857,7 @@
    "numero": 17,
    "clube": "Al-Ittihad",
    "idade": 32,
-   "nota": 3.5,
+   "nota": 3,
    "confianca": "alta",
    "obs": ""
   },
@@ -2868,7 +2868,7 @@
    "numero": 18,
    "clube": "Botafogo",
    "idade": 25,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -2879,7 +2879,7 @@
    "numero": 19,
    "clube": "Lyon",
    "idade": 19,
-   "nota": 4,
+   "nota": 3.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -2890,7 +2890,7 @@
    "numero": 20,
    "clube": "Flamengo",
    "idade": 28,
-   "nota": 4,
+   "nota": 3.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -2901,7 +2901,7 @@
    "numero": 21,
    "clube": "Zenit Saint Petersburg",
    "idade": 25,
-   "nota": 3.5,
+   "nota": 3,
    "confianca": "alta",
    "obs": ""
   },
@@ -2912,7 +2912,7 @@
    "numero": 22,
    "clube": "Arsenal",
    "idade": 24,
-   "nota": 4,
+   "nota": 3.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -2978,7 +2978,7 @@
    "numero": 2,
    "clube": "Paris Saint-Germain",
    "idade": 27,
-   "nota": 5,
+   "nota": 4.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -3044,7 +3044,7 @@
    "numero": 8,
    "clube": "Girona",
    "idade": 26,
-   "nota": 3.5,
+   "nota": 3,
    "confianca": "alta",
    "obs": ""
   },
@@ -3055,7 +3055,7 @@
    "numero": 9,
    "clube": "Al Ain",
    "idade": 30,
-   "nota": 3.5,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -3066,7 +3066,7 @@
    "numero": 10,
    "clube": "Real Madrid",
    "idade": 26,
-   "nota": 4.5,
+   "nota": 4,
    "confianca": "alta",
    "obs": ""
   },
@@ -3099,7 +3099,7 @@
    "numero": 13,
    "clube": "Genk",
    "idade": 24,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -3154,7 +3154,7 @@
    "numero": 18,
    "clube": "Crystal Palace",
    "idade": 22,
-   "nota": 3.5,
+   "nota": 3,
    "confianca": "alta",
    "obs": ""
   },
@@ -3165,7 +3165,7 @@
    "numero": 19,
    "clube": "Al Ahly",
    "idade": 27,
-   "nota": 3,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -3198,7 +3198,7 @@
    "numero": 22,
    "clube": "AS FAR",
    "idade": 30,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -3209,7 +3209,7 @@
    "numero": 23,
    "clube": "VfB Stuttgart",
    "idade": 22,
-   "nota": 4,
+   "nota": 3.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -3220,7 +3220,7 @@
    "numero": 24,
    "clube": "Roma",
    "idade": 24,
-   "nota": 3.5,
+   "nota": 3,
    "confianca": "alta",
    "obs": ""
   },
@@ -3231,7 +3231,7 @@
    "numero": 25,
    "clube": "Mechelen",
    "idade": 23,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -3242,7 +3242,7 @@
    "numero": 26,
    "clube": "PSV Eindhoven",
    "idade": 24,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -3253,7 +3253,7 @@
    "numero": 1,
    "clube": "Bastia",
    "idade": 38,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -3264,7 +3264,7 @@
    "numero": 2,
    "clube": "Angers",
    "idade": 29,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -3286,7 +3286,7 @@
    "numero": 4,
    "clube": "LDU Quito",
    "idade": 36,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -3308,7 +3308,7 @@
    "numero": 6,
    "clube": "El Paso Locomotive FC",
    "idade": 23,
-   "nota": 2,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -3330,7 +3330,7 @@
    "numero": 8,
    "clube": "Nancy",
    "idade": 27,
-   "nota": 2,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -3341,7 +3341,7 @@
    "numero": 9,
    "clube": "Esteghlal",
    "idade": 32,
-   "nota": 2.5,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -3374,7 +3374,7 @@
    "numero": 12,
    "clube": "Sochaux",
    "idade": 25,
-   "nota": 2,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -3385,7 +3385,7 @@
    "numero": 13,
    "clube": "Colorado Springs Switchbacks FC",
    "idade": 32,
-   "nota": 2,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -3407,7 +3407,7 @@
    "numero": 15,
    "clube": "Almere City",
    "idade": 24,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -3418,7 +3418,7 @@
    "numero": 16,
    "clube": "Ferencváros",
    "idade": 25,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -3429,7 +3429,7 @@
    "numero": 17,
    "clube": "Philadelphia Union",
    "idade": 26,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -3451,7 +3451,7 @@
    "numero": 19,
    "clube": "Vizela",
    "idade": 27,
-   "nota": 2,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -3462,7 +3462,7 @@
    "numero": 20,
    "clube": "Çaykur Rizespor",
    "idade": 31,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -3473,7 +3473,7 @@
    "numero": 21,
    "clube": "Auxerre",
    "idade": 24,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -3495,7 +3495,7 @@
    "numero": 23,
    "clube": "Cosmos Koblenz",
    "idade": 26,
-   "nota": 2,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -3506,7 +3506,7 @@
    "numero": 24,
    "clube": "Zulte Waregem",
    "idade": 24,
-   "nota": 2,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -3517,7 +3517,7 @@
    "numero": 25,
    "clube": "Tatran Prešov",
    "idade": 25,
-   "nota": 2,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -3528,7 +3528,7 @@
    "numero": 26,
    "clube": "Violette",
    "idade": 21,
-   "nota": 2,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -3539,7 +3539,7 @@
    "numero": 1,
    "clube": "Nottingham Forest",
    "idade": 30,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -3550,7 +3550,7 @@
    "numero": 2,
    "clube": "Brentford",
    "idade": 24,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -3561,7 +3561,7 @@
    "numero": 3,
    "clube": "Liverpool",
    "idade": 32,
-   "nota": 4.5,
+   "nota": 4,
    "confianca": "alta",
    "obs": ""
   },
@@ -3572,7 +3572,7 @@
    "numero": 4,
    "clube": "Napoli",
    "idade": 29,
-   "nota": 4.5,
+   "nota": 4,
    "confianca": "alta",
    "obs": ""
   },
@@ -3583,7 +3583,7 @@
    "numero": 5,
    "clube": "Hibernian",
    "idade": 34,
-   "nota": 3,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -3594,7 +3594,7 @@
    "numero": 6,
    "clube": "Celtic",
    "idade": 29,
-   "nota": 3.5,
+   "nota": 3,
    "confianca": "alta",
    "obs": ""
   },
@@ -3605,7 +3605,7 @@
    "numero": 7,
    "clube": "Aston Villa",
    "idade": 31,
-   "nota": 4,
+   "nota": 3.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -3627,7 +3627,7 @@
    "numero": 9,
    "clube": "Charlton Athletic",
    "idade": 30,
-   "nota": 3,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -3638,7 +3638,7 @@
    "numero": 10,
    "clube": "Torino",
    "idade": 29,
-   "nota": 3.5,
+   "nota": 3,
    "confianca": "alta",
    "obs": ""
   },
@@ -3649,7 +3649,7 @@
    "numero": 11,
    "clube": "Bournemouth",
    "idade": 31,
-   "nota": 3.5,
+   "nota": 3,
    "confianca": "alta",
    "obs": ""
   },
@@ -3660,7 +3660,7 @@
    "numero": 12,
    "clube": "Rangers",
    "idade": 30,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -3671,7 +3671,7 @@
    "numero": 13,
    "clube": "Al-Ettifaq",
    "idade": 31,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -3682,7 +3682,7 @@
    "numero": 14,
    "clube": "Southampton",
    "idade": 29,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -3693,7 +3693,7 @@
    "numero": 15,
    "clube": "Rangers",
    "idade": 29,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -3704,7 +3704,7 @@
    "numero": 16,
    "clube": "Wrexham",
    "idade": 30,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -3715,7 +3715,7 @@
    "numero": 17,
    "clube": "Bournemouth",
    "idade": 20,
-   "nota": 3.5,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -3726,7 +3726,7 @@
    "numero": 18,
    "clube": "Ipswich Town",
    "idade": 27,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -3748,7 +3748,7 @@
    "numero": 20,
    "clube": "Heart of Midlothian",
    "idade": 30,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -3759,7 +3759,7 @@
    "numero": 21,
    "clube": "Heart of Midlothian",
    "idade": 43,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -3770,7 +3770,7 @@
    "numero": 22,
    "clube": "Everton",
    "idade": 24,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -3781,7 +3781,7 @@
    "numero": 23,
    "clube": "Norwich City",
    "idade": 34,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -3792,7 +3792,7 @@
    "numero": 24,
    "clube": "Celtic",
    "idade": 27,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -3803,7 +3803,7 @@
    "numero": 25,
    "clube": "Kilmarnock",
    "idade": 20,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -3814,7 +3814,7 @@
    "numero": 26,
    "clube": "Dinamo Zagreb",
    "idade": 29,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -3825,7 +3825,7 @@
    "numero": 1,
    "clube": "New England Revolution",
    "idade": 31,
-   "nota": 3.5,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -3836,7 +3836,7 @@
    "numero": 2,
    "clube": "PSV Eindhoven",
    "idade": 23,
-   "nota": 4,
+   "nota": 3,
    "confianca": "alta",
    "obs": ""
   },
@@ -3847,7 +3847,7 @@
    "numero": 3,
    "clube": "Crystal Palace",
    "idade": 26,
-   "nota": 4,
+   "nota": 3.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -3858,7 +3858,7 @@
    "numero": 4,
    "clube": "AFC Bournemouth",
    "idade": 27,
-   "nota": 4,
+   "nota": 3.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -3869,7 +3869,7 @@
    "numero": 5,
    "clube": "Fulham",
    "idade": 28,
-   "nota": 4,
+   "nota": 3.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -3880,7 +3880,7 @@
    "numero": 6,
    "clube": "Celtic",
    "idade": 27,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -3891,7 +3891,7 @@
    "numero": 7,
    "clube": "Borussia Mönchengladbach",
    "idade": 23,
-   "nota": 3.5,
+   "nota": 3,
    "confianca": "alta",
    "obs": ""
   },
@@ -3902,7 +3902,7 @@
    "numero": 8,
    "clube": "Juventus",
    "idade": 27,
-   "nota": 4,
+   "nota": 3.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -3913,7 +3913,7 @@
    "numero": 9,
    "clube": "PSV Eindhoven",
    "idade": 23,
-   "nota": 3.5,
+   "nota": 3,
    "confianca": "alta",
    "obs": ""
   },
@@ -3924,7 +3924,7 @@
    "numero": 10,
    "clube": "AC Milan",
    "idade": 27,
-   "nota": 4.5,
+   "nota": 4,
    "confianca": "alta",
    "obs": ""
   },
@@ -3935,7 +3935,7 @@
    "numero": 11,
    "clube": "Leeds United",
    "idade": 25,
-   "nota": 3.5,
+   "nota": 3,
    "confianca": "alta",
    "obs": ""
   },
@@ -3946,7 +3946,7 @@
    "numero": 12,
    "clube": "FC Cincinnati",
    "idade": 29,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -3957,7 +3957,7 @@
    "numero": 13,
    "clube": "Charlotte FC",
    "idade": 38,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -3968,7 +3968,7 @@
    "numero": 14,
    "clube": "Vancouver Whitecaps",
    "idade": 25,
-   "nota": 3,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -3979,7 +3979,7 @@
    "numero": 15,
    "clube": "Seattle Sounders",
    "idade": 31,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -3990,7 +3990,7 @@
    "numero": 16,
    "clube": "Villarreal",
    "idade": 21,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -4001,7 +4001,7 @@
    "numero": 17,
    "clube": "Bayer Leverkusen",
    "idade": 24,
-   "nota": 4,
+   "nota": 3.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -4012,7 +4012,7 @@
    "numero": 18,
    "clube": "Columbus Crew",
    "idade": 25,
-   "nota": 3,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -4023,7 +4023,7 @@
    "numero": 19,
    "clube": "Coventry City",
    "idade": 28,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -4045,7 +4045,7 @@
    "numero": 21,
    "clube": "Olympique de Marseille",
    "idade": 26,
-   "nota": 3.5,
+   "nota": 3,
    "confianca": "alta",
    "obs": ""
   },
@@ -4056,7 +4056,7 @@
    "numero": 22,
    "clube": "Toulouse",
    "idade": 25,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -4067,7 +4067,7 @@
    "numero": 23,
    "clube": "Borussia Mönchengladbach",
    "idade": 21,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -4078,7 +4078,7 @@
    "numero": 24,
    "clube": "New York City FC",
    "idade": 27,
-   "nota": 3,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -4089,7 +4089,7 @@
    "numero": 25,
    "clube": "Chicago Fire",
    "idade": 20,
-   "nota": 2.5,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -4100,7 +4100,7 @@
    "numero": 26,
    "clube": "Club América",
    "idade": 28,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -4111,7 +4111,7 @@
    "numero": 1,
    "clube": "Cerro Porteño",
    "idade": 38,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -4122,7 +4122,7 @@
    "numero": 2,
    "clube": "Cerro Porteño",
    "idade": 34,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -4133,7 +4133,7 @@
    "numero": 3,
    "clube": "Sunderland",
    "idade": 29,
-   "nota": 3.5,
+   "nota": 3,
    "confianca": "alta",
    "obs": ""
   },
@@ -4144,7 +4144,7 @@
    "numero": 4,
    "clube": "Dynamo Moscow",
    "idade": 25,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -4155,7 +4155,7 @@
    "numero": 5,
    "clube": "Grêmio",
    "idade": 34,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -4166,7 +4166,7 @@
    "numero": 6,
    "clube": "Atlético Mineiro",
    "idade": 33,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -4177,7 +4177,7 @@
    "numero": 7,
    "clube": "Palmeiras",
    "idade": 26,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -4188,7 +4188,7 @@
    "numero": 8,
    "clube": "Brighton & Hove Albion",
    "idade": 23,
-   "nota": 3.5,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -4199,7 +4199,7 @@
    "numero": 9,
    "clube": "Cremonese",
    "idade": 30,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -4210,7 +4210,7 @@
    "numero": 10,
    "clube": "Atlanta United",
    "idade": 32,
-   "nota": 3.5,
+   "nota": 3,
    "confianca": "alta",
    "obs": ""
   },
@@ -4221,7 +4221,7 @@
    "numero": 11,
    "clube": "Palmeiras",
    "idade": 24,
-   "nota": 3,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -4243,7 +4243,7 @@
    "numero": 13,
    "clube": "Lanús",
    "idade": 29,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -4254,7 +4254,7 @@
    "numero": 14,
    "clube": "Vancouver Whitecaps",
    "idade": 30,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -4265,7 +4265,7 @@
    "numero": 15,
    "clube": "Palmeiras",
    "idade": 32,
-   "nota": 3.5,
+   "nota": 3,
    "confianca": "alta",
    "obs": ""
   },
@@ -4276,7 +4276,7 @@
    "numero": 16,
    "clube": "São Paulo",
    "idade": 24,
-   "nota": 3,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -4298,7 +4298,7 @@
    "numero": 18,
    "clube": "Independiente Rivadavia",
    "idade": 30,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -4309,7 +4309,7 @@
    "numero": 19,
    "clube": "Strasbourg",
    "idade": 22,
-   "nota": 3.5,
+   "nota": 3,
    "confianca": "alta",
    "obs": ""
   },
@@ -4320,7 +4320,7 @@
    "numero": 20,
    "clube": "Orlando City",
    "idade": 25,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -4331,7 +4331,7 @@
    "numero": 21,
    "clube": "Independiente",
    "idade": 34,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -4342,7 +4342,7 @@
    "numero": 22,
    "clube": "Olimpia",
    "idade": 32,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -4353,7 +4353,7 @@
    "numero": 23,
    "clube": "Atlanta United",
    "idade": 24,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -4364,7 +4364,7 @@
    "numero": 24,
    "clube": "Portsmouth",
    "idade": 24,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -4375,7 +4375,7 @@
    "numero": 25,
    "clube": "Red Bull Bragantino",
    "idade": 26,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -4386,7 +4386,7 @@
    "numero": 26,
    "clube": "Talleres",
    "idade": 20,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -4408,7 +4408,7 @@
    "numero": 2,
    "clube": "APOEL",
    "idade": 31,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -4419,7 +4419,7 @@
    "numero": 3,
    "clube": "Parma",
    "idade": 22,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -4430,7 +4430,7 @@
    "numero": 4,
    "clube": "Grazer AK",
    "idade": 24,
-   "nota": 2,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -4441,7 +4441,7 @@
    "numero": 5,
    "clube": "Feyenoord",
    "idade": 23,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -4452,7 +4452,7 @@
    "numero": 6,
    "clube": "Albirex Niigata",
    "idade": 32,
-   "nota": 2,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -4463,7 +4463,7 @@
    "numero": 7,
    "clube": "Melbourne City",
    "idade": 34,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -4474,7 +4474,7 @@
    "numero": 8,
    "clube": "FC St. Pauli",
    "idade": 26,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -4485,7 +4485,7 @@
    "numero": 9,
    "clube": "Norwich City",
    "idade": 21,
-   "nota": 2.5,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -4496,7 +4496,7 @@
    "numero": 10,
    "clube": "Heracles Almelo",
    "idade": 29,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -4507,7 +4507,7 @@
    "numero": 11,
    "clube": "CD Castellón",
    "idade": 30,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -4518,7 +4518,7 @@
    "numero": 12,
    "clube": "Randers",
    "idade": 31,
-   "nota": 2,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -4529,7 +4529,7 @@
    "numero": 13,
    "clube": "New York City FC",
    "idade": 27,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -4540,7 +4540,7 @@
    "numero": 14,
    "clube": "Hearts",
    "idade": 27,
-   "nota": 2.5,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -4551,7 +4551,7 @@
    "numero": 15,
    "clube": "New York City FC",
    "idade": 24,
-   "nota": 2,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -4562,7 +4562,7 @@
    "numero": 16,
    "clube": "Melbourne City",
    "idade": 35,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -4573,7 +4573,7 @@
    "numero": 17,
    "clube": "Watford",
    "idade": 20,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -4584,7 +4584,7 @@
    "numero": 18,
    "clube": "Melbourne City",
    "idade": 22,
-   "nota": 2,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -4595,7 +4595,7 @@
    "numero": 19,
    "clube": "Leicester City",
    "idade": 27,
-   "nota": 3,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -4617,7 +4617,7 @@
    "numero": 21,
    "clube": "Swansea City",
    "idade": 30,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -4628,7 +4628,7 @@
    "numero": 22,
    "clube": "FC St. Pauli",
    "idade": 33,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -4639,7 +4639,7 @@
    "numero": 23,
    "clube": "Melbourne Victory",
    "idade": 24,
-   "nota": 2.5,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -4650,7 +4650,7 @@
    "numero": 24,
    "clube": "Sydney FC",
    "idade": 21,
-   "nota": 2,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -4661,7 +4661,7 @@
    "numero": 25,
    "clube": "Colorado Rapids",
    "idade": 18,
-   "nota": 2,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -4672,7 +4672,7 @@
    "numero": 26,
    "clube": "Machida Zelvia",
    "idade": 25,
-   "nota": 2,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -4683,7 +4683,7 @@
    "numero": 1,
    "clube": "Fenerbahçe",
    "idade": 37,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -4705,7 +4705,7 @@
    "numero": 3,
    "clube": "Al-Ahli",
    "idade": 28,
-   "nota": 3.5,
+   "nota": 3,
    "confianca": "alta",
    "obs": ""
   },
@@ -4727,7 +4727,7 @@
    "numero": 5,
    "clube": "Borussia Dortmund",
    "idade": 28,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -4738,7 +4738,7 @@
    "numero": 6,
    "clube": "Beşiktaş",
    "idade": 25,
-   "nota": 3.5,
+   "nota": 3,
    "confianca": "alta",
    "obs": ""
   },
@@ -4749,7 +4749,7 @@
    "numero": 7,
    "clube": "Fenerbahçe",
    "idade": 27,
-   "nota": 3.5,
+   "nota": 3,
    "confianca": "alta",
    "obs": ""
   },
@@ -4760,7 +4760,7 @@
    "numero": 8,
    "clube": "Real Madrid",
    "idade": 21,
-   "nota": 4.5,
+   "nota": 4,
    "confianca": "alta",
    "obs": ""
   },
@@ -4771,7 +4771,7 @@
    "numero": 9,
    "clube": "Porto",
    "idade": 21,
-   "nota": 3,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -4782,7 +4782,7 @@
    "numero": 10,
    "clube": "Inter de Milão",
    "idade": 32,
-   "nota": 4.5,
+   "nota": 4,
    "confianca": "alta",
    "obs": ""
   },
@@ -4804,7 +4804,7 @@
    "numero": 12,
    "clube": "Manchester United",
    "idade": 28,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -4815,7 +4815,7 @@
    "numero": 13,
    "clube": "Galatasaray",
    "idade": 25,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -4826,7 +4826,7 @@
    "numero": 14,
    "clube": "Galatasaray",
    "idade": 31,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -4837,7 +4837,7 @@
    "numero": null,
    "clube": "Galatasaray",
    "idade": 30,
-   "nota": 3.5,
+   "nota": 3,
    "confianca": "média",
    "obs": ""
   },
@@ -4848,7 +4848,7 @@
    "numero": null,
    "clube": "Fenerbahçe",
    "idade": 27,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "média",
    "obs": ""
   },
@@ -4892,7 +4892,7 @@
    "numero": null,
    "clube": "Fenerbahçe",
    "idade": 26,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "média",
    "obs": ""
   },
@@ -4914,7 +4914,7 @@
    "numero": null,
    "clube": "Galatasaray",
    "idade": 25,
-   "nota": 3.5,
+   "nota": 3,
    "confianca": "média",
    "obs": ""
   },
@@ -4925,7 +4925,7 @@
    "numero": null,
    "clube": "Galatasaray",
    "idade": 25,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "média",
    "obs": ""
   },
@@ -4958,7 +4958,7 @@
    "numero": null,
    "clube": "Fenerbahçe",
    "idade": 25,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "média",
    "obs": ""
   },
@@ -4969,7 +4969,7 @@
    "numero": 1,
    "clube": "Bayern de Munique",
    "idade": 40,
-   "nota": 4.5,
+   "nota": 3.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -4980,7 +4980,7 @@
    "numero": 12,
    "clube": "TSG Hoffenheim",
    "idade": 35,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -4991,7 +4991,7 @@
    "numero": 21,
    "clube": "VfB Stuttgart",
    "idade": 29,
-   "nota": 3.5,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -5002,7 +5002,7 @@
    "numero": 2,
    "clube": "Real Madrid",
    "idade": 33,
-   "nota": 4.5,
+   "nota": 4,
    "confianca": "alta",
    "obs": ""
   },
@@ -5013,7 +5013,7 @@
    "numero": 3,
    "clube": "Borussia Dortmund",
    "idade": 29,
-   "nota": 3.5,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -5024,7 +5024,7 @@
    "numero": 4,
    "clube": "Bayern de Munique",
    "idade": 30,
-   "nota": 4,
+   "nota": 3.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -5035,7 +5035,7 @@
    "numero": 15,
    "clube": "Borussia Dortmund",
    "idade": 26,
-   "nota": 4,
+   "nota": 3.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -5046,7 +5046,7 @@
    "numero": 18,
    "clube": "Eintracht Frankfurt",
    "idade": 22,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -5057,7 +5057,7 @@
    "numero": 22,
    "clube": "RB Leipzig",
    "idade": 28,
-   "nota": 3.5,
+   "nota": 3,
    "confianca": "alta",
    "obs": ""
   },
@@ -5068,7 +5068,7 @@
    "numero": 24,
    "clube": "Newcastle United",
    "idade": 24,
-   "nota": 3.5,
+   "nota": 3,
    "confianca": "alta",
    "obs": ""
   },
@@ -5079,7 +5079,7 @@
    "numero": 6,
    "clube": "Bayern de Munique",
    "idade": 31,
-   "nota": 5,
+   "nota": 4,
    "confianca": "alta",
    "obs": ""
   },
@@ -5090,7 +5090,7 @@
    "numero": 8,
    "clube": "Bayern de Munique",
    "idade": 31,
-   "nota": 4,
+   "nota": 3.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -5101,7 +5101,7 @@
    "numero": 13,
    "clube": "Borussia Dortmund",
    "idade": 34,
-   "nota": 3.5,
+   "nota": 3,
    "confianca": "alta",
    "obs": ""
   },
@@ -5112,7 +5112,7 @@
    "numero": 16,
    "clube": "VfB Stuttgart",
    "idade": 24,
-   "nota": 3.5,
+   "nota": 3,
    "confianca": "alta",
    "obs": ""
   },
@@ -5123,7 +5123,7 @@
    "numero": 5,
    "clube": "Bayern de Munique",
    "idade": 21,
-   "nota": 4,
+   "nota": 3,
    "confianca": "alta",
    "obs": ""
   },
@@ -5134,7 +5134,7 @@
    "numero": 20,
    "clube": "Mainz 05",
    "idade": 29,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -5145,7 +5145,7 @@
    "numero": 23,
    "clube": "Borussia Dortmund",
    "idade": 25,
-   "nota": 3.5,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -5167,7 +5167,7 @@
    "numero": 17,
    "clube": "Liverpool",
    "idade": 23,
-   "nota": 5,
+   "nota": 4.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -5178,7 +5178,7 @@
    "numero": 10,
    "clube": "Bayern de Munique",
    "idade": 23,
-   "nota": 5,
+   "nota": 4.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -5200,7 +5200,7 @@
    "numero": 9,
    "clube": "VfB Stuttgart",
    "idade": 24,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -5211,7 +5211,7 @@
    "numero": 11,
    "clube": "Newcastle United",
    "idade": 24,
-   "nota": 3.5,
+   "nota": 3,
    "confianca": "alta",
    "obs": ""
   },
@@ -5222,7 +5222,7 @@
    "numero": 14,
    "clube": "Borussia Dortmund",
    "idade": 23,
-   "nota": 3.5,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -5233,7 +5233,7 @@
    "numero": 19,
    "clube": "Galatasaray",
    "idade": 30,
-   "nota": 4,
+   "nota": 3.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -5244,7 +5244,7 @@
    "numero": 26,
    "clube": "VfB Stuttgart",
    "idade": 29,
-   "nota": 3.5,
+   "nota": 3,
    "confianca": "alta",
    "obs": ""
   },
@@ -5255,7 +5255,7 @@
    "numero": 1,
    "clube": "Miami FC",
    "idade": 36,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -5266,7 +5266,7 @@
    "numero": 25,
    "clube": "Telstar",
    "idade": null,
-   "nota": 2,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -5277,7 +5277,7 @@
    "numero": 26,
    "clube": "VVV-Venlo",
    "idade": null,
-   "nota": 2,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -5288,7 +5288,7 @@
    "numero": 2,
    "clube": "Sparta Rotterdam",
    "idade": 24,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -5299,7 +5299,7 @@
    "numero": 3,
    "clube": "Abha",
    "idade": null,
-   "nota": 2.5,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -5310,7 +5310,7 @@
    "numero": 4,
    "clube": "RKC Waalwijk",
    "idade": null,
-   "nota": 2,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -5321,7 +5321,7 @@
    "numero": 5,
    "clube": "PEC Zwolle",
    "idade": 27,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -5332,7 +5332,7 @@
    "numero": 18,
    "clube": "PSV Eindhoven",
    "idade": 26,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -5343,7 +5343,7 @@
    "numero": 20,
    "clube": "Kayserispor",
    "idade": 31,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -5354,7 +5354,7 @@
    "numero": 23,
    "clube": "Konyaspor",
    "idade": 29,
-   "nota": 3,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -5365,7 +5365,7 @@
    "numero": 24,
    "clube": "NEC Nijmegen",
    "idade": null,
-   "nota": 2.5,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -5376,7 +5376,7 @@
    "numero": 6,
    "clube": "RKC Waalwijk",
    "idade": null,
-   "nota": 2.5,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -5387,7 +5387,7 @@
    "numero": 7,
    "clube": "Volendam",
    "idade": 28,
-   "nota": 3,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -5398,7 +5398,7 @@
    "numero": 8,
    "clube": "FC Zürich",
    "idade": 22,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -5409,7 +5409,7 @@
    "numero": 10,
    "clube": "Iğdır FK",
    "idade": 34,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -5420,7 +5420,7 @@
    "numero": 13,
    "clube": "Telstar",
    "idade": null,
-   "nota": 2.5,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -5431,7 +5431,7 @@
    "numero": 15,
    "clube": "Rotherham United",
    "idade": null,
-   "nota": 2.5,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -5442,7 +5442,7 @@
    "numero": 22,
    "clube": "FC Den Bosch",
    "idade": null,
-   "nota": 2,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -5453,7 +5453,7 @@
    "numero": 9,
    "clube": "Miami FC",
    "idade": 32,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -5464,7 +5464,7 @@
    "numero": 11,
    "clube": "Kifisia",
    "idade": null,
-   "nota": 2,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -5475,7 +5475,7 @@
    "numero": 12,
    "clube": "Middlesbrough",
    "idade": 23,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -5486,7 +5486,7 @@
    "numero": 14,
    "clube": "Maccabi Haifa",
    "idade": 31,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -5497,7 +5497,7 @@
    "numero": 16,
    "clube": "Beveren",
    "idade": null,
-   "nota": 2,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -5508,7 +5508,7 @@
    "numero": 17,
    "clube": "Volendam",
    "idade": 33,
-   "nota": 2.5,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -5519,7 +5519,7 @@
    "numero": 19,
    "clube": "Terengganu",
    "idade": 29,
-   "nota": 2,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -5530,7 +5530,7 @@
    "numero": 21,
    "clube": "Sheffield United",
    "idade": 26,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -5541,7 +5541,7 @@
    "numero": null,
    "clube": "Çaykur Rizespor",
    "idade": 25,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -5552,7 +5552,7 @@
    "numero": null,
    "clube": "Royal Charleroi",
    "idade": null,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -5563,7 +5563,7 @@
    "numero": null,
    "clube": "Panathinaikos",
    "idade": 27,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -5574,7 +5574,7 @@
    "numero": null,
    "clube": "Beşiktaş",
    "idade": 28,
-   "nota": 3.5,
+   "nota": 3,
    "confianca": "alta",
    "obs": ""
   },
@@ -5585,7 +5585,7 @@
    "numero": null,
    "clube": "AJ Auxerre",
    "idade": null,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -5596,7 +5596,7 @@
    "numero": null,
    "clube": "Sporting CP",
    "idade": 22,
-   "nota": 4,
+   "nota": 3.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -5607,7 +5607,7 @@
    "numero": null,
    "clube": "RC Strasbourg",
    "idade": 23,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -5629,7 +5629,7 @@
    "numero": null,
    "clube": "Atalanta",
    "idade": 25,
-   "nota": 3.5,
+   "nota": 3,
    "confianca": "alta",
    "obs": ""
   },
@@ -5640,7 +5640,7 @@
    "numero": null,
    "clube": "AS Roma",
    "idade": 26,
-   "nota": 4,
+   "nota": 3.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -5651,7 +5651,7 @@
    "numero": null,
    "clube": "Galatasaray",
    "idade": 25,
-   "nota": 4,
+   "nota": 3.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -5662,7 +5662,7 @@
    "numero": null,
    "clube": "FC Porto",
    "idade": 30,
-   "nota": 3.5,
+   "nota": 3,
    "confianca": "alta",
    "obs": ""
   },
@@ -5673,7 +5673,7 @@
    "numero": null,
    "clube": "Royal Charleroi",
    "idade": null,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -5684,7 +5684,7 @@
    "numero": null,
    "clube": "Al-Ahli",
    "idade": 29,
-   "nota": 4,
+   "nota": 3,
    "confianca": "alta",
    "obs": ""
   },
@@ -5695,7 +5695,7 @@
    "numero": null,
    "clube": "Trabzonspor",
    "idade": 19,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -5706,7 +5706,7 @@
    "numero": null,
    "clube": "Nottingham Forest",
    "idade": 28,
-   "nota": 3.5,
+   "nota": 3,
    "confianca": "alta",
    "obs": ""
   },
@@ -5728,7 +5728,7 @@
    "numero": null,
    "clube": "AS Monaco",
    "idade": 24,
-   "nota": 3.5,
+   "nota": 3,
    "confianca": "alta",
    "obs": ""
   },
@@ -5739,7 +5739,7 @@
    "numero": null,
    "clube": "Inter de Milão",
    "idade": 22,
-   "nota": 3.5,
+   "nota": 3,
    "confianca": "alta",
    "obs": ""
   },
@@ -5750,7 +5750,7 @@
    "numero": null,
    "clube": "Manchester United",
    "idade": 23,
-   "nota": 4,
+   "nota": 3.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -5761,7 +5761,7 @@
    "numero": null,
    "clube": "Cercle Brugge",
    "idade": 22,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -5772,7 +5772,7 @@
    "numero": null,
    "clube": "RB Leipzig",
    "idade": 19,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -5783,7 +5783,7 @@
    "numero": null,
    "clube": "Crystal Palace",
    "idade": 24,
-   "nota": 3.5,
+   "nota": 3,
    "confianca": "alta",
    "obs": ""
   },
@@ -5794,7 +5794,7 @@
    "numero": null,
    "clube": "Villarreal",
    "idade": 30,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -5805,7 +5805,7 @@
    "numero": null,
    "clube": "TSG Hoffenheim",
    "idade": 19,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -5816,7 +5816,7 @@
    "numero": null,
    "clube": "OGC Nice",
    "idade": 23,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -5827,7 +5827,7 @@
    "numero": 1,
    "clube": "Huracán",
    "idade": 39,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -5838,7 +5838,7 @@
    "numero": 12,
    "clube": "Kifisia",
    "idade": 25,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -5849,7 +5849,7 @@
    "numero": 22,
    "clube": "LDU Quito",
    "idade": 25,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -5860,7 +5860,7 @@
    "numero": 2,
    "clube": "Internacional",
    "idade": 29,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -5871,7 +5871,7 @@
    "numero": 3,
    "clube": "Arsenal",
    "idade": 24,
-   "nota": 4,
+   "nota": 3.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -5882,7 +5882,7 @@
    "numero": 4,
    "clube": "Club Brugge",
    "idade": 21,
-   "nota": 3.5,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -5893,7 +5893,7 @@
    "numero": 6,
    "clube": "Paris Saint-Germain",
    "idade": 24,
-   "nota": 4.5,
+   "nota": 3.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -5904,7 +5904,7 @@
    "numero": 7,
    "clube": "AC Milan",
    "idade": 28,
-   "nota": 4,
+   "nota": 3,
    "confianca": "alta",
    "obs": ""
   },
@@ -5915,7 +5915,7 @@
    "numero": 17,
    "clube": "Atlético Mineiro",
    "idade": 28,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -5926,7 +5926,7 @@
    "numero": 25,
    "clube": "Club Tijuana",
    "idade": 25,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -5937,7 +5937,7 @@
    "numero": 8,
    "clube": "FC Midtjylland",
    "idade": 24,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -5948,7 +5948,7 @@
    "numero": 9,
    "clube": "Venezia",
    "idade": 25,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -5959,7 +5959,7 @@
    "numero": 10,
    "clube": "River Plate",
    "idade": 18,
-   "nota": 3.5,
+   "nota": 3,
    "confianca": "alta",
    "obs": ""
   },
@@ -5970,7 +5970,7 @@
    "numero": 14,
    "clube": "Atlético Mineiro",
    "idade": 22,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -5992,7 +5992,7 @@
    "numero": 19,
    "clube": "Flamengo",
    "idade": 25,
-   "nota": 3.5,
+   "nota": 3,
    "confianca": "alta",
    "obs": ""
   },
@@ -6003,7 +6003,7 @@
    "numero": 23,
    "clube": "Chelsea",
    "idade": 24,
-   "nota": 5,
+   "nota": 4,
    "confianca": "alta",
    "obs": ""
   },
@@ -6014,7 +6014,7 @@
    "numero": 24,
    "clube": "Racing Genk",
    "idade": 21,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -6025,7 +6025,7 @@
    "numero": 11,
    "clube": "Union Saint-Gilloise",
    "idade": 25,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -6047,7 +6047,7 @@
    "numero": 16,
    "clube": "Royal Antwerp",
    "idade": 22,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -6058,7 +6058,7 @@
    "numero": 18,
    "clube": "Huracán",
    "idade": 28,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -6069,7 +6069,7 @@
    "numero": 20,
    "clube": "Sunderland",
    "idade": 22,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -6080,7 +6080,7 @@
    "numero": 26,
    "clube": "VfB Stuttgart",
    "idade": 20,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -6124,7 +6124,7 @@
    "numero": 4,
    "clube": "Liverpool",
    "idade": 34,
-   "nota": 5,
+   "nota": 4.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -6168,7 +6168,7 @@
    "numero": 8,
    "clube": "Liverpool",
    "idade": 24,
-   "nota": 4,
+   "nota": 4.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -6179,7 +6179,7 @@
    "numero": 9,
    "clube": "Ajax",
    "idade": 33,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -6190,7 +6190,7 @@
    "numero": 10,
    "clube": "Corinthians",
    "idade": 32,
-   "nota": 4,
+   "nota": 3.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -6234,7 +6234,7 @@
    "numero": 14,
    "clube": "Manchester City",
    "idade": 27,
-   "nota": 4,
+   "nota": 4.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -6278,7 +6278,7 @@
    "numero": 18,
    "clube": "Roma",
    "idade": 27,
-   "nota": 3.5,
+   "nota": 3,
    "confianca": "alta",
    "obs": ""
   },
@@ -6377,7 +6377,7 @@
    "numero": 1,
    "clube": "Parma",
    "idade": 23,
-   "nota": 3.5,
+   "nota": 3,
    "confianca": "alta",
    "obs": ""
   },
@@ -6410,7 +6410,7 @@
    "numero": 4,
    "clube": "Ajax",
    "idade": 29,
-   "nota": 3.5,
+   "nota": 3,
    "confianca": "alta",
    "obs": ""
   },
@@ -6432,7 +6432,7 @@
    "numero": 6,
    "clube": "Borussia Mönchengladbach",
    "idade": 26,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -6498,7 +6498,7 @@
    "numero": 12,
    "clube": "Sanfrecce Hiroshima",
    "idade": 26,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -6542,7 +6542,7 @@
    "numero": 16,
    "clube": "Feyenoord",
    "idade": 29,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -6619,7 +6619,7 @@
    "numero": 23,
    "clube": "Kashima Antlers",
    "idade": 27,
-   "nota": 2,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -6630,7 +6630,7 @@
    "numero": 24,
    "clube": "Mainz 05",
    "idade": 25,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -6652,7 +6652,7 @@
    "numero": 26,
    "clube": "VfL Wolfsburg",
    "idade": 21,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -6740,7 +6740,7 @@
    "numero": 8,
    "clube": "Borussia Dortmund",
    "idade": 24,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -6751,7 +6751,7 @@
    "numero": 9,
    "clube": "Liverpool",
    "idade": 26,
-   "nota": 4.5,
+   "nota": 5,
    "confianca": "alta",
    "obs": ""
   },
@@ -6762,7 +6762,7 @@
    "numero": 10,
    "clube": "Celtic",
    "idade": 24,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -6817,7 +6817,7 @@
    "numero": 15,
    "clube": "Celta Vigo",
    "idade": 30,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -6883,7 +6883,7 @@
    "numero": 21,
    "clube": "Holstein Kiel",
    "idade": 27,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -6894,7 +6894,7 @@
    "numero": 22,
    "clube": "Union Saint-Gilloise",
    "idade": 23,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -6927,7 +6927,7 @@
    "numero": 25,
    "clube": "Club Brugge",
    "idade": 29,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -6949,7 +6949,7 @@
    "numero": 1,
    "clube": "Club Africain",
    "idade": 24,
-   "nota": 2,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -6960,7 +6960,7 @@
    "numero": 2,
    "clube": "Nice",
    "idade": 32,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -6971,7 +6971,7 @@
    "numero": 3,
    "clube": "Lorient",
    "idade": 28,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -6982,7 +6982,7 @@
    "numero": 4,
    "clube": "Maribor",
    "idade": 24,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -7004,7 +7004,7 @@
    "numero": 6,
    "clube": "Servette",
    "idade": 30,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -7015,7 +7015,7 @@
    "numero": 7,
    "clube": "Copenhagen",
    "idade": 27,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -7037,7 +7037,7 @@
    "numero": 9,
    "clube": "Dynamo Makhachkala",
    "idade": 28,
-   "nota": 2.5,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -7048,7 +7048,7 @@
    "numero": 10,
    "clube": "Burnley",
    "idade": 23,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -7070,7 +7070,7 @@
    "numero": 12,
    "clube": "Kasımpaşa",
    "idade": 31,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -7081,7 +7081,7 @@
    "numero": 13,
    "clube": "Union Berlin",
    "idade": 32,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -7092,7 +7092,7 @@
    "numero": 14,
    "clube": "Paris Saint-Germain",
    "idade": 21,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -7114,7 +7114,7 @@
    "numero": 16,
    "clube": "CS Sfaxien",
    "idade": 29,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -7125,7 +7125,7 @@
    "numero": 17,
    "clube": "Eintracht Frankfurt",
    "idade": 31,
-   "nota": 3.5,
+   "nota": 3,
    "confianca": "alta",
    "obs": ""
   },
@@ -7136,7 +7136,7 @@
    "numero": 18,
    "clube": "Vancouver Whitecaps",
    "idade": 18,
-   "nota": 2,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -7147,7 +7147,7 @@
    "numero": 19,
    "clube": "Club Africain",
    "idade": 30,
-   "nota": 2.5,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -7158,7 +7158,7 @@
    "numero": 20,
    "clube": "Young Boys",
    "idade": 27,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -7169,7 +7169,7 @@
    "numero": 21,
    "clube": "Espérance de Tunis",
    "idade": 30,
-   "nota": 2.5,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -7180,7 +7180,7 @@
    "numero": 22,
    "clube": "Étoile du Sahel",
    "idade": 29,
-   "nota": 2,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -7191,7 +7191,7 @@
    "numero": 23,
    "clube": "IFK Norrköping",
    "idade": 21,
-   "nota": 2,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -7202,7 +7202,7 @@
    "numero": 24,
    "clube": "US Monastir",
    "idade": 21,
-   "nota": 2,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -7213,7 +7213,7 @@
    "numero": 25,
    "clube": "Norwich City",
    "idade": 25,
-   "nota": 3,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -7268,7 +7268,7 @@
    "numero": 4,
    "clube": "Club Brugge",
    "idade": 33,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -7301,7 +7301,7 @@
    "numero": 7,
    "clube": "Napoli",
    "idade": 34,
-   "nota": 5,
+   "nota": 4.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -7323,7 +7323,7 @@
    "numero": 9,
    "clube": "Napoli",
    "idade": 33,
-   "nota": 4.5,
+   "nota": 4,
    "confianca": "alta",
    "obs": ""
   },
@@ -7367,7 +7367,7 @@
    "numero": 13,
    "clube": "Strasbourg",
    "idade": 20,
-   "nota": 2,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -7521,7 +7521,7 @@
    "numero": 1,
    "clube": "Al Ahly",
    "idade": 37,
-   "nota": 3.5,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -7532,7 +7532,7 @@
    "numero": 2,
    "clube": "Al Ahly",
    "idade": 33,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -7543,7 +7543,7 @@
    "numero": 3,
    "clube": "Al Ahly",
    "idade": 30,
-   "nota": 3,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -7554,7 +7554,7 @@
    "numero": 4,
    "clube": "Zamalek",
    "idade": 25,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -7565,7 +7565,7 @@
    "numero": 5,
    "clube": "Al Ain",
    "idade": 33,
-   "nota": 3,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -7576,7 +7576,7 @@
    "numero": 6,
    "clube": "Nice",
    "idade": 27,
-   "nota": 3.5,
+   "nota": 3,
    "confianca": "alta",
    "obs": ""
   },
@@ -7587,7 +7587,7 @@
    "numero": 7,
    "clube": "Al Ahly",
    "idade": 31,
-   "nota": 3.5,
+   "nota": 3,
    "confianca": "alta",
    "obs": ""
   },
@@ -7598,7 +7598,7 @@
    "numero": 8,
    "clube": "Al Ahly",
    "idade": 28,
-   "nota": 3.5,
+   "nota": 3,
    "confianca": "alta",
    "obs": ""
   },
@@ -7631,7 +7631,7 @@
    "numero": 11,
    "clube": "Pyramids",
    "idade": 29,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -7642,7 +7642,7 @@
    "numero": 12,
    "clube": "Oviedo",
    "idade": 24,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -7653,7 +7653,7 @@
    "numero": 13,
    "clube": "Zamalek",
    "idade": 28,
-   "nota": 3,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -7664,7 +7664,7 @@
    "numero": 14,
    "clube": "Al-Wakrah",
    "idade": 31,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -7675,7 +7675,7 @@
    "numero": 15,
    "clube": "Pyramids",
    "idade": 30,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -7697,7 +7697,7 @@
    "numero": 17,
    "clube": "Pyramids",
    "idade": 30,
-   "nota": 3,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -7719,7 +7719,7 @@
    "numero": 19,
    "clube": "Al Ahly",
    "idade": 27,
-   "nota": 3,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -7730,7 +7730,7 @@
    "numero": 20,
    "clube": "Nordsjælland",
    "idade": 25,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -7741,7 +7741,7 @@
    "numero": 21,
    "clube": "ZED",
    "idade": 24,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -7752,7 +7752,7 @@
    "numero": 22,
    "clube": "Manchester City",
    "idade": 27,
-   "nota": 4.5,
+   "nota": 4,
    "confianca": "alta",
    "obs": ""
   },
@@ -7763,7 +7763,7 @@
    "numero": 23,
    "clube": "Al Ahly",
    "idade": 26,
-   "nota": 3,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -7774,7 +7774,7 @@
    "numero": 24,
    "clube": "ZED",
    "idade": 24,
-   "nota": 2.5,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -7785,7 +7785,7 @@
    "numero": 25,
    "clube": "Al Ahly",
    "idade": 30,
-   "nota": 3.5,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -7796,7 +7796,7 @@
    "numero": 26,
    "clube": "El Gouna",
    "idade": 27,
-   "nota": 2,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -7807,7 +7807,7 @@
    "numero": 1,
    "clube": "Tractor",
    "idade": 33,
-   "nota": 3.5,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -7818,7 +7818,7 @@
    "numero": 2,
    "clube": "Esteghlal",
    "idade": 27,
-   "nota": 3,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -7829,7 +7829,7 @@
    "numero": 3,
    "clube": "Sepahan",
    "idade": 36,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -7840,7 +7840,7 @@
    "numero": 4,
    "clube": "Tractor",
    "idade": 37,
-   "nota": 3,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -7851,7 +7851,7 @@
    "numero": 5,
    "clube": "Persepolis",
    "idade": 32,
-   "nota": 3,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -7862,7 +7862,7 @@
    "numero": 6,
    "clube": "Shabab Al Ahli",
    "idade": 29,
-   "nota": 3.5,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -7873,7 +7873,7 @@
    "numero": 7,
    "clube": "Dender",
    "idade": 32,
-   "nota": 3.5,
+   "nota": 3,
    "confianca": "alta",
    "obs": ""
   },
@@ -7884,7 +7884,7 @@
    "numero": 8,
    "clube": "Rostov",
    "idade": 27,
-   "nota": 3.5,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -7895,7 +7895,7 @@
    "numero": 9,
    "clube": "Olympiacos",
    "idade": 33,
-   "nota": 4.5,
+   "nota": 3.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -7906,7 +7906,7 @@
    "numero": 10,
    "clube": "Al Nasr",
    "idade": 27,
-   "nota": 3.5,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -7917,7 +7917,7 @@
    "numero": 11,
    "clube": "Persepolis",
    "idade": 30,
-   "nota": 3,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -7928,7 +7928,7 @@
    "numero": 12,
    "clube": "Persepolis",
    "idade": 31,
-   "nota": 3,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -7939,7 +7939,7 @@
    "numero": 13,
    "clube": "Persepolis",
    "idade": 32,
-   "nota": 3.5,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -7950,7 +7950,7 @@
    "numero": 14,
    "clube": "Kalba",
    "idade": 32,
-   "nota": 3.5,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -7961,7 +7961,7 @@
    "numero": 15,
    "clube": "Esteghlal",
    "idade": 32,
-   "nota": 3,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -7972,7 +7972,7 @@
    "numero": 16,
    "clube": "Tractor",
    "idade": 31,
-   "nota": 3,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -7983,7 +7983,7 @@
    "numero": 17,
    "clube": "Sepahan",
    "idade": 24,
-   "nota": 2.5,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -7994,7 +7994,7 @@
    "numero": 18,
    "clube": "Tractor",
    "idade": 25,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -8005,7 +8005,7 @@
    "numero": 19,
    "clube": "Foolad",
    "idade": 30,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -8016,7 +8016,7 @@
    "numero": 20,
    "clube": "Kalba",
    "idade": 31,
-   "nota": 3,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -8027,7 +8027,7 @@
    "numero": 21,
    "clube": "Al Wahda",
    "idade": 24,
-   "nota": 2.5,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -8038,7 +8038,7 @@
    "numero": 22,
    "clube": "Sepahan",
    "idade": 33,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -8049,7 +8049,7 @@
    "numero": 23,
    "clube": "Foolad",
    "idade": 36,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -8093,7 +8093,7 @@
    "numero": 1,
    "clube": "Millwall",
    "idade": 32,
-   "nota": 3,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -8104,7 +8104,7 @@
    "numero": 2,
    "clube": "Wellington Phoenix",
    "idade": 32,
-   "nota": 2.5,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -8115,7 +8115,7 @@
    "numero": 3,
    "clube": "Auckland FC",
    "idade": 31,
-   "nota": 2.5,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -8126,7 +8126,7 @@
    "numero": 4,
    "clube": "Sheffield United",
    "idade": 21,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -8137,7 +8137,7 @@
    "numero": 5,
    "clube": "Minnesota United",
    "idade": 37,
-   "nota": 3,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -8148,7 +8148,7 @@
    "numero": 6,
    "clube": "Viking",
    "idade": 27,
-   "nota": 3,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -8170,7 +8170,7 @@
    "numero": 8,
    "clube": "Swansea City",
    "idade": 24,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -8181,7 +8181,7 @@
    "numero": 9,
    "clube": "Nottingham Forest",
    "idade": 34,
-   "nota": 4,
+   "nota": 3.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -8192,7 +8192,7 @@
    "numero": 10,
    "clube": "Wellington Phoenix",
    "idade": 27,
-   "nota": 3,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -8203,7 +8203,7 @@
    "numero": 11,
    "clube": "Motherwell",
    "idade": 26,
-   "nota": 3,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -8214,7 +8214,7 @@
    "numero": 12,
    "clube": "Lechia Gdańsk",
    "idade": 23,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -8225,7 +8225,7 @@
    "numero": 13,
    "clube": "Wrexham",
    "idade": 25,
-   "nota": 3.5,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -8236,7 +8236,7 @@
    "numero": 14,
    "clube": "Wellington Phoenix",
    "idade": 29,
-   "nota": 2.5,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -8247,7 +8247,7 @@
    "numero": 15,
    "clube": "Auckland FC",
    "idade": 27,
-   "nota": 2.5,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -8258,7 +8258,7 @@
    "numero": 16,
    "clube": "Portland Timbers",
    "idade": 22,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -8269,7 +8269,7 @@
    "numero": 17,
    "clube": "Western Sydney Wanderers",
    "idade": 36,
-   "nota": 2.5,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -8280,7 +8280,7 @@
    "numero": 18,
    "clube": "Port Vale",
    "idade": 25,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -8291,7 +8291,7 @@
    "numero": 19,
    "clube": "Saint-Étienne",
    "idade": 23,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -8302,7 +8302,7 @@
    "numero": 20,
    "clube": "Silkeborg",
    "idade": 27,
-   "nota": 2.5,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -8313,7 +8313,7 @@
    "numero": 21,
    "clube": "Auckland FC",
    "idade": 23,
-   "nota": 2.5,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -8324,7 +8324,7 @@
    "numero": 22,
    "clube": "Auckland FC",
    "idade": 27,
-   "nota": 2,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -8335,7 +8335,7 @@
    "numero": 23,
    "clube": "PEC Zwolle",
    "idade": 31,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -8346,7 +8346,7 @@
    "numero": 24,
    "clube": "Auckland FC",
    "idade": 26,
-   "nota": 2.5,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -8357,7 +8357,7 @@
    "numero": 25,
    "clube": "Newcastle Jets",
    "idade": 23,
-   "nota": 2,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -8368,7 +8368,7 @@
    "numero": 26,
    "clube": "Braintree Town",
    "idade": 36,
-   "nota": 2.5,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -8390,7 +8390,7 @@
    "numero": 2,
    "clube": "Atlético Madrid",
    "idade": 22,
-   "nota": 2.5,
+   "nota": 3,
    "confianca": "alta",
    "obs": ""
   },
@@ -8401,7 +8401,7 @@
    "numero": 3,
    "clube": "Bayer Leverkusen",
    "idade": 30,
-   "nota": 4,
+   "nota": 3.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -8456,7 +8456,7 @@
    "numero": 8,
    "clube": "Paris Saint-Germain",
    "idade": 30,
-   "nota": 4.5,
+   "nota": 4,
    "confianca": "alta",
    "obs": ""
   },
@@ -8522,7 +8522,7 @@
    "numero": 14,
    "clube": "Athletic Bilbao",
    "idade": 32,
-   "nota": 4,
+   "nota": 3.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -8665,7 +8665,7 @@
    "numero": 1,
    "clube": "Chaves",
    "idade": 40,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -8709,7 +8709,7 @@
    "numero": 5,
    "clube": "Villarreal",
    "idade": 25,
-   "nota": 3.5,
+   "nota": 3,
    "confianca": "alta",
    "obs": ""
   },
@@ -8720,7 +8720,7 @@
    "numero": 6,
    "clube": "Krasnodar",
    "idade": 29,
-   "nota": 3,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -8731,7 +8731,7 @@
    "numero": 7,
    "clube": "Estrela Amadora",
    "idade": 27,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -8753,7 +8753,7 @@
    "numero": 9,
    "clube": "Akron Tolyatti",
    "idade": 24,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -8764,7 +8764,7 @@
    "numero": 10,
    "clube": "PEC Zwolle",
    "idade": 32,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -8775,7 +8775,7 @@
    "numero": 11,
    "clube": "Apollon Limassol",
    "idade": 35,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -8797,7 +8797,7 @@
    "numero": 13,
    "clube": "Benfica",
    "idade": 23,
-   "nota": 2.5,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -8808,7 +8808,7 @@
    "numero": 14,
    "clube": "Ludogorets Razgrad",
    "idade": 26,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -8819,7 +8819,7 @@
    "numero": 15,
    "clube": "Puskás Akadémia",
    "idade": 29,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -8830,7 +8830,7 @@
    "numero": 16,
    "clube": "Farense",
    "idade": 30,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -8841,7 +8841,7 @@
    "numero": 17,
    "clube": "Omonia",
    "idade": 32,
-   "nota": 3,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -8852,7 +8852,7 @@
    "numero": 18,
    "clube": "Vitória de Guimarães",
    "idade": 24,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -8863,7 +8863,7 @@
    "numero": 19,
    "clube": "Casa Pia",
    "idade": 25,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -8874,7 +8874,7 @@
    "numero": 20,
    "clube": "Iğdır",
    "idade": 36,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -8885,7 +8885,7 @@
    "numero": 21,
    "clube": "İstanbul Başakşehir",
    "idade": 35,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -8918,7 +8918,7 @@
    "numero": 24,
    "clube": "Trabzonspor",
    "idade": 23,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -8929,7 +8929,7 @@
    "numero": 25,
    "clube": "SJK",
    "idade": 26,
-   "nota": 2,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -8940,7 +8940,7 @@
    "numero": 26,
    "clube": "Maccabi Tel Aviv",
    "idade": 24,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -8962,7 +8962,7 @@
    "numero": 2,
    "clube": "Al-Ahli",
    "idade": 26,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -8973,7 +8973,7 @@
    "numero": 3,
    "clube": "Al-Hilal",
    "idade": 30,
-   "nota": 3,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -9028,7 +9028,7 @@
    "numero": 8,
    "clube": "Al-Nassr",
    "idade": 25,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -9039,7 +9039,7 @@
    "numero": 9,
    "clube": "Al-Ahli",
    "idade": 26,
-   "nota": 3.5,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -9050,7 +9050,7 @@
    "numero": 10,
    "clube": "Al-Hilal",
    "idade": 34,
-   "nota": 3.5,
+   "nota": 3,
    "confianca": "alta",
    "obs": ""
   },
@@ -9072,7 +9072,7 @@
    "numero": 12,
    "clube": "Lens",
    "idade": 26,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -9083,7 +9083,7 @@
    "numero": 13,
    "clube": "Al-Nassr",
    "idade": 26,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -9094,7 +9094,7 @@
    "numero": 14,
    "clube": "Al-Ittihad",
    "idade": 33,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -9160,7 +9160,7 @@
    "numero": 20,
    "clube": "Al-Hilal",
    "idade": 31,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -9193,7 +9193,7 @@
    "numero": 23,
    "clube": "Al-Hilal",
    "idade": 31,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -9237,7 +9237,7 @@
    "numero": 1,
    "clube": "Internacional",
    "idade": 33,
-   "nota": 3.5,
+   "nota": 3,
    "confianca": "alta",
    "obs": ""
   },
@@ -9270,7 +9270,7 @@
    "numero": 4,
    "clube": "Barcelona",
    "idade": 27,
-   "nota": 4.5,
+   "nota": 4,
    "confianca": "alta",
    "obs": ""
   },
@@ -9281,7 +9281,7 @@
    "numero": 5,
    "clube": "Manchester United",
    "idade": 25,
-   "nota": 4,
+   "nota": 3.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -9292,7 +9292,7 @@
    "numero": 6,
    "clube": "Tottenham Hotspur",
    "idade": 28,
-   "nota": 4,
+   "nota": 3.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -9303,7 +9303,7 @@
    "numero": 7,
    "clube": "Flamengo",
    "idade": 28,
-   "nota": 4,
+   "nota": 3.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -9314,7 +9314,7 @@
    "numero": 8,
    "clube": "Real Madrid",
    "idade": 27,
-   "nota": 5,
+   "nota": 4.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -9336,7 +9336,7 @@
    "numero": 10,
    "clube": "Flamengo",
    "idade": 31,
-   "nota": 4,
+   "nota": 3.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -9347,7 +9347,7 @@
    "numero": 11,
    "clube": "Panathinaikos",
    "idade": 24,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -9380,7 +9380,7 @@
    "numero": 14,
    "clube": "Fluminense",
    "idade": 27,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -9391,7 +9391,7 @@
    "numero": 15,
    "clube": "Palmeiras",
    "idade": 26,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -9468,7 +9468,7 @@
    "numero": 22,
    "clube": "Palmeiras",
    "idade": 27,
-   "nota": 3.5,
+   "nota": 3,
    "confianca": "alta",
    "obs": ""
   },
@@ -9479,7 +9479,7 @@
    "numero": 23,
    "clube": "Estudiantes",
    "idade": 39,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -9512,7 +9512,7 @@
    "numero": 26,
    "clube": "Braga",
    "idade": 26,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -9556,7 +9556,7 @@
    "numero": 2,
    "clube": "Barcelona",
    "idade": 27,
-   "nota": 4.5,
+   "nota": 4,
    "confianca": "alta",
    "obs": ""
   },
@@ -9633,7 +9633,7 @@
    "numero": null,
    "clube": "Liverpool",
    "idade": 27,
-   "nota": 4.5,
+   "nota": 4,
    "confianca": "alta",
    "obs": ""
   },
@@ -9644,7 +9644,7 @@
    "numero": null,
    "clube": "Barcelona",
    "idade": 27,
-   "nota": 4.5,
+   "nota": 4,
    "confianca": "baixa",
    "obs": "conferir"
   },
@@ -9776,7 +9776,7 @@
    "numero": 24,
    "clube": "Manchester City",
    "idade": 22,
-   "nota": 4,
+   "nota": 3.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -9809,7 +9809,7 @@
    "numero": null,
    "clube": "Monaco",
    "idade": 24,
-   "nota": 3.5,
+   "nota": 3,
    "confianca": "alta",
    "obs": ""
   },
@@ -9820,7 +9820,7 @@
    "numero": 1,
    "clube": "Al-Ahli",
    "idade": 34,
-   "nota": 4,
+   "nota": 3.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -9853,7 +9853,7 @@
    "numero": 3,
    "clube": "Al-Hilal",
    "idade": 34,
-   "nota": 4,
+   "nota": 3.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -9864,7 +9864,7 @@
    "numero": 4,
    "clube": "Lyon",
    "idade": 30,
-   "nota": 3.5,
+   "nota": 3,
    "confianca": "alta",
    "obs": ""
   },
@@ -9875,7 +9875,7 @@
    "numero": null,
    "clube": "Maccabi Haifa",
    "idade": 34,
-   "nota": 3,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -9897,7 +9897,7 @@
    "numero": 2,
    "clube": "Monaco",
    "idade": 27,
-   "nota": 3.5,
+   "nota": 3,
    "confianca": "alta",
    "obs": ""
   },
@@ -9941,7 +9941,7 @@
    "numero": 7,
    "clube": "Everton",
    "idade": 36,
-   "nota": 4,
+   "nota": 3.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -9952,7 +9952,7 @@
    "numero": null,
    "clube": "Tottenham Hotspur",
    "idade": 23,
-   "nota": 4,
+   "nota": 3.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -9963,7 +9963,7 @@
    "numero": 8,
    "clube": "Monaco",
    "idade": 22,
-   "nota": 3.5,
+   "nota": 3,
    "confianca": "alta",
    "obs": ""
   },
@@ -9974,7 +9974,7 @@
    "numero": null,
    "clube": "Villarreal",
    "idade": 27,
-   "nota": 3.5,
+   "nota": 3,
    "confianca": "alta",
    "obs": ""
   },
@@ -9985,7 +9985,7 @@
    "numero": 6,
    "clube": "Rayo Vallecano",
    "idade": 32,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -9996,7 +9996,7 @@
    "numero": 21,
    "clube": "Sunderland",
    "idade": 22,
-   "nota": 3.5,
+   "nota": 3,
    "confianca": "alta",
    "obs": ""
   },
@@ -10007,7 +10007,7 @@
    "numero": null,
    "clube": "Bayern Munich",
    "idade": 18,
-   "nota": 2,
+   "nota": 2.5,
    "confianca": "média",
    "obs": ""
   },
@@ -10018,7 +10018,7 @@
    "numero": 10,
    "clube": "Al-Nassr",
    "idade": 34,
-   "nota": 4.5,
+   "nota": 3.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -10029,7 +10029,7 @@
    "numero": 9,
    "clube": "Crystal Palace",
    "idade": 28,
-   "nota": 4,
+   "nota": 3.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -10040,7 +10040,7 @@
    "numero": null,
    "clube": "Bayern Munich (emprestado pelo Chelsea)",
    "idade": 24,
-   "nota": 4,
+   "nota": 3.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -10062,7 +10062,7 @@
    "numero": 20,
    "clube": "Paris Saint-Germain",
    "idade": 18,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -10106,7 +10106,7 @@
    "numero": 1,
    "clube": "Al-Zawraa",
    "idade": 35,
-   "nota": 2.5,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -10117,7 +10117,7 @@
    "numero": null,
    "clube": "Al-Talaba",
    "idade": 31,
-   "nota": 2,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -10128,7 +10128,7 @@
    "numero": null,
    "clube": "Al-Shorta",
    "idade": 29,
-   "nota": 2,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -10139,7 +10139,7 @@
    "numero": 5,
    "clube": "Viktoria Plzeň",
    "idade": 26,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -10150,7 +10150,7 @@
    "numero": 3,
    "clube": "Pakhtakor",
    "idade": 25,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -10183,7 +10183,7 @@
    "numero": null,
    "clube": "Persib",
    "idade": 32,
-   "nota": 2,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -10194,7 +10194,7 @@
    "numero": null,
    "clube": "Al-Shorta",
    "idade": 29,
-   "nota": 2,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -10205,7 +10205,7 @@
    "numero": 2,
    "clube": "Pogoń Szczecin",
    "idade": 24,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -10216,7 +10216,7 @@
    "numero": null,
    "clube": "Al-Shorta",
    "idade": 30,
-   "nota": 2,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -10227,7 +10227,7 @@
    "numero": 25,
    "clube": "Al-Shorta",
    "idade": 25,
-   "nota": 2,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -10238,7 +10238,7 @@
    "numero": 8,
    "clube": "Cracovia",
    "idade": 28,
-   "nota": 3,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -10249,7 +10249,7 @@
    "numero": 6,
    "clube": "Al-Dhafra",
    "idade": 26,
-   "nota": 2.5,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -10260,7 +10260,7 @@
    "numero": 7,
    "clube": "Al-Talaba",
    "idade": 24,
-   "nota": 2.5,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -10271,7 +10271,7 @@
    "numero": 14,
    "clube": "Utrecht",
    "idade": 23,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -10282,7 +10282,7 @@
    "numero": null,
    "clube": "AEK Larnaca",
    "idade": 22,
-   "nota": 2.5,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -10293,7 +10293,7 @@
    "numero": null,
    "clube": "AGF",
    "idade": 25,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -10304,7 +10304,7 @@
    "numero": null,
    "clube": "Sarpsborg 08",
    "idade": 23,
-   "nota": 2.5,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -10326,7 +10326,7 @@
    "numero": 21,
    "clube": "Venezia",
    "idade": 22,
-   "nota": 2.5,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -10337,7 +10337,7 @@
    "numero": 11,
    "clube": "Nashville SC",
    "idade": 22,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -10348,7 +10348,7 @@
    "numero": 10,
    "clube": "Al-Karma",
    "idade": 30,
-   "nota": 3,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -10370,7 +10370,7 @@
    "numero": 10,
    "clube": "Dibba Al-Fujairah",
    "idade": 25,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -10392,7 +10392,7 @@
    "numero": 1,
    "clube": "Sevilla",
    "idade": 35,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -10425,7 +10425,7 @@
    "numero": 3,
    "clube": "Brentford",
    "idade": 28,
-   "nota": 3.5,
+   "nota": 3,
    "confianca": "alta",
    "obs": ""
   },
@@ -10436,7 +10436,7 @@
    "numero": null,
    "clube": "Bologna",
    "idade": 27,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -10458,7 +10458,7 @@
    "numero": null,
    "clube": "Bodø/Glimt",
    "idade": 27,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -10469,7 +10469,7 @@
    "numero": null,
    "clube": "Derby County",
    "idade": 25,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -10502,7 +10502,7 @@
    "numero": null,
    "clube": "Torino",
    "idade": 25,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -10524,7 +10524,7 @@
    "numero": 7,
    "clube": "Arsenal",
    "idade": 27,
-   "nota": 5,
+   "nota": 4.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -10535,7 +10535,7 @@
    "numero": 6,
    "clube": "Fulham",
    "idade": 28,
-   "nota": 3.5,
+   "nota": 3,
    "confianca": "alta",
    "obs": ""
   },
@@ -10546,7 +10546,7 @@
    "numero": 8,
    "clube": "Benfica",
    "idade": 30,
-   "nota": 3.5,
+   "nota": 3,
    "confianca": "alta",
    "obs": ""
   },
@@ -10557,7 +10557,7 @@
    "numero": null,
    "clube": "Bodø/Glimt",
    "idade": 28,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -10568,7 +10568,7 @@
    "numero": 18,
    "clube": "Sassuolo",
    "idade": 27,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -10601,7 +10601,7 @@
    "numero": 11,
    "clube": "RB Leipzig",
    "idade": 21,
-   "nota": 4,
+   "nota": 3,
    "confianca": "alta",
    "obs": ""
   },
@@ -10612,7 +10612,7 @@
    "numero": 22,
    "clube": "Fulham",
    "idade": 22,
-   "nota": 3.5,
+   "nota": 3,
    "confianca": "média",
    "obs": ""
   },
@@ -10623,7 +10623,7 @@
    "numero": 21,
    "clube": "Benfica",
    "idade": 22,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -10656,7 +10656,7 @@
    "numero": 9,
    "clube": "Atlético Madrid",
    "idade": 30,
-   "nota": 4,
+   "nota": 3.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -10667,7 +10667,7 @@
    "numero": null,
    "clube": "Crystal Palace",
    "idade": 26,
-   "nota": 3.5,
+   "nota": 3,
    "confianca": "alta",
    "obs": ""
   },
@@ -10777,7 +10777,7 @@
    "numero": null,
    "clube": "Olympique de Marseille",
    "idade": 27,
-   "nota": 3.5,
+   "nota": 3,
    "confianca": "alta",
    "obs": ""
   },
@@ -10810,7 +10810,7 @@
    "numero": null,
    "clube": "Boca Juniors",
    "idade": 31,
-   "nota": 3.5,
+   "nota": 3,
    "confianca": "alta",
    "obs": ""
   },
@@ -10865,7 +10865,7 @@
    "numero": null,
    "clube": "RC Strasbourg",
    "idade": 21,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -10876,7 +10876,7 @@
    "numero": null,
    "clube": "Como 1907",
    "idade": 21,
-   "nota": 4,
+   "nota": 3.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -10931,7 +10931,7 @@
    "numero": null,
    "clube": "Atlético de Madrid",
    "idade": 23,
-   "nota": 3.5,
+   "nota": 3,
    "confianca": "alta",
    "obs": ""
   },
@@ -10953,7 +10953,7 @@
    "numero": null,
    "clube": "Palmeiras",
    "idade": 24,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "média",
    "obs": ""
   },
@@ -10964,7 +10964,7 @@
    "numero": 23,
    "clube": "Granada",
    "idade": 28,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -10975,7 +10975,7 @@
    "numero": 16,
    "clube": "USM Alger",
    "idade": 31,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -10986,7 +10986,7 @@
    "numero": 1,
    "clube": "Stade Nyonnais",
    "idade": 26,
-   "nota": 2,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -10997,7 +10997,7 @@
    "numero": 2,
    "clube": "Lille",
    "idade": 34,
-   "nota": 3.5,
+   "nota": 3,
    "confianca": "alta",
    "obs": ""
   },
@@ -11030,7 +11030,7 @@
    "numero": 4,
    "clube": "Espérance de Tunis",
    "idade": 26,
-   "nota": 3,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -11041,7 +11041,7 @@
    "numero": 5,
    "clube": "JS Kabylie",
    "idade": 27,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -11063,7 +11063,7 @@
    "numero": 17,
    "clube": "Hellas Verona",
    "idade": 24,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -11074,7 +11074,7 @@
    "numero": 13,
    "clube": "BSC Young Boys",
    "idade": 23,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -11085,7 +11085,7 @@
    "numero": 26,
    "clube": "Paris FC",
    "idade": 27,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -11096,7 +11096,7 @@
    "numero": 8,
    "clube": "Al-Ittihad",
    "idade": 27,
-   "nota": 3.5,
+   "nota": 3,
    "confianca": "alta",
    "obs": ""
   },
@@ -11129,7 +11129,7 @@
    "numero": 10,
    "clube": "Eintracht Frankfurt",
    "idade": 23,
-   "nota": 3.5,
+   "nota": 3,
    "confianca": "alta",
    "obs": ""
   },
@@ -11140,7 +11140,7 @@
    "numero": 22,
    "clube": "Bayer Leverkusen",
    "idade": 20,
-   "nota": 3.5,
+   "nota": 3,
    "confianca": "alta",
    "obs": ""
   },
@@ -11151,7 +11151,7 @@
    "numero": 24,
    "clube": "Royal Charleroi",
    "idade": 22,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -11162,7 +11162,7 @@
    "numero": 6,
    "clube": "Twente",
    "idade": 28,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -11173,7 +11173,7 @@
    "numero": 7,
    "clube": "Al-Ahli",
    "idade": 35,
-   "nota": 4,
+   "nota": 3.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -11206,7 +11206,7 @@
    "numero": 11,
    "clube": "Feyenoord",
    "idade": 24,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -11217,7 +11217,7 @@
    "numero": 12,
    "clube": "Győri ETO FC",
    "idade": 26,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -11228,7 +11228,7 @@
    "numero": 20,
    "clube": "Al-Duhail",
    "idade": 23,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -11239,7 +11239,7 @@
    "numero": 25,
    "clube": "Frosinone",
    "idade": 23,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -11305,7 +11305,7 @@
    "numero": null,
    "clube": "SC Freiburg",
    "idade": 29,
-   "nota": 3.5,
+   "nota": 3,
    "confianca": "alta",
    "obs": ""
   },
@@ -11382,7 +11382,7 @@
    "numero": null,
    "clube": "Bayern Munich",
    "idade": 29,
-   "nota": 4,
+   "nota": 3.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -11437,7 +11437,7 @@
    "numero": null,
    "clube": "Braga",
    "idade": 30,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -11492,7 +11492,7 @@
    "numero": null,
    "clube": "Wolfsberger AC",
    "idade": 32,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -11503,7 +11503,7 @@
    "numero": null,
    "clube": "Red Star Belgrade",
    "idade": 37,
-   "nota": 3.5,
+   "nota": 3,
    "confianca": "alta",
    "obs": ""
   },
@@ -11536,7 +11536,7 @@
    "numero": null,
    "clube": "Al-Hussein",
    "idade": 33,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -11547,7 +11547,7 @@
    "numero": null,
    "clube": "Al-Wehdat",
    "idade": 26,
-   "nota": 2,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -11558,7 +11558,7 @@
    "numero": null,
    "clube": "Al-Faisaly",
    "idade": 33,
-   "nota": 2,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -11569,7 +11569,7 @@
    "numero": null,
    "clube": "Al-Hussein",
    "idade": 32,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -11580,7 +11580,7 @@
    "numero": null,
    "clube": "FC Seoul",
    "idade": 30,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -11591,7 +11591,7 @@
    "numero": null,
    "clube": "Al-Zawraa",
    "idade": 32,
-   "nota": 2,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -11602,7 +11602,7 @@
    "numero": null,
    "clube": "Al-Karma",
    "idade": 31,
-   "nota": 2,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -11613,7 +11613,7 @@
    "numero": null,
    "clube": "Al-Hussein",
    "idade": 29,
-   "nota": 2,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -11624,7 +11624,7 @@
    "numero": null,
    "clube": "Al-Faisaly",
    "idade": 28,
-   "nota": 2,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -11635,7 +11635,7 @@
    "numero": null,
    "clube": "Al-Faisaly",
    "idade": 26,
-   "nota": 2,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -11646,7 +11646,7 @@
    "numero": null,
    "clube": "Selangor",
    "idade": 25,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -11657,7 +11657,7 @@
    "numero": null,
    "clube": "Al-Quwa Al-Jawiya",
    "idade": 23,
-   "nota": 2,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -11668,7 +11668,7 @@
    "numero": null,
    "clube": "Al-Hussein",
    "idade": 34,
-   "nota": 2,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -11679,7 +11679,7 @@
    "numero": null,
    "clube": "Selangor",
    "idade": 29,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -11690,7 +11690,7 @@
    "numero": null,
    "clube": "Qatar SC",
    "idade": 27,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -11701,7 +11701,7 @@
    "numero": null,
    "clube": "Al-Karma",
    "idade": 26,
-   "nota": 2,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -11712,7 +11712,7 @@
    "numero": null,
    "clube": "Al-Hussein",
    "idade": 32,
-   "nota": 2,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -11723,7 +11723,7 @@
    "numero": null,
    "clube": "Al-Hussein",
    "idade": 32,
-   "nota": 2.5,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -11734,7 +11734,7 @@
    "numero": null,
    "clube": "Al-Zawraa",
    "idade": 23,
-   "nota": 2,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -11745,7 +11745,7 @@
    "numero": null,
    "clube": "Al-Wehdat",
    "idade": 33,
-   "nota": 2,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -11767,7 +11767,7 @@
    "numero": null,
    "clube": "Al-Sailiya",
    "idade": 26,
-   "nota": 3,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -11778,7 +11778,7 @@
    "numero": null,
    "clube": "Pyramids",
    "idade": 20,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -11789,7 +11789,7 @@
    "numero": null,
    "clube": "Raja Casablanca",
    "idade": 28,
-   "nota": 2.5,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -11800,7 +11800,7 @@
    "numero": null,
    "clube": "Al-Shabab",
    "idade": 22,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -11811,7 +11811,7 @@
    "numero": null,
    "clube": "Lokomotiva Zagreb",
    "idade": 23,
-   "nota": 2,
+   "nota": 1.5,
    "confianca": "média",
    "obs": ""
   },
@@ -11866,7 +11866,7 @@
    "numero": 3,
    "clube": "Manchester City",
    "idade": 29,
-   "nota": 5,
+   "nota": 4.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -11910,7 +11910,7 @@
    "numero": 7,
    "clube": "Al-Nassr",
    "idade": 41,
-   "nota": 4.5,
+   "nota": 4,
    "confianca": "alta",
    "obs": ""
   },
@@ -11921,7 +11921,7 @@
    "numero": 8,
    "clube": "Manchester United",
    "idade": 31,
-   "nota": 5,
+   "nota": 4.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -11932,7 +11932,7 @@
    "numero": 9,
    "clube": "Paris Saint-Germain",
    "idade": 24,
-   "nota": 4,
+   "nota": 3.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -11943,7 +11943,7 @@
    "numero": 10,
    "clube": "Manchester City",
    "idade": 31,
-   "nota": 5,
+   "nota": 4.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -11965,7 +11965,7 @@
    "numero": 13,
    "clube": "Villarreal",
    "idade": 22,
-   "nota": 3,
+   "nota": 3.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -11976,7 +11976,7 @@
    "numero": 14,
    "clube": "Sporting CP",
    "idade": 24,
-   "nota": 4,
+   "nota": 3.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -12009,7 +12009,7 @@
    "numero": 17,
    "clube": "AC Milan",
    "idade": 27,
-   "nota": 4.5,
+   "nota": 4,
    "confianca": "alta",
    "obs": ""
   },
@@ -12020,7 +12020,7 @@
    "numero": 18,
    "clube": "Chelsea",
    "idade": 26,
-   "nota": 4,
+   "nota": 3.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -12064,7 +12064,7 @@
    "numero": 23,
    "clube": "Paris Saint-Germain",
    "idade": 26,
-   "nota": 5,
+   "nota": 4.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -12108,7 +12108,7 @@
    "numero": null,
    "clube": "Atlético Nacional",
    "idade": 37,
-   "nota": 3.5,
+   "nota": 3,
    "confianca": "alta",
    "obs": ""
   },
@@ -12119,7 +12119,7 @@
    "numero": null,
    "clube": "Atlas",
    "idade": 37,
-   "nota": 3.5,
+   "nota": 3,
    "confianca": "alta",
    "obs": ""
   },
@@ -12130,7 +12130,7 @@
    "numero": null,
    "clube": "Vélez Sarsfield",
    "idade": 30,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -12141,7 +12141,7 @@
    "numero": null,
    "clube": "Crystal Palace",
    "idade": 30,
-   "nota": 4,
+   "nota": 3.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -12185,7 +12185,7 @@
    "numero": null,
    "clube": "Cruz Azul",
    "idade": 28,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -12207,7 +12207,7 @@
    "numero": null,
    "clube": "Nantes",
    "idade": 32,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -12218,7 +12218,7 @@
    "numero": null,
    "clube": "Cagliari",
    "idade": 31,
-   "nota": 3.5,
+   "nota": 3,
    "confianca": "alta",
    "obs": ""
   },
@@ -12229,7 +12229,7 @@
    "numero": 10,
    "clube": "Minnesota United",
    "idade": 34,
-   "nota": 4,
+   "nota": 3.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -12240,7 +12240,7 @@
    "numero": null,
    "clube": "Crystal Palace",
    "idade": 31,
-   "nota": 3.5,
+   "nota": 3,
    "confianca": "alta",
    "obs": ""
   },
@@ -12251,7 +12251,7 @@
    "numero": null,
    "clube": "Benfica",
    "idade": 25,
-   "nota": 4,
+   "nota": 3.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -12262,7 +12262,7 @@
    "numero": null,
    "clube": "Palmeiras",
    "idade": 28,
-   "nota": 3.5,
+   "nota": 3,
    "confianca": "alta",
    "obs": ""
   },
@@ -12273,7 +12273,7 @@
    "numero": null,
    "clube": "Flamengo",
    "idade": 28,
-   "nota": 3.5,
+   "nota": 3,
    "confianca": "alta",
    "obs": ""
   },
@@ -12284,7 +12284,7 @@
    "numero": null,
    "clube": "Athletico Paranaense",
    "idade": 27,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -12295,7 +12295,7 @@
    "numero": null,
    "clube": "River Plate",
    "idade": 33,
-   "nota": 3.5,
+   "nota": 3,
    "confianca": "alta",
    "obs": ""
   },
@@ -12317,7 +12317,7 @@
    "numero": null,
    "clube": "River Plate",
    "idade": 25,
-   "nota": 3.5,
+   "nota": 3,
    "confianca": "alta",
    "obs": ""
   },
@@ -12339,7 +12339,7 @@
    "numero": null,
    "clube": "Bayern Munich",
    "idade": 29,
-   "nota": 5,
+   "nota": 4.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -12372,7 +12372,7 @@
    "numero": null,
    "clube": "Real Betis",
    "idade": 27,
-   "nota": 3.5,
+   "nota": 3,
    "confianca": "alta",
    "obs": ""
   },
@@ -12383,7 +12383,7 @@
    "numero": null,
    "clube": "Vasco da Gama",
    "idade": 23,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -12394,7 +12394,7 @@
    "numero": null,
    "clube": "Le Havre",
    "idade": 31,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -12405,7 +12405,7 @@
    "numero": null,
    "clube": "FC Noah",
    "idade": 26,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -12416,7 +12416,7 @@
    "numero": null,
    "clube": "Standard Liège",
    "idade": 21,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -12427,7 +12427,7 @@
    "numero": null,
    "clube": "Lille",
    "idade": 31,
-   "nota": 4,
+   "nota": 3.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -12438,7 +12438,7 @@
    "numero": null,
    "clube": "West Ham United",
    "idade": 28,
-   "nota": 4,
+   "nota": 3.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -12449,7 +12449,7 @@
    "numero": null,
    "clube": "Burnley",
    "idade": 28,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -12482,7 +12482,7 @@
    "numero": null,
    "clube": "Genk",
    "idade": 31,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -12493,7 +12493,7 @@
    "numero": null,
    "clube": "AEL",
    "idade": 30,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -12504,7 +12504,7 @@
    "numero": null,
    "clube": "Widzew Łódź",
    "idade": 28,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -12515,7 +12515,7 @@
    "numero": null,
    "clube": "Kilmarnock",
    "idade": 31,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -12526,7 +12526,7 @@
    "numero": null,
    "clube": "Alanyaspor",
    "idade": 28,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -12537,7 +12537,7 @@
    "numero": null,
    "clube": "Atromitos",
    "idade": 29,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -12548,7 +12548,7 @@
    "numero": null,
    "clube": "Watford",
    "idade": 27,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -12559,7 +12559,7 @@
    "numero": null,
    "clube": "Espanyol",
    "idade": 28,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -12570,7 +12570,7 @@
    "numero": null,
    "clube": "AEL",
    "idade": 34,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -12581,7 +12581,7 @@
    "numero": null,
    "clube": "Sunderland",
    "idade": 21,
-   "nota": 3.5,
+   "nota": 3,
    "confianca": "alta",
    "obs": ""
   },
@@ -12614,7 +12614,7 @@
    "numero": null,
    "clube": "Castellón",
    "idade": 28,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "média",
    "obs": ""
   },
@@ -12625,7 +12625,7 @@
    "numero": null,
    "clube": "Real Betis",
    "idade": 35,
-   "nota": 3.5,
+   "nota": 3,
    "confianca": "alta",
    "obs": ""
   },
@@ -12636,7 +12636,7 @@
    "numero": null,
    "clube": "Spartak Moscow",
    "idade": 30,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -12658,7 +12658,7 @@
    "numero": null,
    "clube": "Newcastle United",
    "idade": 29,
-   "nota": 4,
+   "nota": 3.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -12669,7 +12669,7 @@
    "numero": null,
    "clube": "Al Jazira",
    "idade": 29,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -12680,7 +12680,7 @@
    "numero": null,
    "clube": "Navbahor Namangan",
    "idade": 35,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -12691,7 +12691,7 @@
    "numero": null,
    "clube": "Nasaf",
    "idade": 25,
-   "nota": 2.5,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -12702,7 +12702,7 @@
    "numero": null,
    "clube": "Neftchi Fergana",
    "idade": 30,
-   "nota": 2.5,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -12713,7 +12713,7 @@
    "numero": null,
    "clube": "Manchester City",
    "idade": 22,
-   "nota": 4,
+   "nota": 3.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -12724,7 +12724,7 @@
    "numero": null,
    "clube": "Pakhtakor",
    "idade": 29,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -12735,7 +12735,7 @@
    "numero": null,
    "clube": "Neftchi Fergana",
    "idade": 35,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -12757,7 +12757,7 @@
    "numero": null,
    "clube": "Nasaf",
    "idade": 33,
-   "nota": 2.5,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -12768,7 +12768,7 @@
    "numero": null,
    "clube": "Pakhtakor",
    "idade": 27,
-   "nota": 2.5,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -12779,7 +12779,7 @@
    "numero": null,
    "clube": "Dibba Al-Hisn",
    "idade": 28,
-   "nota": 2.5,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -12790,7 +12790,7 @@
    "numero": null,
    "clube": "AGMK",
    "idade": 26,
-   "nota": 2.5,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -12801,7 +12801,7 @@
    "numero": null,
    "clube": "Dinamo Samarqand",
    "idade": 22,
-   "nota": 2.5,
+   "nota": 1.5,
    "confianca": "média",
    "obs": ""
   },
@@ -12812,7 +12812,7 @@
    "numero": null,
    "clube": "Surkhon Termiz",
    "idade": 18,
-   "nota": 2,
+   "nota": 1.5,
    "confianca": "média",
    "obs": ""
   },
@@ -12823,7 +12823,7 @@
    "numero": null,
    "clube": "Pakhtakor",
    "idade": 26,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -12834,7 +12834,7 @@
    "numero": null,
    "clube": "Baniyas",
    "idade": 29,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -12845,7 +12845,7 @@
    "numero": null,
    "clube": "Neftchi Fergana",
    "idade": 32,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -12889,7 +12889,7 @@
    "numero": null,
    "clube": "Pakhtakor",
    "idade": 29,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -12900,7 +12900,7 @@
    "numero": null,
    "clube": "Al Bataeh",
    "idade": 28,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -12911,7 +12911,7 @@
    "numero": null,
    "clube": "İstanbul Başakşehir",
    "idade": 22,
-   "nota": 3.5,
+   "nota": 3,
    "confianca": "alta",
    "obs": ""
   },
@@ -12922,7 +12922,7 @@
    "numero": null,
    "clube": "Bukhara",
    "idade": 23,
-   "nota": 2,
+   "nota": 1.5,
    "confianca": "média",
    "obs": ""
   },
@@ -12933,7 +12933,7 @@
    "numero": null,
    "clube": "İstanbul Başakşehir",
    "idade": 30,
-   "nota": 3.5,
+   "nota": 3,
    "confianca": "alta",
    "obs": ""
   },
@@ -12955,7 +12955,7 @@
    "numero": null,
    "clube": "Dinamo Samarqand",
    "idade": 28,
-   "nota": 2.5,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -12966,7 +12966,7 @@
    "numero": 1,
    "clube": "Everton",
    "idade": 32,
-   "nota": 4,
+   "nota": 3.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -12988,7 +12988,7 @@
    "numero": 23,
    "clube": "Manchester City",
    "idade": 23,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -13098,7 +13098,7 @@
    "numero": 4,
    "clube": "Arsenal",
    "idade": 27,
-   "nota": 5,
+   "nota": 4.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -13186,7 +13186,7 @@
    "numero": 9,
    "clube": "Bayern Munich",
    "idade": 32,
-   "nota": 5,
+   "nota": 4.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -13219,7 +13219,7 @@
    "numero": 19,
    "clube": "Aston Villa",
    "idade": 30,
-   "nota": 4,
+   "nota": 3.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -13241,7 +13241,7 @@
    "numero": 22,
    "clube": "Al-Ahli",
    "idade": 30,
-   "nota": 3.5,
+   "nota": 3,
    "confianca": "alta",
    "obs": ""
   },
@@ -13252,7 +13252,7 @@
    "numero": 1,
    "clube": "Fenerbahçe",
    "idade": 31,
-   "nota": 3.5,
+   "nota": 3,
    "confianca": "alta",
    "obs": ""
   },
@@ -13263,7 +13263,7 @@
    "numero": 12,
    "clube": "Hellas Verona",
    "idade": 26,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -13373,7 +13373,7 @@
    "numero": 7,
    "clube": "Bologna",
    "idade": 28,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -13395,7 +13395,7 @@
    "numero": 10,
    "clube": "AC Milan",
    "idade": 40,
-   "nota": 4.5,
+   "nota": 4,
    "confianca": "alta",
    "obs": ""
   },
@@ -13417,7 +13417,7 @@
    "numero": 15,
    "clube": "Atalanta",
    "idade": 31,
-   "nota": 3.5,
+   "nota": 3,
    "confianca": "alta",
    "obs": ""
   },
@@ -13428,7 +13428,7 @@
    "numero": 16,
    "clube": "Como",
    "idade": 23,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -13450,7 +13450,7 @@
    "numero": 19,
    "clube": "Rijeka",
    "idade": 25,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -13472,7 +13472,7 @@
    "numero": 9,
    "clube": "TSG Hoffenheim",
    "idade": 34,
-   "nota": 3.5,
+   "nota": 3,
    "confianca": "alta",
    "obs": ""
   },
@@ -13538,7 +13538,7 @@
    "numero": 1,
    "clube": "St. Gallen",
    "idade": 29,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -13549,7 +13549,7 @@
    "numero": 12,
    "clube": "St Patrick's Athletic",
    "idade": 26,
-   "nota": 2,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -13571,7 +13571,7 @@
    "numero": 2,
    "clube": "Stade Rennais",
    "idade": 26,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -13582,7 +13582,7 @@
    "numero": 4,
    "clube": "VfL Wolfsburg",
    "idade": 22,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -13593,7 +13593,7 @@
    "numero": 6,
    "clube": "Rayo Vallecano",
    "idade": 28,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -13604,7 +13604,7 @@
    "numero": 14,
    "clube": "AJ Auxerre",
    "idade": 27,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -13626,7 +13626,7 @@
    "numero": 18,
    "clube": "İstanbul Başakşehir",
    "idade": 27,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -13637,7 +13637,7 @@
    "numero": 23,
    "clube": "Pafos FC",
    "idade": 30,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -13648,7 +13648,7 @@
    "numero": 26,
    "clube": "AJ Auxerre",
    "idade": 25,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -13659,7 +13659,7 @@
    "numero": 3,
    "clube": "FC Nordsjælland",
    "idade": 20,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -13670,7 +13670,7 @@
    "numero": 5,
    "clube": "Villarreal",
    "idade": 33,
-   "nota": 4,
+   "nota": 3.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -13681,7 +13681,7 @@
    "numero": 7,
    "clube": "Leicester City",
    "idade": 22,
-   "nota": 3.5,
+   "nota": 3,
    "confianca": "alta",
    "obs": ""
   },
@@ -13692,7 +13692,7 @@
    "numero": 8,
    "clube": "Real Oviedo",
    "idade": 27,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -13703,7 +13703,7 @@
    "numero": 11,
    "clube": "Manchester City",
    "idade": 26,
-   "nota": 4,
+   "nota": 3.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -13725,7 +13725,7 @@
    "numero": 20,
    "clube": "AS Saint-Étienne",
    "idade": 25,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -13736,7 +13736,7 @@
    "numero": 9,
    "clube": "Leicester City",
    "idade": 34,
-   "nota": 3.5,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -13747,7 +13747,7 @@
    "numero": 10,
    "clube": "Coventry City",
    "idade": 27,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -13758,7 +13758,7 @@
    "numero": 13,
    "clube": "Al-Qadsiah",
    "idade": 21,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -13769,7 +13769,7 @@
    "numero": 19,
    "clube": "Athletic Bilbao",
    "idade": 32,
-   "nota": 3.5,
+   "nota": 3,
    "confianca": "alta",
    "obs": ""
   },
@@ -13780,7 +13780,7 @@
    "numero": 22,
    "clube": "Atalanta",
    "idade": 24,
-   "nota": 3.5,
+   "nota": 3,
    "confianca": "alta",
    "obs": ""
   },
@@ -13791,7 +13791,7 @@
    "numero": 24,
    "clube": "Olympique Lyonnais",
    "idade": 22,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -13802,7 +13802,7 @@
    "numero": 25,
    "clube": "Viktoria Plzeň",
    "idade": 22,
-   "nota": 2.5,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -13813,7 +13813,7 @@
    "numero": 1,
    "clube": "Club Nacional",
    "idade": 35,
-   "nota": 3,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -13824,7 +13824,7 @@
    "numero": 12,
    "clube": "CD Marathón",
    "idade": 32,
-   "nota": 2,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -13835,7 +13835,7 @@
    "numero": 22,
    "clube": "Al-Fayha",
    "idade": 31,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -13846,7 +13846,7 @@
    "numero": 2,
    "clube": "Slovan Bratislava",
    "idade": 28,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -13857,7 +13857,7 @@
    "numero": 3,
    "clube": "Norwich City",
    "idade": 28,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -13868,7 +13868,7 @@
    "numero": 4,
    "clube": "Deportivo Saprissa",
    "idade": 31,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -13879,7 +13879,7 @@
    "numero": 5,
    "clube": "FC Pari Nizhny Novgorod",
    "idade": 24,
-   "nota": 2,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -13890,7 +13890,7 @@
    "numero": 13,
    "clube": "Academia Puerto Cabello",
    "idade": 29,
-   "nota": 2,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -13901,7 +13901,7 @@
    "numero": 15,
    "clube": "CD Plaza Amador",
    "idade": 35,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -13912,7 +13912,7 @@
    "numero": 16,
    "clube": "LASK",
    "idade": 27,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -13923,7 +13923,7 @@
    "numero": 23,
    "clube": "Beşiktaş",
    "idade": 30,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -13934,7 +13934,7 @@
    "numero": 25,
    "clube": "Turan Tovuz",
    "idade": 34,
-   "nota": 2,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -13945,7 +13945,7 @@
    "numero": 26,
    "clube": "Deportivo La Guaira",
    "idade": 27,
-   "nota": 2,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -13956,7 +13956,7 @@
    "numero": 6,
    "clube": "Ironi Kiryat Shmona",
    "idade": 29,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -13967,7 +13967,7 @@
    "numero": 7,
    "clube": "FC Juárez",
    "idade": 27,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -13978,7 +13978,7 @@
    "numero": 8,
    "clube": "Pumas UNAM",
    "idade": 27,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -13989,7 +13989,7 @@
    "numero": 11,
    "clube": "Mazatlán FC",
    "idade": 32,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -14000,7 +14000,7 @@
    "numero": 14,
    "clube": "Minnesota United",
    "idade": 26,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -14022,7 +14022,7 @@
    "numero": 20,
    "clube": "San Diego FC",
    "idade": 36,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -14033,7 +14033,7 @@
    "numero": 21,
    "clube": "CD Cobresal",
    "idade": 30,
-   "nota": 2,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -14044,7 +14044,7 @@
    "numero": 9,
    "clube": "Deportivo Saprissa",
    "idade": 27,
-   "nota": 2.5,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -14055,7 +14055,7 @@
    "numero": 10,
    "clube": "Club León",
    "idade": 29,
-   "nota": 3,
+   "nota": 2.5,
    "confianca": "alta",
    "obs": ""
   },
@@ -14066,7 +14066,7 @@
    "numero": 17,
    "clube": "Universidad de Concepción",
    "idade": 32,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -14077,7 +14077,7 @@
    "numero": 18,
    "clube": "Universidad de Concepción",
    "idade": 35,
-   "nota": 2.5,
+   "nota": 2,
    "confianca": "alta",
    "obs": ""
   },
@@ -14088,9 +14088,196 @@
    "numero": 24,
    "clube": "Universidad Católica",
    "idade": 24,
-   "nota": 2.5,
+   "nota": 1.5,
    "confianca": "alta",
    "obs": ""
+  },
+  {
+   "nome": "Rodrygo",
+   "selecao": "Brasil",
+   "posicao": "ATA",
+   "numero": null,
+   "clube": null,
+   "idade": null,
+   "nota": 4,
+   "confianca": "reavaliado",
+   "obs": "craque adicionado"
+  },
+  {
+   "nome": "Niclas Füllkrug",
+   "selecao": "Alemanha",
+   "posicao": "ATA",
+   "numero": null,
+   "clube": null,
+   "idade": null,
+   "nota": 3,
+   "confianca": "reavaliado",
+   "obs": "craque adicionado"
+  },
+  {
+   "nome": "Sébastien Haller",
+   "selecao": "Costa do Marfim",
+   "posicao": "ATA",
+   "numero": null,
+   "clube": null,
+   "idade": null,
+   "nota": 2.5,
+   "confianca": "reavaliado",
+   "obs": "craque adicionado"
+  },
+  {
+   "nome": "Kaoru Mitoma",
+   "selecao": "Japão",
+   "posicao": "ATA",
+   "numero": null,
+   "clube": null,
+   "idade": null,
+   "nota": 3.5,
+   "confianca": "reavaliado",
+   "obs": "craque adicionado"
+  },
+  {
+   "nome": "Wataru Endo",
+   "selecao": "Japão",
+   "posicao": "MEI",
+   "numero": null,
+   "clube": null,
+   "idade": null,
+   "nota": 3,
+   "confianca": "reavaliado",
+   "obs": "craque adicionado"
+  },
+  {
+   "nome": "Xavi Simons",
+   "selecao": "Países Baixos",
+   "posicao": "MEI",
+   "numero": null,
+   "clube": null,
+   "idade": null,
+   "nota": 4,
+   "confianca": "reavaliado",
+   "obs": "craque adicionado"
+  },
+  {
+   "nome": "Jeremie Frimpong",
+   "selecao": "Países Baixos",
+   "posicao": "LAT",
+   "numero": null,
+   "clube": null,
+   "idade": null,
+   "nota": 3.5,
+   "confianca": "reavaliado",
+   "obs": "craque adicionado"
+  },
+  {
+   "nome": "Dejan Kulusevski",
+   "selecao": "Suécia",
+   "posicao": "MEI",
+   "numero": null,
+   "clube": null,
+   "idade": null,
+   "nota": 4,
+   "confianca": "reavaliado",
+   "obs": "craque adicionado"
+  },
+  {
+   "nome": "Sardar Azmoun",
+   "selecao": "Irã",
+   "posicao": "ATA",
+   "numero": null,
+   "clube": null,
+   "idade": null,
+   "nota": 3,
+   "confianca": "reavaliado",
+   "obs": "craque adicionado"
+  },
+  {
+   "nome": "Eduardo Camavinga",
+   "selecao": "França",
+   "posicao": "MEI",
+   "numero": null,
+   "clube": null,
+   "idade": null,
+   "nota": 4.5,
+   "confianca": "reavaliado",
+   "obs": "craque adicionado"
+  },
+  {
+   "nome": "Franco Mastantuono",
+   "selecao": "Argentina",
+   "posicao": "MEI",
+   "numero": null,
+   "clube": null,
+   "idade": null,
+   "nota": 3.5,
+   "confianca": "reavaliado",
+   "obs": "craque adicionado"
+  },
+  {
+   "nome": "Paulo Dybala",
+   "selecao": "Argentina",
+   "posicao": "ATA",
+   "numero": null,
+   "clube": null,
+   "idade": null,
+   "nota": 4,
+   "confianca": "reavaliado",
+   "obs": "craque adicionado"
+  },
+  {
+   "nome": "Rafael Santos Borré",
+   "selecao": "Colômbia",
+   "posicao": "ATA",
+   "numero": null,
+   "clube": null,
+   "idade": null,
+   "nota": 3,
+   "confianca": "reavaliado",
+   "obs": "craque adicionado"
+  },
+  {
+   "nome": "Crystian Mosquera",
+   "selecao": "Colômbia",
+   "posicao": "ZAG",
+   "numero": null,
+   "clube": null,
+   "idade": null,
+   "nota": 3,
+   "confianca": "reavaliado",
+   "obs": "craque adicionado"
+  },
+  {
+   "nome": "Cole Palmer",
+   "selecao": "Inglaterra",
+   "posicao": "MEI",
+   "numero": null,
+   "clube": null,
+   "idade": null,
+   "nota": 4.5,
+   "confianca": "reavaliado",
+   "obs": "craque adicionado"
+  },
+  {
+   "nome": "Phil Foden",
+   "selecao": "Inglaterra",
+   "posicao": "MEI",
+   "numero": null,
+   "clube": null,
+   "idade": null,
+   "nota": 4.5,
+   "confianca": "reavaliado",
+   "obs": "craque adicionado"
+  },
+  {
+   "nome": "Mohammed Kudus",
+   "selecao": "Gana",
+   "posicao": "MEI",
+   "numero": null,
+   "clube": null,
+   "idade": null,
+   "nota": 4,
+   "confianca": "reavaliado",
+   "obs": "craque adicionado"
   }
  ],
  "tecnicos": [

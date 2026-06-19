@@ -1,5 +1,11 @@
 import { prisma } from "./prisma";
-import { FORMATIONS, precoJogador, precoTecnico, nextNoon } from "./game";
+import {
+  FORMATIONS,
+  precoJogador,
+  precoTecnico,
+  nextNoon,
+  isTopPrice,
+} from "./game";
 import data from "../data/copa_data.json";
 
 type Jogador = {
@@ -135,7 +141,7 @@ export async function importGameData(opts: { force?: boolean } = {}) {
       clube: p.clube,
       idade: p.idade,
       nota: p.nota,
-      preco: precoJogador(p.nota),
+      preco: isTopPrice(p.nome) ? 25 : precoJogador(p.nota),
       confianca: p.confianca,
       selecaoId: selId.get(p.selecao)!,
     }));
@@ -236,7 +242,7 @@ export async function updateGameData() {
         clube: p.clube,
         idade: p.idade,
         nota: p.nota,
-        preco: precoJogador(p.nota),
+        preco: isTopPrice(p.nome) ? 25 : precoJogador(p.nota),
         confianca: p.confianca,
       };
       const ex = byNome.get(p.nome);

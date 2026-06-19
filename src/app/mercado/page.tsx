@@ -27,7 +27,7 @@ function Stars({ nota }: { nota: number }) {
 export default async function MercadoPage({
   searchParams,
 }: {
-  searchParams: Promise<{ pos?: string; q?: string }>;
+  searchParams: Promise<{ pos?: string; q?: string; sel?: string }>;
 }) {
   const uid = await getUserId();
   if (!uid) redirect("/login");
@@ -41,17 +41,24 @@ export default async function MercadoPage({
     ? (sp.pos as string)
     : "Todos";
   const q = (sp.q ?? "").trim();
+  const sel = sp.sel && /^\d+$/.test(sp.sel) ? sp.sel : "";
 
   const isTec = pos === "TEC";
 
   const ownedPlayerIds = new Set(squad.owned.map((p) => p.id));
   const ownedCoachId = squad.coach?.id ?? null;
 
+  const selecoes = await prisma.selecao.findMany({
+    orderBy: [{ grupo: "asc" }, { nome: "asc" }],
+    select: { id: true, nome: true, grupo: true },
+  });
+
   const players = isTec
     ? []
     : await prisma.player.findMany({
         where: {
           ...(pos !== "Todos" ? { posicao: pos } : {}),
+          ...(sel ? { selecaoId: Number(sel) } : {}),
           ...(q ? { nome: { contains: q, mode: "insensitive" } } : {}),
         },
         include: { selecao: true },
@@ -61,12 +68,25 @@ export default async function MercadoPage({
 
   const coaches = isTec
     ? await prisma.coach.findMany({
-        where: q ? { nome: { contains: q, mode: "insensitive" } } : {},
+        where: {
+          ...(sel ? { selecaoId: Number(sel) } : {}),
+          ...(q ? { nome: { contains: q, mode: "insensitive" } } : {}),
+        },
         include: { selecao: true },
         orderBy: [{ nota: "desc" }],
         take: TAKE,
       })
     : [];
+
+  const buildHref = (overridePos?: string) => {
+    const p = new URLSearchParams();
+    const pp = overridePos ?? pos;
+    if (pp && pp !== "Todos") p.set("pos", pp);
+    if (sel) p.set("sel", sel);
+    if (q) p.set("q", q);
+    const s = p.toString();
+    return "/mercado" + (s ? "?" + s : "");
+  };
 
   return (
     <div className="flex flex-1 flex-col">
@@ -78,35 +98,44 @@ export default async function MercadoPage({
       />
       <main className="mx-auto w-full max-w-3xl flex-1 px-3 py-4">
         <div className="mb-3 flex flex-wrap items-center gap-1.5">
-          {FILTERS.map((f) => {
-            const active = pos === f || (f === "Todos" && pos === "Todos");
-            const href = f === "Todos" ? "/mercado" : `/mercado?pos=${f}`;
-            return (
-              <Link
-                key={f}
-                href={href}
-                className={`rounded-md px-3 py-1.5 text-sm font-medium ${
-                  active
-                    ? "bg-emerald-700 text-white"
-                    : "border border-slate-200 bg-white text-slate-600 hover:bg-slate-50"
-                }`}
-              >
-                {f === "Todos" ? "Todos" : f}
-              </Link>
-            );
-          })}
+          {FILTERS.map((f) => (
+            <Link
+              key={f}
+              href={buildHref(f)}
+              className={`rounded-md px-3 py-1.5 text-sm font-medium ${
+                pos === f
+                  ? "bg-emerald-700 text-white"
+                  : "border border-slate-200 bg-white text-slate-600 hover:bg-slate-50"
+              }`}
+            >
+              {f}
+            </Link>
+          ))}
         </div>
 
-        <form method="get" className="mb-4 flex gap-2">
+        <form method="get" className="mb-4 flex flex-wrap gap-2">
           {pos !== "Todos" && <input type="hidden" name="pos" value={pos} />}
+          <select
+            name="sel"
+            defaultValue={sel}
+            className="rounded-md border border-slate-300 bg-white px-2 py-2 text-sm text-slate-700"
+          >
+            <option value="">Todas as seleções</option>
+            {selecoes.map((s) => (
+              <option key={s.id} value={s.id}>
+                {s.grupo ? `[${s.grupo}] ` : ""}
+                {s.nome}
+              </option>
+            ))}
+          </select>
           <input
             name="q"
             defaultValue={q}
-            placeholder="Buscar jogador por nome..."
-            className="flex-1 rounded-md border border-slate-300 px-3 py-2 text-sm outline-none focus:border-emerald-500"
+            placeholder="Buscar por nome..."
+            className="min-w-[140px] flex-1 rounded-md border border-slate-300 px-3 py-2 text-sm outline-none focus:border-emerald-500"
           />
           <button className="rounded-md border border-slate-300 bg-white px-4 py-2 text-sm font-medium text-slate-700 hover:bg-slate-50">
-            Buscar
+            Filtrar
           </button>
         </form>
 

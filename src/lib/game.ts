@@ -1,6 +1,6 @@
 // Regras puras do jogo (sem dependências) — usado pelo app e pelo seed.
 
-export const STARTING_CREDITS = 120;
+export const STARTING_CREDITS = 100;
 
 export const POSICOES = ["GOL", "ZAG", "LAT", "MEI", "ATA"] as const;
 export type Posicao = (typeof POSICOES)[number];
@@ -40,9 +40,24 @@ export function reqFor(formation: string, posicao: string): number {
   return (f as Record<string, number>)[posicao.toLowerCase()] ?? 0;
 }
 
+// Os únicos jogadores que valem o preço máximo (25).
+export const TOP_PRICE_PLAYERS = new Set([
+  "Lionel Messi",
+  "Kylian Mbappé",
+  "Erling Haaland",
+  "Cristiano Ronaldo",
+]);
+
+export function isTopPrice(nome: string): boolean {
+  return TOP_PRICE_PLAYERS.has(nome);
+}
+
+// Preço de 2 a 25, calibrado pela nota (1.5 a 5.0). O teto (25) é exclusivo dos
+// craques em TOP_PRICE_PLAYERS; os demais chegam no máximo a 24.
 export function precoJogador(nota: number): number {
-  // Cúbica: puxa bastante o preço pelo nível (craque caro, reserva barato).
-  return Math.round(nota * nota * nota * 0.2 * 10) / 10;
+  const n = Math.min(5, Math.max(1.5, nota));
+  const p = 2 + ((n - 1.5) / 3.5) * 23;
+  return Math.round(Math.min(24, p) * 10) / 10;
 }
 
 export function precoTecnico(nota: number): number {
@@ -61,7 +76,7 @@ export function nextNoon(now: Date = new Date()): Date {
 }
 
 export function brl(v: number): string {
-  return "C$ " + v.toFixed(2).replace(".", ",");
+  return v.toFixed(2).replace(".", ",") + " HLs";
 }
 
 export type Slot = {
