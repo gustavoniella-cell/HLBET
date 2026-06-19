@@ -27,7 +27,12 @@ function Stars({ nota }: { nota: number }) {
 export default async function MercadoPage({
   searchParams,
 }: {
-  searchParams: Promise<{ pos?: string; q?: string; sel?: string }>;
+  searchParams: Promise<{
+    pos?: string;
+    q?: string;
+    sel?: string;
+    hoje?: string;
+  }>;
 }) {
   const uid = await getUserId();
   if (!uid) redirect("/login");
@@ -42,11 +47,27 @@ export default async function MercadoPage({
     : "Todos";
   const q = (sp.q ?? "").trim();
   const sel = sp.sel && /^\d+$/.test(sp.sel) ? sp.sel : "";
+  const hoje = sp.hoje === "1";
 
   const isTec = pos === "TEC";
 
   const ownedPlayerIds = new Set(squad.owned.map((p) => p.id));
   const ownedCoachId = squad.coach?.id ?? null;
+
+  const dayMatches = await prisma.match.findMany({
+    where: { roundId: round.id },
+    select: { selecaoAId: true, selecaoBId: true },
+  });
+  const playingIds = Array.from(
+    new Set(dayMatches.flatMap((m) => [m.selecaoAId, m.selecaoBId]))
+  );
+
+  // Seleção tem prioridade; senão, "joga hoje" restringe às seleções da rodada.
+  const selFilter = sel
+    ? { selecaoId: Number(sel) }
+    : hoje
+      ? { selecaoId: { in: playingIds } }
+      : {};
 
   const selecoes = await prisma.selecao.findMany({
     orderBy: [{ grupo: "asc" }, { nome: "asc" }],
@@ -58,7 +79,7 @@ export default async function MercadoPage({
     : await prisma.player.findMany({
         where: {
           ...(pos !== "Todos" ? { posicao: pos } : {}),
-          ...(sel ? { selecaoId: Number(sel) } : {}),
+          ...selFilter,
           ...(q ? { nome: { contains: q, mode: "insensitive" } } : {}),
         },
         include: { selecao: true },
@@ -69,7 +90,7 @@ export default async function MercadoPage({
   const coaches = isTec
     ? await prisma.coach.findMany({
         where: {
-          ...(sel ? { selecaoId: Number(sel) } : {}),
+          ...selFilter,
           ...(q ? { nome: { contains: q, mode: "insensitive" } } : {}),
         },
         include: { selecao: true },
@@ -78,12 +99,14 @@ export default async function MercadoPage({
       })
     : [];
 
-  const buildHref = (overridePos?: string) => {
+  const buildHref = (over: { pos?: string; hoje?: boolean } = {}) => {
     const p = new URLSearchParams();
-    const pp = overridePos ?? pos;
+    const pp = over.pos ?? pos;
     if (pp && pp !== "Todos") p.set("pos", pp);
     if (sel) p.set("sel", sel);
     if (q) p.set("q", q);
+    const h = over.hoje ?? hoje;
+    if (h) p.set("hoje", "1");
     const s = p.toString();
     return "/mercado" + (s ? "?" + s : "");
   };
@@ -97,11 +120,29 @@ export default async function MercadoPage({
         isAdmin={isAdminUser(squad.user)}
       />
       <main className="mx-auto w-full max-w-3xl flex-1 px-3 py-4">
+        <div className="mb-3 flex flex-wrap items-center gap-2">
+          <Link
+            href={buildHref({ hoje: !hoje })}
+            className={`rounded-md px-3 py-1.5 text-sm font-medium ${
+              hoje
+                ? "bg-emerald-700 text-white"
+                : "border border-emerald-300 bg-emerald-50 text-emerald-800 hover:bg-emerald-100"
+            }`}
+          >
+            {hoje ? "✓ Joga hoje" : "Só quem joga hoje"}
+          </Link>
+          {hoje && playingIds.length === 0 && (
+            <span className="text-xs text-slate-500">
+              Nenhum jogo cadastrado nesta rodada ainda.
+            </span>
+          )}
+        </div>
+
         <div className="mb-3 flex flex-wrap items-center gap-1.5">
           {FILTERS.map((f) => (
             <Link
               key={f}
-              href={buildHref(f)}
+              href={buildHref({ pos: f })}
               className={`rounded-md px-3 py-1.5 text-sm font-medium ${
                 pos === f
                   ? "bg-emerald-700 text-white"
@@ -115,6 +156,7 @@ export default async function MercadoPage({
 
         <form method="get" className="mb-4 flex flex-wrap gap-2">
           {pos !== "Todos" && <input type="hidden" name="pos" value={pos} />}
+          {hoje && <input type="hidden" name="hoje" value="1" />}
           <select
             name="sel"
             defaultValue={sel}
