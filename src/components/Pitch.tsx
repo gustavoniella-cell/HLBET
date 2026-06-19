@@ -61,9 +61,18 @@ export default function Pitch({
                     </button>
                   </form>
                 )}
-                <div className="mx-auto mb-1 flex h-7 w-7 items-center justify-center rounded-full bg-emerald-600 text-[10px] font-semibold text-white">
-                  {player.numero ?? ini}
-                </div>
+                {player.foto ? (
+                  // eslint-disable-next-line @next/next/no-img-element
+                  <img
+                    src={player.foto}
+                    alt={player.nome}
+                    className="mx-auto mb-0.5 h-12 w-full rounded object-cover object-top"
+                  />
+                ) : (
+                  <div className="mx-auto mb-1 flex h-7 w-7 items-center justify-center rounded-full bg-emerald-600 text-[10px] font-semibold text-white">
+                    {player.numero ?? ini}
+                  </div>
+                )}
                 <div className="truncate text-[11px] font-medium leading-tight text-slate-900">
                   {player.nome}
                 </div>

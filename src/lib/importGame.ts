@@ -18,6 +18,7 @@ type Jogador = {
   nota: number;
   confianca: string | null;
   obs: string | null;
+  foto?: string | null;
 };
 type SelecaoIn = {
   nome: string;
@@ -144,6 +145,7 @@ export async function importGameData(opts: { force?: boolean } = {}) {
       nota: p.nota,
       preco: isTopPrice(p.nome) ? 25 : precoJogador(p.nota),
       confianca: p.confianca,
+      foto: p.foto ?? null,
       selecaoId: selId.get(p.selecao)!,
     }));
   await prisma.player.createMany({ data: players });
@@ -245,6 +247,7 @@ export async function updateGameData() {
         nota: p.nota,
         preco: isTopPrice(p.nome) ? 25 : precoJogador(p.nota),
         confianca: p.confianca,
+        foto: p.foto ?? null,
       };
       const ex = byNome.get(p.nome);
       if (ex) {

@@ -48,6 +48,7 @@ model Player {
   nota      Float
   preco     Float
   confianca String?
+  foto      String?
   selecaoId Int
   selecao   Selecao           @relation(fields: [selecaoId], references: [id])
   owners    UserPlayer[]
