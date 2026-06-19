@@ -132,6 +132,33 @@ export async function saveTeamScouts(formData: FormData) {
   redirect(`/admin/rodada/${roundId}?sel=${selecaoId}&ok=1`);
 }
 
+export async function addMatch(formData: FormData) {
+  const admin = await getAdmin();
+  if (!admin) redirect("/login");
+  const roundId = Number(formData.get("roundId"));
+  const a = Number(formData.get("selA"));
+  const b = Number(formData.get("selB"));
+  const horario = String(formData.get("horario") ?? "").trim() || null;
+  if (!roundId || !a || !b || a === b) return;
+  await prisma.match.create({
+    data: { roundId, selecaoAId: a, selecaoBId: b, horario },
+  });
+  revalidatePath("/admin");
+  revalidatePath("/time");
+  redirect("/admin");
+}
+
+export async function removeMatch(formData: FormData) {
+  const admin = await getAdmin();
+  if (!admin) redirect("/login");
+  const id = Number(formData.get("matchId"));
+  if (!id) return;
+  await prisma.match.deleteMany({ where: { id } });
+  revalidatePath("/admin");
+  revalidatePath("/time");
+  redirect("/admin");
+}
+
 export async function apurarRound(formData: FormData) {
   const admin = await getAdmin();
   if (!admin) redirect("/login");

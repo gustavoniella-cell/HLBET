@@ -3,6 +3,7 @@ import { redirect } from "next/navigation";
 import { getUserId, isAdminUser } from "@/lib/auth";
 import { getSquadView } from "@/lib/squad";
 import { getActiveRound, isLocked } from "@/lib/round";
+import { prisma } from "@/lib/prisma";
 import { brl } from "@/lib/game";
 import Nav from "@/components/Nav";
 import Pitch from "@/components/Pitch";
@@ -28,6 +29,11 @@ export default async function TimePage() {
   if (!squad) redirect("/login");
   const round = await getActiveRound();
   const locked = isLocked(round);
+  const matches = await prisma.match.findMany({
+    where: { roundId: round.id },
+    include: { selecaoA: true, selecaoB: true },
+    orderBy: { id: "asc" },
+  });
 
   return (
     <div className="flex flex-1 flex-col">
@@ -77,6 +83,29 @@ export default async function TimePage() {
             <div className="mb-3 rounded-md bg-amber-50 px-3 py-2 text-sm text-amber-800">
               Faltam {squad.totalSlots - squad.filled} posição(ões). O time só
               pontua com as 12 preenchidas.
+            </div>
+          )}
+
+          {matches.length > 0 && (
+            <div className="mb-3 rounded-md border border-slate-200 bg-white p-3">
+              <div className="mb-2 text-sm font-medium text-slate-700">
+                Jogos desta rodada — escale jogadores destas seleções (só elas
+                pontuam hoje)
+              </div>
+              <div className="flex flex-wrap gap-2">
+                {matches.map((m) => (
+                  <span
+                    key={m.id}
+                    className="rounded-md bg-slate-50 px-2.5 py-1 text-sm text-slate-700"
+                  >
+                    {m.selecaoA.nome}{" "}
+                    <span className="text-slate-400">x</span> {m.selecaoB.nome}
+                    {m.horario ? (
+                      <span className="text-slate-400"> · {m.horario}</span>
+                    ) : null}
+                  </span>
+                ))}
+              </div>
             </div>
           )}
 

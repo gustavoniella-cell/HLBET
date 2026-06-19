@@ -8,6 +8,8 @@ import {
   runImport,
   runUpdate,
   resetBudgets,
+  addMatch,
+  removeMatch,
 } from "@/lib/admin-actions";
 import { STARTING_CREDITS, brl } from "@/lib/game";
 import Nav from "@/components/Nav";
@@ -39,6 +41,12 @@ export default async function AdminPage({
     prisma.teamRoundStat.count({ where: { roundId: active.id } }),
     prisma.playerRoundStat.count({ where: { roundId: active.id } }),
   ]);
+
+  const matches = await prisma.match.findMany({
+    where: { roundId: active.id },
+    include: { selecaoA: true, selecaoB: true },
+    orderBy: { id: "asc" },
+  });
 
   return (
     <div className="flex flex-1 flex-col">
@@ -165,6 +173,82 @@ export default async function AdminPage({
               </select>
               <button className="rounded-md bg-emerald-700 px-4 py-2 text-sm font-medium text-white hover:bg-emerald-800">
                 Abrir
+              </button>
+            </form>
+          </div>
+
+          <div className="mb-4 rounded-lg bg-slate-50 p-3">
+            <div className="mb-2 text-sm font-medium text-slate-700">
+              Jogos desta rodada ({matches.length})
+            </div>
+            {matches.length > 0 ? (
+              <ul className="mb-2 space-y-1">
+                {matches.map((m) => (
+                  <li
+                    key={m.id}
+                    className="flex items-center justify-between rounded bg-white px-2 py-1.5 text-sm"
+                  >
+                    <span className="text-slate-800">
+                      {m.selecaoA.nome}{" "}
+                      <span className="text-slate-400">x</span>{" "}
+                      {m.selecaoB.nome}
+                      {m.horario ? (
+                        <span className="text-slate-400"> · {m.horario}</span>
+                      ) : null}
+                    </span>
+                    <form action={removeMatch}>
+                      <input type="hidden" name="matchId" value={m.id} />
+                      <button className="text-xs text-rose-600 hover:underline">
+                        remover
+                      </button>
+                    </form>
+                  </li>
+                ))}
+              </ul>
+            ) : (
+              <p className="mb-2 text-xs text-slate-500">
+                Nenhum jogo cadastrado. Adicione os jogos do dia para os usuários
+                verem.
+              </p>
+            )}
+            <form action={addMatch} className="flex flex-wrap items-center gap-2">
+              <input type="hidden" name="roundId" value={active.id} />
+              <select
+                name="selA"
+                defaultValue=""
+                className="rounded-md border border-slate-300 bg-white px-2 py-1.5 text-sm"
+              >
+                <option value="" disabled>
+                  Seleção A
+                </option>
+                {selecoes.map((s) => (
+                  <option key={s.id} value={s.id}>
+                    {s.nome}
+                  </option>
+                ))}
+              </select>
+              <span className="text-slate-400">x</span>
+              <select
+                name="selB"
+                defaultValue=""
+                className="rounded-md border border-slate-300 bg-white px-2 py-1.5 text-sm"
+              >
+                <option value="" disabled>
+                  Seleção B
+                </option>
+                {selecoes.map((s) => (
+                  <option key={s.id} value={s.id}>
+                    {s.nome}
+                  </option>
+                ))}
+              </select>
+              <input
+                name="horario"
+                placeholder="horário (opcional)"
+                className="w-32 rounded-md border border-slate-300 px-2 py-1.5 text-sm"
+              />
+              <button className="rounded-md bg-emerald-700 px-3 py-1.5 text-sm font-medium text-white hover:bg-emerald-800">
+                Adicionar jogo
               </button>
             </form>
           </div>

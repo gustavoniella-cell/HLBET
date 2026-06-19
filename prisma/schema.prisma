@@ -34,6 +34,8 @@ model Selecao {
   players      Player[]
   coaches      Coach[]
   teamStats    TeamRoundStat[]
+  matchesA     Match[]         @relation("MatchA")
+  matchesB     Match[]         @relation("MatchB")
 }
 
 model Player {
@@ -113,6 +115,18 @@ model Round {
   playerStats PlayerRoundStat[]
   coachStats  CoachRoundStat[]
   userScores  UserRoundScore[]
+  matches     Match[]
+}
+
+model Match {
+  id         Int      @id @default(autoincrement())
+  roundId    Int
+  selecaoAId Int
+  selecaoBId Int
+  horario    String?
+  round      Round    @relation(fields: [roundId], references: [id], onDelete: Cascade)
+  selecaoA   Selecao  @relation("MatchA", fields: [selecaoAId], references: [id])
+  selecaoB   Selecao  @relation("MatchB", fields: [selecaoBId], references: [id])
 }
 
 model TeamRoundStat {
