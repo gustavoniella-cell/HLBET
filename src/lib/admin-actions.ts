@@ -5,7 +5,7 @@ import { redirect } from "next/navigation";
 import { prisma } from "./prisma";
 import { getAdmin } from "./auth";
 import { scoreRound } from "./scoring";
-import { importGameData } from "./importGame";
+import { importGameData, updateGameData } from "./importGame";
 
 export async function runImport() {
   const admin = await getAdmin();
@@ -13,6 +13,16 @@ export async function runImport() {
   await importGameData({ force: false });
   revalidatePath("/admin");
   redirect("/admin?importado=1");
+}
+
+export async function runUpdate() {
+  const admin = await getAdmin();
+  if (!admin) redirect("/login");
+  await updateGameData();
+  revalidatePath("/admin");
+  revalidatePath("/mercado");
+  revalidatePath("/time");
+  redirect("/admin?atualizado=1");
 }
 
 function num(fd: FormData, key: string): number {

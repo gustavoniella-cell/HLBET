@@ -41,7 +41,8 @@ export function reqFor(formation: string, posicao: string): number {
 }
 
 export function precoJogador(nota: number): number {
-  return Math.round(nota * nota * 0.72 * 10) / 10;
+  // Cúbica: puxa bastante o preço pelo nível (craque caro, reserva barato).
+  return Math.round(nota * nota * nota * 0.2 * 10) / 10;
 }
 
 export function precoTecnico(nota: number): number {

@@ -3,13 +3,17 @@ import { redirect } from "next/navigation";
 import { getAdmin } from "@/lib/auth";
 import { prisma } from "@/lib/prisma";
 import { getActiveRound } from "@/lib/round";
-import { apurarRound, runImport } from "@/lib/admin-actions";
+import { apurarRound, runImport, runUpdate } from "@/lib/admin-actions";
 import Nav from "@/components/Nav";
 
 export default async function AdminPage({
   searchParams,
 }: {
-  searchParams: Promise<{ apurado?: string; importado?: string }>;
+  searchParams: Promise<{
+    apurado?: string;
+    importado?: string;
+    atualizado?: string;
+  }>;
 }) {
   const admin = await getAdmin();
   if (!admin) redirect("/time");
@@ -48,6 +52,30 @@ export default async function AdminPage({
           <div className="mb-3 rounded-md bg-emerald-50 px-3 py-2 text-sm text-emerald-800">
             Dados da Copa importados com sucesso.
           </div>
+        )}
+        {sp.atualizado && (
+          <div className="mb-3 rounded-md bg-emerald-50 px-3 py-2 text-sm text-emerald-800">
+            Notas, preços e jogadores atualizados — os times existentes foram
+            mantidos.
+          </div>
+        )}
+
+        {populated && (
+          <form
+            action={runUpdate}
+            className="mb-4 flex items-center justify-between rounded-xl border border-slate-200 bg-white p-4"
+          >
+            <div className="text-sm text-slate-700">
+              <div className="font-medium">Atualizar notas e preços</div>
+              <div className="text-xs text-slate-500">
+                Aplica as notas/preços mais recentes e adiciona jogadores novos.
+                Não apaga os times já montados.
+              </div>
+            </div>
+            <button className="rounded-md border border-slate-300 bg-white px-4 py-2 text-sm font-medium text-slate-700 hover:bg-slate-50">
+              Atualizar dados
+            </button>
+          </form>
         )}
 
         {!populated && (

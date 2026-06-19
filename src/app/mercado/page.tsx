@@ -52,7 +52,7 @@ export default async function MercadoPage({
     : await prisma.player.findMany({
         where: {
           ...(pos !== "Todos" ? { posicao: pos } : {}),
-          ...(q ? { nome: { contains: q } } : {}),
+          ...(q ? { nome: { contains: q, mode: "insensitive" } } : {}),
         },
         include: { selecao: true },
         orderBy: [{ nota: "desc" }, { preco: "desc" }],
@@ -61,7 +61,7 @@ export default async function MercadoPage({
 
   const coaches = isTec
     ? await prisma.coach.findMany({
-        where: q ? { nome: { contains: q } } : {},
+        where: q ? { nome: { contains: q, mode: "insensitive" } } : {},
         include: { selecao: true },
         orderBy: [{ nota: "desc" }],
         take: TAKE,

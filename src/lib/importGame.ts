@@ -170,3 +170,99 @@ export async function importGameData(opts: { force?: boolean } = {}) {
     tecnicos: coaches.length,
   };
 }
+
+// Atualiza notas/preços e adiciona jogadores novos SEM apagar os times dos
+// usuários. Faz upsert por (seleção + nome); recalcula o preço a partir da nota.
+export async function updateGameData() {
+  // Regras e formações podem ser recriadas (não são referenciadas por usuários)
+  await prisma.scoringRule.deleteMany();
+  await prisma.scoringRule.createMany({
+    data: SCORING.map(([codigo, categoria, acao, posicao, pontos, fonte, obs]) => ({
+      codigo,
+      categoria,
+      acao,
+      posicao,
+      pontos,
+      fonte,
+      obs: obs || null,
+    })),
+  });
+  for (const [nome, s] of Object.entries(FORMATIONS)) {
+    await prisma.formation.upsert({
+      where: { nome },
+      create: { nome, ...s },
+      update: { ...s },
+    });
+  }
+
+  const selId = new Map<string, number>();
+  for (const s of game.selecoes) {
+    const row = await prisma.selecao.upsert({
+      where: { nome: s.nome },
+      create: {
+        nome: s.nome,
+        grupo: s.grupo,
+        confederacao: s.confederacao,
+        ranking: s.ranking,
+        escudo: s.escudo || null,
+        coachName: s.tecnico,
+      },
+      update: {
+        grupo: s.grupo,
+        confederacao: s.confederacao,
+        ranking: s.ranking,
+        coachName: s.tecnico,
+      },
+    });
+    selId.set(s.nome, row.id);
+  }
+
+  let updated = 0;
+  let created = 0;
+  const bySel = new Map<string, Jogador[]>();
+  for (const p of game.jogadores) {
+    if (!selId.has(p.selecao)) continue;
+    if (!bySel.has(p.selecao)) bySel.set(p.selecao, []);
+    bySel.get(p.selecao)!.push(p);
+  }
+  for (const [selNome, plist] of bySel) {
+    const sid = selId.get(selNome)!;
+    const existing = await prisma.player.findMany({ where: { selecaoId: sid } });
+    const byNome = new Map(existing.map((e) => [e.nome, e]));
+    for (const p of plist) {
+      const data = {
+        posicao: p.posicao,
+        numero: p.numero,
+        clube: p.clube,
+        idade: p.idade,
+        nota: p.nota,
+        preco: precoJogador(p.nota),
+        confianca: p.confianca,
+      };
+      const ex = byNome.get(p.nome);
+      if (ex) {
+        await prisma.player.update({ where: { id: ex.id }, data });
+        updated++;
+      } else {
+        await prisma.player.create({
+          data: { nome: p.nome, selecaoId: sid, ...data },
+        });
+        created++;
+      }
+    }
+  }
+
+  for (const t of game.tecnicos) {
+    if (!selId.has(t.selecao)) continue;
+    const sid = selId.get(t.selecao)!;
+    const ex = await prisma.coach.findFirst({
+      where: { selecaoId: sid, nome: t.nome },
+    });
+    const data = { nota: t.nota, preco: precoTecnico(t.nota) };
+    if (ex) await prisma.coach.update({ where: { id: ex.id }, data });
+    else
+      await prisma.coach.create({ data: { nome: t.nome, selecaoId: sid, ...data } });
+  }
+
+  return { updated, created };
+}
