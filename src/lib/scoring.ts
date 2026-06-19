@@ -75,6 +75,30 @@ export function scoreCoach(
   return round1(p);
 }
 
+export type ConvConfig = {
+  base: number;
+  fator: number;
+  recup: number;
+  teto: number;
+};
+
+// Converte os pontos da rodada em créditos de forma justa:
+// base fixa + desempenho comprimido por raiz quadrada + recuperação para quem
+// está abaixo da média do campeonato (limitada pelo teto). Nunca diminui crédito.
+export function creditGain(
+  cfg: ConvConfig,
+  roundTotal: number,
+  userGrandTotal: number,
+  avgGrandTotal: number
+): number {
+  const desempenho = cfg.fator * Math.sqrt(Math.max(0, roundTotal));
+  const recuperacao = Math.min(
+    cfg.teto,
+    cfg.recup * Math.max(0, avgGrandTotal - userGrandTotal)
+  );
+  return round1(cfg.base + desempenho + recuperacao);
+}
+
 // Apura a rodada: calcula pontos de jogadores e técnicos, soma por usuário
 // (somente times completos pontuam), converte em créditos e abre a próxima rodada.
 export async function scoreRound(roundId: number) {
@@ -123,6 +147,15 @@ export async function scoreRound(roundId: number) {
   const users = await prisma.user.findMany({
     include: { players: { include: { player: true } }, coach: true },
   });
+
+  type Part = {
+    id: string;
+    credits: number;
+    roundTotal: number;
+    complete: boolean;
+  };
+  const part: Part[] = [];
+
   for (const u of users) {
     const f = FORMATIONS[u.formation] ?? FORMATIONS[DEFAULT_FORMATION];
     const counts: Record<string, number> = {
@@ -153,9 +186,35 @@ export async function scoreRound(roundId: number) {
       create: { userId: u.id, roundId, pontos: total },
       update: { pontos: total },
     });
+    part.push({ id: u.id, credits: u.credits, roundTotal: total, complete });
+  }
+
+  // Conversão de pontos em créditos — justa e com recuperação:
+  // base (todos ganham) + desempenho comprimido (raiz dos pontos) +
+  // empurrão para quem está abaixo da média do campeonato.
+  const base = pts.conv_base ?? 5;
+  const fator = pts.conv_fator ?? 1.2;
+  const recup = pts.conv_recuperacao ?? 0.25;
+  const teto = pts.conv_teto ?? 15;
+
+  const grand = await prisma.userRoundScore.groupBy({
+    by: ["userId"],
+    _sum: { pontos: true },
+  });
+  const grandBy = new Map(grand.map((g) => [g.userId, g._sum.pontos ?? 0]));
+  const completers = part.filter((p) => p.complete);
+  const avgGrand = completers.length
+    ? completers.reduce((s, p) => s + (grandBy.get(p.id) ?? 0), 0) /
+      completers.length
+    : 0;
+
+  const cfg = { base, fator, recup, teto };
+  for (const p of part) {
+    if (!p.complete) continue;
+    const ganho = creditGain(cfg, p.roundTotal, grandBy.get(p.id) ?? 0, avgGrand);
     await prisma.user.update({
-      where: { id: u.id },
-      data: { credits: Math.max(0, round1(u.credits + total)) },
+      where: { id: p.id },
+      data: { credits: round1(p.credits + ganho) },
     });
   }
 

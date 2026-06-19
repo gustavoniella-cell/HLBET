@@ -1,4 +1,5 @@
 import "dotenv/config";
+import bcrypt from "bcryptjs";
 import { prisma } from "../src/lib/prisma";
 import { scoreRound } from "../src/lib/scoring";
 
@@ -12,8 +13,16 @@ const NEED: [string, number][] = [
 
 async function main() {
   const email = (process.env.ADMIN_EMAIL ?? "gustavo@teste.com").toLowerCase();
-  const user = await prisma.user.findUnique({ where: { email } });
-  if (!user) throw new Error("registre " + email + " no navegador primeiro");
+  const user = await prisma.user.upsert({
+    where: { email },
+    create: {
+      email,
+      name: "Gustavo FC",
+      passwordHash: await bcrypt.hash("1234", 10),
+      isAdmin: true,
+    },
+    update: {},
+  });
   const brasil = await prisma.selecao.findUniqueOrThrow({
     where: { nome: "Brasil" },
   });
@@ -80,7 +89,8 @@ async function main() {
   console.log("scoreRound:", res);
   console.log(`GK=${gk.nome}  ATA=${ata.nome}  ZAG=${zag.nome}`);
   console.log(
-    `USER pontos da rodada: ${score?.pontos} | créditos agora: ${u2?.credits} | esperado: 42 / 162`
+    `USER pontos da rodada: ${score?.pontos} | créditos agora: ${u2?.credits}` +
+      ` | esperado: 42 pts / ~132.8 créditos (120 + 5 + 1.2*raiz(42))`
   );
   process.exit(0);
 }
