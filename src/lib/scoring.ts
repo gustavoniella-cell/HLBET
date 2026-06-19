@@ -75,28 +75,10 @@ export function scoreCoach(
   return round1(p);
 }
 
-export type ConvConfig = {
-  base: number;
-  fator: number;
-  recup: number;
-  teto: number;
-};
-
-// Converte os pontos da rodada em créditos de forma justa:
-// base fixa + desempenho comprimido por raiz quadrada + recuperação para quem
-// está abaixo da média do campeonato (limitada pelo teto). Nunca diminui crédito.
-export function creditGain(
-  cfg: ConvConfig,
-  roundTotal: number,
-  userGrandTotal: number,
-  avgGrandTotal: number
-): number {
-  const desempenho = cfg.fator * Math.sqrt(Math.max(0, roundTotal));
-  const recuperacao = Math.min(
-    cfg.teto,
-    cfg.recup * Math.max(0, avgGrandTotal - userGrandTotal)
-  );
-  return round1(cfg.base + desempenho + recuperacao);
+// Converte os pontos da rodada em créditos: uma fração fixa dos pontos positivos.
+// Ex.: percentual = 0.15 -> 15% dos pontos viram créditos. Nunca diminui crédito.
+export function creditGain(percentual: number, roundTotal: number): number {
+  return round1(Math.max(0, roundTotal) * percentual);
 }
 
 // Apura a rodada: calcula pontos de jogadores e técnicos, soma por usuário
@@ -144,17 +126,10 @@ export async function scoreRound(roundId: number) {
   for (const c of await prisma.coachRoundStat.findMany({ where: { roundId } }))
     coachPts.set(c.coachId, c.pontos);
 
+  const percentual = pts.conv_percentual ?? 0.15;
   const users = await prisma.user.findMany({
     include: { players: { include: { player: true } }, coach: true },
   });
-
-  type Part = {
-    id: string;
-    credits: number;
-    roundTotal: number;
-    complete: boolean;
-  };
-  const part: Part[] = [];
 
   for (const u of users) {
     const f = FORMATIONS[u.formation] ?? FORMATIONS[DEFAULT_FORMATION];
@@ -186,36 +161,14 @@ export async function scoreRound(roundId: number) {
       create: { userId: u.id, roundId, pontos: total },
       update: { pontos: total },
     });
-    part.push({ id: u.id, credits: u.credits, roundTotal: total, complete });
-  }
 
-  // Conversão de pontos em créditos — justa e com recuperação:
-  // base (todos ganham) + desempenho comprimido (raiz dos pontos) +
-  // empurrão para quem está abaixo da média do campeonato.
-  const base = pts.conv_base ?? 5;
-  const fator = pts.conv_fator ?? 1.2;
-  const recup = pts.conv_recuperacao ?? 0.25;
-  const teto = pts.conv_teto ?? 15;
-
-  const grand = await prisma.userRoundScore.groupBy({
-    by: ["userId"],
-    _sum: { pontos: true },
-  });
-  const grandBy = new Map(grand.map((g) => [g.userId, g._sum.pontos ?? 0]));
-  const completers = part.filter((p) => p.complete);
-  const avgGrand = completers.length
-    ? completers.reduce((s, p) => s + (grandBy.get(p.id) ?? 0), 0) /
-      completers.length
-    : 0;
-
-  const cfg = { base, fator, recup, teto };
-  for (const p of part) {
-    if (!p.complete) continue;
-    const ganho = creditGain(cfg, p.roundTotal, grandBy.get(p.id) ?? 0, avgGrand);
-    await prisma.user.update({
-      where: { id: p.id },
-      data: { credits: round1(p.credits + ganho) },
-    });
+    if (complete) {
+      const ganho = creditGain(percentual, total);
+      await prisma.user.update({
+        where: { id: u.id },
+        data: { credits: round1(u.credits + ganho) },
+      });
+    }
   }
 
   await prisma.round.update({

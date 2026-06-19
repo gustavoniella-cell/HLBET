@@ -68,10 +68,7 @@ const SCORING: [string, string, string, string, number, string, string][] = [
   ["tec_gol_sofrido", "Técnico", "Cada gol sofrido", "Técnico", -1, "B", ""],
   ["tec_cs", "Técnico", "Jogo sem sofrer gol", "Técnico", 3, "B", ""],
   ["tec_classificou", "Técnico", "Classificação p/ próxima fase", "Técnico", 10, "B", ""],
-  ["conv_base", "Conversão", "Crédito base por rodada (time completo)", "—", 5, "Config", "todo time que pontua ganha isto"],
-  ["conv_fator", "Conversão", "Desempenho (× raiz quadrada dos pontos)", "—", 1.2, "Config", "raiz comprime a diferença entre quem fez muito e pouco"],
-  ["conv_recuperacao", "Conversão", "Recuperação (× distância para a média)", "—", 0.2, "Config", "quem está abaixo da média ganha mais"],
-  ["conv_teto", "Conversão", "Teto do bônus de recuperação", "—", 8, "Config", "limite do empurrão de recuperação"],
+  ["conv_percentual", "Conversão", "% dos pontos da rodada que vira crédito", "—", 0.15, "Config", "0.15 = 15% dos pontos viram créditos (mude p/ 0.10 ou 0.20)"],
 ];
 
 export async function gameIsPopulated(): Promise<boolean> {
