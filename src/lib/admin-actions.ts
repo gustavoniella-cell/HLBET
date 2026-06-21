@@ -7,7 +7,24 @@ import { getAdmin } from "./auth";
 import { scoreRound } from "./scoring";
 import { importGameData, updateGameData } from "./importGame";
 import { jogosDaData } from "./calendario";
+import { aplicarEventos } from "./eventos";
 import { STARTING_CREDITS } from "./game";
+
+// Lança automaticamente todos os eventos de uma data na rodada atual.
+export async function lancarEventos(formData: FormData) {
+  const admin = await getAdmin();
+  if (!admin) redirect("/login");
+  const roundId = Number(formData.get("roundId"));
+  const date = String(formData.get("date") ?? "");
+  if (!roundId || !date) return;
+  const round = await prisma.round.findUnique({ where: { id: roundId } });
+  if (!round || round.isScored) return;
+  await aplicarEventos(roundId, date);
+  revalidatePath("/admin");
+  revalidatePath("/time");
+  revalidatePath("/ranking");
+  redirect("/admin?eventos=1");
+}
 
 function round1(n: number) {
   return Math.round(n * 10) / 10;

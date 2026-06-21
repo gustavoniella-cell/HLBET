@@ -11,9 +11,11 @@ import {
   addMatch,
   removeMatch,
   loadDayMatches,
+  lancarEventos,
 } from "@/lib/admin-actions";
 import { STARTING_CREDITS, brl } from "@/lib/game";
 import { datasComJogos, formatData, jogosDaData } from "@/lib/calendario";
+import { datasComEventos } from "@/lib/eventos";
 import Nav from "@/components/Nav";
 import Flag from "@/components/Flag";
 
@@ -26,6 +28,7 @@ export default async function AdminPage({
     atualizado?: string;
     orcamento?: string;
     jogos?: string;
+    eventos?: string;
   }>;
 }) {
   const admin = await getAdmin();
@@ -87,6 +90,12 @@ export default async function AdminPage({
         {sp.jogos && (
           <div className="mb-3 rounded-md bg-emerald-50 px-3 py-2 text-sm text-emerald-800">
             Jogos do calendário carregados nesta rodada.
+          </div>
+        )}
+        {sp.eventos && (
+          <div className="mb-3 rounded-md bg-emerald-50 px-3 py-2 text-sm text-emerald-800">
+            Eventos da rodada lançados automaticamente. Confira e clique em
+            “Apurar agora”.
           </div>
         )}
 
@@ -287,6 +296,40 @@ export default async function AdminPage({
               </button>
             </form>
           </div>
+
+          {datasComEventos().length > 0 && (
+            <form
+              action={lancarEventos}
+              className="mb-4 flex flex-wrap items-center gap-2 rounded-lg border border-[#80b838]/50 bg-[#80b838]/10 p-3"
+            >
+              <input type="hidden" name="roundId" value={active.id} />
+              <div className="text-sm text-slate-700">
+                <span className="font-medium">
+                  Lançar eventos automaticamente
+                </span>{" "}
+                <span className="text-xs text-slate-500">
+                  (pesquisa já pronta)
+                </span>
+              </div>
+              <select
+                name="date"
+                defaultValue=""
+                className="rounded-md border border-slate-300 bg-white px-2 py-1.5 text-sm"
+              >
+                <option value="" disabled>
+                  Data...
+                </option>
+                {datasComEventos().map((d) => (
+                  <option key={d} value={d}>
+                    {formatData(d)}
+                  </option>
+                ))}
+              </select>
+              <button className="rounded-md bg-[#80b838] px-3 py-1.5 text-sm font-medium text-[#0d1523] hover:bg-[#72a531]">
+                Lançar eventos
+              </button>
+            </form>
+          )}
 
           <form
             action={apurarRound}

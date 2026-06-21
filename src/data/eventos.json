@@ -1,0 +1,251 @@
+{
+ "2026-06-20": {
+  "Países Baixos": {
+   "golsPro": 5,
+   "golsSofridos": 1,
+   "jogadores": {
+    "Bart Verbruggen": {
+     "defesas": 7
+    },
+    "Denzel Dumfries": {
+     "assist": 2
+    },
+    "Jan Paul van Hecke": {},
+    "Virgil van Dijk": {},
+    "Micky van de Ven": {
+     "amarelo": true
+    },
+    "Ryan Gravenberch": {},
+    "Frenkie de Jong": {},
+    "Tijjani Reijnders": {},
+    "Donyell Malen": {},
+    "Brian Brobbey": {
+     "gols": 2
+    },
+    "Cody Gakpo": {
+     "gols": 2,
+     "assist": 1,
+     "motm": true
+    },
+    "Crysencio Summerville": {
+     "gols": 1,
+     "assist": 1
+    },
+    "Teun Koopmeiners": {},
+    "Guus Til": {},
+    "Memphis Depay": {
+     "assist": 1
+    },
+    "Noa Lang": {}
+   }
+  },
+  "Suécia": {
+   "golsPro": 1,
+   "golsSofridos": 5,
+   "jogadores": {
+    "Kristoffer Nordfeldt": {
+     "defesas": 2
+    },
+    "Gustaf Lagerbielke": {},
+    "Victor Lindelöf": {},
+    "Isak Hien": {},
+    "Gabriel Gudmundsson": {
+     "amarelo": true
+    },
+    "Alexander Bernhardsson": {},
+    "Benjamin Nygren": {},
+    "Jesper Karlström": {},
+    "Yasin Ayari": {
+     "amarelo": true
+    },
+    "Alexander Isak": {
+     "assist": 1
+    },
+    "Viktor Gyökeres": {},
+    "Anthony Elanga": {
+     "gols": 1
+    },
+    "Lucas Bergvall": {
+     "amarelo": true
+    },
+    "Besfort Zeneli": {},
+    "Taha Ali": {},
+    "Elliot Stroud": {}
+   }
+  },
+  "Alemanha": {
+   "golsPro": 2,
+   "golsSofridos": 1,
+   "jogadores": {
+    "Manuel Neuer": {
+     "defesas": 1
+    },
+    "Joshua Kimmich": {},
+    "Jonathan Tah": {},
+    "Nico Schlotterbeck": {},
+    "Nathaniel Brown": {},
+    "Felix Nmecha": {
+     "assist": 1
+    },
+    "Aleksandar Pavlovic": {},
+    "Leroy Sané": {},
+    "Jamal Musiala": {},
+    "Florian Wirtz": {},
+    "Kai Havertz": {},
+    "Antonio Rüdiger": {},
+    "Deniz Undav": {
+     "gols": 2,
+     "motm": true
+    },
+    "Nadiem Amiri": {
+     "assist": 1
+    },
+    "Jamie Leweling": {},
+    "Leon Goretzka": {}
+   }
+  },
+  "Costa do Marfim": {
+   "golsPro": 1,
+   "golsSofridos": 2,
+   "jogadores": {
+    "Yahia Fofana": {
+     "defesas": 5
+    },
+    "Ghislain Konan": {},
+    "Wilfried Singo": {},
+    "Odilon Kossounou": {},
+    "Emmanuel Agbadou": {},
+    "Franck Kessié": {
+     "gols": 1
+    },
+    "Ibrahim Sangaré": {},
+    "Christ Inao Oulaï": {},
+    "Amad Diallo": {},
+    "Yan Diomandé": {
+     "assist": 1
+    },
+    "Ange-Yoan Bonny": {},
+    "Simon Adingra": {},
+    "Seko Fofana": {},
+    "Evann Guessand": {},
+    "Guela Doué": {},
+    "Nicolas Pépé": {}
+   }
+  },
+  "Equador": {
+   "golsPro": 0,
+   "golsSofridos": 0,
+   "jogadores": {
+    "Hernán Galíndez": {
+     "defesas": 3
+    },
+    "Alan Franco": {},
+    "Willian Pacho": {},
+    "Piero Hincapié": {},
+    "Pervis Estupiñán": {},
+    "Jordy Alcívar": {
+     "amarelo": true
+    },
+    "Pedro Vite": {},
+    "Moisés Caicedo": {},
+    "Gonzalo Plata": {},
+    "Enner Valencia": {},
+    "John Yeboah": {},
+    "Kevin Rodríguez": {},
+    "Angelo Preciado": {},
+    "Jordy Caicedo": {}
+   }
+  },
+  "Curaçao": {
+   "golsPro": 0,
+   "golsSofridos": 0,
+   "jogadores": {
+    "Eloy Room": {
+     "defesas": 15,
+     "motm": true
+    },
+    "Joshua Brenet": {},
+    "Jurien Gaari": {
+     "amarelo": true
+    },
+    "Armando Obispo": {},
+    "Sherel Floranus": {},
+    "Deveron Fonville": {},
+    "Tahith Chong": {},
+    "Livano Comenencia": {
+     "amarelo": true
+    },
+    "Leandro Bacuna": {
+     "amarelo": true
+    },
+    "Juninho Bacuna": {
+     "amarelo": true
+    },
+    "Jürgen Locadia": {},
+    "Kenji Gorré": {},
+    "Roshon van Eijma": {},
+    "Jearl Margaritha": {},
+    "Gervane Kastaneer": {
+     "amarelo": true
+    },
+    "Godfried Roemeratoe": {}
+   }
+  },
+  "Tunísia": {
+   "golsPro": 0,
+   "golsSofridos": 4,
+   "jogadores": {
+    "Aymen Dahmen": {},
+    "Mohamed Amine Ben Hamida": {},
+    "Montassar Talbi": {},
+    "Omar Rekik": {},
+    "Yan Valery": {},
+    "Anis Ben Slimane": {},
+    "Rani Khedira": {},
+    "Elias Achouri": {},
+    "Ismaël Gharbi": {},
+    "Hannibal Mejbri": {},
+    "Firas Chaouat": {},
+    "Dylan Bronn": {},
+    "Elias Saad": {},
+    "Sebastian Tounekti": {},
+    "Ali Abdi": {},
+    "Ellyes Skhiri": {}
+   }
+  },
+  "Japão": {
+   "golsPro": 4,
+   "golsSofridos": 0,
+   "jogadores": {
+    "Zion Suzuki": {},
+    "Ayumu Seko": {},
+    "Kou Itakura": {},
+    "Hiroki Ito": {},
+    "Yukinari Sugawara": {},
+    "Kaishu Sano": {
+     "assist": 1
+    },
+    "Ao Tanaka": {},
+    "Yuito Suzuki": {},
+    "Junya Ito": {
+     "gols": 1
+    },
+    "Junnosuke Suzuki": {},
+    "Keisuke Goto": {},
+    "Daichi Kamada": {
+     "gols": 1
+    },
+    "Ayase Ueda": {
+     "gols": 2,
+     "assist": 1,
+     "motm": true
+    },
+    "Ritsu Doan": {},
+    "Takehiro Tomiyasu": {},
+    "Keito Nakamura": {
+     "assist": 1
+    }
+   }
+  }
+ }
+}
